@@ -1,2 +1,1 @@
-# docs
-Contao EstateManager Documentation
+# Contao EstateManager Documentation
