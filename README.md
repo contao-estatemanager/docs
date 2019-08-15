@@ -1,0 +1,2 @@
+# docs
+Contao EstateManager Documentation
