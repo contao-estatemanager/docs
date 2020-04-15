@@ -1,5 +1,5 @@
 # Table of contents
 
 * [EstateManager Dokumentation](README.md)
-* [Willkommen](willkommen.md)
+* [Installation](installation.md)
 
