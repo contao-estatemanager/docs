@@ -8,7 +8,7 @@ Um Immobilienfelder für die Ausgabe aufzubereiten bietet der EstateManager ein 
 
 ### Formatierung zurücksetzen
 
-Von Haus aus liefert der EstateManager bereits eine Vorkonfiguration von Feldern und dessen Aktionen aus, welche im ersten Schritt über den Button "Formatierung zurücksetzen" importiert oder zurückgesetzt werden können.
+Von Haus aus liefert der EstateManager bereits eine Vorkonfiguration von Feldern und dessen Aktionen aus, welche im ersten Schritt über den Button "Formatierung zurücksetzen" importiert werden können.
 
 {% hint style="warning" %}
 Bitte beachte, dass manuelle Änderungen nach dem zurücksetzen verworfen werden
