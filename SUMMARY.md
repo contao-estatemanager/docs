@@ -14,4 +14,5 @@
   * [Filter](installation-konfiguration/konfiguration/filter.md)
   * [Feldformatierungen](installation-konfiguration/konfiguration/feldformatierungen.md)
   * [Exposé-Module](installation-konfiguration/konfiguration/expose-module.md)
+* [Glossar](installation-konfiguration/glossar.md)
 
