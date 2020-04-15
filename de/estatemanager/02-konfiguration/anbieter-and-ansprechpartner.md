@@ -1,2 +1,0 @@
-# Anbieter & Ansprechpartner
-
