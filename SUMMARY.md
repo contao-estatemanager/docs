@@ -1,7 +1,6 @@
 # Table of contents
 
-* [EstateManager Documentation](README.md)
-* [LANGS](langs.md)
+* [EstateManager Dokumentation](README.md)
 * [Willkommen](de/README.md)
   * [estatemanager](de/estatemanager/README.md)
     * [Konfiguration](de/estatemanager/02-konfiguration/README.md)
@@ -16,7 +15,4 @@
   * [Table of contents](de/summary.md)
   * [erweiterungen](de/erweiterungen/README.md)
     * [Installation](de/erweiterungen/01-installation.md)
-* [en](en/README.md)
-  * [erweiterungen](en/erweiterungen/README.md)
-    * [Installation](en/erweiterungen/01-installation.md)
 
