@@ -1,0 +1,22 @@
+# Table of contents
+
+* [EstateManager Documentation](README.md)
+* [LANGS](langs.md)
+* [Willkommen](de/README.md)
+  * [estatemanager](de/estatemanager/README.md)
+    * [Konfiguration](de/estatemanager/02-konfiguration/README.md)
+      * [Schnittstellen](de/estatemanager/02-konfiguration/schnittstellen.md)
+      * [Allgemeine Einstellungen](de/estatemanager/02-konfiguration/allgemeine-einstellungen.md)
+      * [Filter](de/estatemanager/02-konfiguration/filter.md)
+      * [Exposé Module](de/estatemanager/02-konfiguration/expose-module.md)
+      * [Anbieter & Ansprechpartner](de/estatemanager/02-konfiguration/anbieter-and-ansprechpartner.md)
+      * [Feldformatierungen](de/estatemanager/02-konfiguration/feldformatierungen.md)
+      * [Objektgruppen & -typen](de/estatemanager/02-konfiguration/objektgruppen-and-typen.md)
+    * [Installation](de/estatemanager/01-installation.md)
+  * [Table of contents](de/summary.md)
+  * [erweiterungen](de/erweiterungen/README.md)
+    * [Installation](de/erweiterungen/01-installation.md)
+* [en](en/README.md)
+  * [erweiterungen](en/erweiterungen/README.md)
+    * [Installation](en/erweiterungen/01-installation.md)
+

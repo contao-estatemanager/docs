@@ -1,12 +1,12 @@
 # Table of contents
 
-* [Willkommen](README.md)
+* [Willkommen](./)
 * [EstateManager Homepage](http://contao-estatemanager.com)
 
 ## EstateManager
 
 * [Installation](estatemanager/01-installation.md)
-* [Konfiguration](estatemanager/02-konfiguration/README.md)
+* [Konfiguration](estatemanager/02-konfiguration/)
   * [Allgemeine Einstellungen](estatemanager/02-konfiguration/allgemeine-einstellungen.md)
   * [Schnittstellen](estatemanager/02-konfiguration/schnittstellen.md)
   * [Anbieter & Ansprechpartner](estatemanager/02-konfiguration/anbieter-and-ansprechpartner.md)
