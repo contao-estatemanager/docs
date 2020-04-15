@@ -15,14 +15,15 @@
   * [Feldformatierungen](installation-konfiguration/konfiguration/feldformatierungen.md)
   * [Exposé-Module](installation-konfiguration/konfiguration/expose-module.md)
 
-## Erweiterungen
+## Entwickler
 
-* [Insallation](erweiterungen/installation.md)
-* [Eigene Erweiterungen](erweiterungen/eigene-erweiterungen.md)
-* [Erweiterungskatalog](https://www.contao-estatemanager.com/store.html)
+* [Hooks](entwickler/hooks/README.md)
+  * [parseRealEstate](entwickler/hooks/parserealestate.md)
+* [Eigene Erweiterungen](entwickler/eigene-erweiterungen.md)
 
 ## Allgemein
 
 * [Glossar](allgemein/glossar.md)
+* [Erweiterungskatalog](https://www.contao-estatemanager.com/store.html)
 * [Showcase](https://www.contao-estatemanager.com/de/Showcase.html)
 
