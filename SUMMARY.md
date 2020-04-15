@@ -6,14 +6,14 @@
 ## EstateManager
 
 * [Installation](estatemanager/01-installation.md)
-* [Konfiguration](estatemanager/02-konfiguration.md)
-    * [Allgemeine Einstellungen](estatemanager/02-01-allgemein.md)
-    * [Schnittstellen](estatemanager/02-02-schnittstellen.md)
-    * [Anbieter & Ansprechpartner](estatemanager/02-03-anbieter.md)
-    * [Objektgruppen & -typen](estatemanager/02-04-objektgrupen.md)
-    * [Filter](estatemanager/02-04-filter.md)
-    * [Feldformatierungen](estatemanager/02-05-feldformatierungen.md)
-    * [Exposé Module](estatemanager/02-05-expose-module.md)
+* [Konfiguration](estatemanager/02-konfiguration/README.md)
+  * [Allgemeine Einstellungen](estatemanager/02-konfiguration/allgemeine-einstellungen.md)
+  * [Schnittstellen](estatemanager/02-konfiguration/schnittstellen.md)
+  * [Anbieter & Ansprechpartner](estatemanager/02-konfiguration/anbieter-and-ansprechpartner.md)
+  * [Objektgruppen & -typen](estatemanager/02-konfiguration/objektgruppen-and-typen.md)
+  * [Filter](estatemanager/02-konfiguration/filter.md)
+  * [Feldformatierungen](estatemanager/02-konfiguration/feldformatierungen.md)
+  * [Exposé Module](estatemanager/02-konfiguration/expose-module.md)
 
 ## Erweiterungen
 
