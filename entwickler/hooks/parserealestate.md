@@ -1,6 +1,6 @@
 # parseRealEstate
 
-Der `parseRealEstate` Hook wird aufgerufen wenn bevor das Template einer einzelnen Immobilie generiert wird.
+Der `parseRealEstate` Hook wird aufgerufen bevor das Template einer einzelnen Immobilie geparsed wird.
 
 ### Parameter
 
