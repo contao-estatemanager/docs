@@ -25,7 +25,7 @@ Definiert das Feld, welches durch eine Formatierung vor der Ausgabe manipuliert 
 Jedes Feld kann ein oder mehrere CSS-Klassen beinhalten \(Leerzeichen getrennte Liste\). Dies ermöglicht die Erstellung eigener Selektoren um diese später mit CSS aufbereiten zu können.
 
 **`Ausgabe erzwingen`**  
-Erzwingt die Ausgabe des Feldes, auch wenn dieses keinen Wert beinhaltet.
+Erzwingt die Ausgabe des Feldes, auch wenn kein oder ein leerer Wert vorhanden ist.
 
 > **Beispiel:**  
 > In den Details sollen "Haustiere" immer ausgegeben werden. Wurde dieser Wert nicht übertragen, können wir davon ausgehen, dass das Objekt / die Immobilie keine Haustiere erlaubt. Wird die Ausgabe erzwungen, ist es egal, ob der Wert übertragen wurde. Somit würde nun "Haustiere: Nein" ebenfalls ausgegeben und nicht als leerer Wert erkannt und somit übersprungen werden.
