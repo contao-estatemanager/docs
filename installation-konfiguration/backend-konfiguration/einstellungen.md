@@ -8,47 +8,53 @@ description: >-
 
 ### Listen & Darstellung
 
-`Standard-Sortierung`
+**Feld** `Standard-Sortierung`
 
 _Definiert anhand welchen Feldes die Sortierung von Listen ausgegeben wird._
 
-`Anzeigedauer des "Neu" Status-Token`
+**Feld** `Anzeigedauer des "Neu" Status-Token`
 
 _Definiert wie lange eine Immobilie als "Neu" eingestuft werden soll._
 
-`Max. Anzahl der Main-Details`
+**Feld** `Max. Anzahl der Main-Details`
 
 _Definiert die maximale Anzahl der Main-Details einer Immobilie in Listen, welche in den_ [_Objekttypen_ ](objekttypen.md)_definiert werden._
 
-`Max. Anzahl der Main-Attribute`
+**Feld** `Max. Anzahl der Main-Attribute`
 
 _Definiert die maximale Anzahl der Main-Attributes einer Immobilie in Listen, welche in den_ [_Objekttypen_ ](objekttypen.md)_definiert werden._
 
-`Standard-Bild`
+**Feld** `Standard-Bild`
 
 _Standard-Bild, welches ausgegeben wird, sofern eine Immobilie keine Bilder hat._
 
 ### Anbieter / Kontaktpersonen
 
-**`Standard-Bild Kontaktperson`**  
-Gender neutrales Bild für Kontaktpersonen
+**Feld** `Standard-Bild Kontaktperson`
 
-**`Standard-Bild Kontaktpersonen (weiblich)`**  
-Bild für weibliche Kontaktpersonen
+_Gender neutrales Bild für Kontaktpersonen_
 
-**`Standard-Bild Kontaktperson (männlich)`**  
-Bild für männliche Kontaktpersonen
+**Feld** `Standard-Bild Kontaktpersonen (weiblich)`
+
+_Bild für weibliche Kontaktpersonen_
+
+**Feld** `Standard-Bild Kontaktperson (männlich)`
+
+_Bild für männliche Kontaktpersonen_
 
 ### Preis- / Flächenformatierung
 
-**`Dezimal-Trennzeichen`**  
-Trennzeichen für Dezimalstellen für bspw. Preis- oder Flächenangaben
+**Feld** `Dezimal-Trennzeichen`
 
-**`Tausender-Trennzeichen`**  
-Tausendertrennzeichen für bspw. Preis- oder Flächenangaben
+_Trennzeichen für Dezimalstellen für bspw. Preis- oder Flächenangaben_
+
+**Feld** `Tausender-Trennzeichen`
+
+_Tausendertrennzeichen für bspw. Preis- oder Flächenangaben_
 
 ### Filter
 
-**`Verfügbare Optionen: Zimmer`**  
-Die zur Auswahl stehenden Zimmer \(Zahl\), welche im Filtern zur Verfügung stehen.
+**Feld** `Verfügbare Optionen: Zimmer`
+
+_Die zur Auswahl stehenden Zimmer \(Zahl\), welche im Filtern zur Verfügung stehen._
 
