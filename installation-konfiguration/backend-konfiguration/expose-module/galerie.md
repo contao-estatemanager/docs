@@ -1,3 +1,7 @@
+---
+description: Exposé-Modul
+---
+
 # Galerie
 
 Das `Galerie` Exposé-Modul liefert die Bilder einer Immobilie unter Berücksichtigung der gewählten Galerie-Kategorien aus.
@@ -6,7 +10,7 @@ Das `Galerie` Exposé-Modul liefert die Bilder einer Immobilie unter Berücksich
 
 🔹`Galerie-Kategorien`
 
-_Eine Immobilien beinhaltet verschiedene Kategorien von Bildern wie bspw. Titelbild, Bilder oder Grundrisse. Hier können die Kategorien ausgewählt werden, welche von der Galerie berücksichtigt werden sollen._
+_Eine Immobilien beinhaltet verschiedene Kategorien von Bildern wie bspw. `Titelbild`, `Bilder` oder `Grundrisse`. Hier können die Kategorien sowie die Reihenfolge der Ausgabe ausgewählt werden._
 
 🔹`Gesamtzahl der Elemente`
 
