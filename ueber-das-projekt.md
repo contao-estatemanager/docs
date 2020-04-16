@@ -8,7 +8,7 @@ Der EstateManager ist ein Produkt von [Oveleon](www.oveleon.de) welches ermögli
 
 Nach über 10 Jahren Erfahrung bei der Entwicklung von Immobilien-Lösungen verschiedenster Immobilienmakler, CRM-Systeme sowie Schnittstellen haben wir den Entschluss gefasst, eine Lösung zu schaffen, die den Anforderungen von Immobilienmaklern endlich gerecht wird.
 
-Der Contao EstateManager zeichnet sich vor allem durch seine hohe Flexibilität und Anpassungsfähigkeit aus. Durch die Verwaltbarkeit von Immobilien-Typen, Filtern, Feldformatierungen, Importschnittstellen und vielen weiteren Immobilienbestandteilen hat man direkten Einfluss auf das Verhalten und der Darstellung seines Immobilienkataloges. Und das alles bei höchster Stabilität, Sicherheit, Performance, Funktionalität und Schönheit sowie Benutzerfreundlichkeit Ihrer Webseite.
+Der Contao EstateManager zeichnet sich vor allem durch seine hohe Flexibilität und Anpassungsfähigkeit aus. Durch die Verwaltbarkeit von Immobilien-Typen, Filtern, Feldformatierungen, Importschnittstellen und vielen weiteren Immobilienbestandteilen hat man direkten Einfluss auf das Verhalten und der Darstellung seines Immobilienkataloges.
 
 ### Open Source
 
