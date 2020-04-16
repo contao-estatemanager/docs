@@ -1,2 +1,2 @@
-# Insallation
+# Installation
 

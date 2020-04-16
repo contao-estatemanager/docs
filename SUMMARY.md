@@ -21,9 +21,12 @@
     * [Exposé](installation-konfiguration/frontend-konfiguration/module/expose.md)
   * [Templates](installation-konfiguration/frontend-konfiguration/templates.md)
   * [Insert-Tags](installation-konfiguration/frontend-konfiguration/insert-tags.md)
-* [Erweiterungen](installation-konfiguration/erweiterungen/README.md)
-  * [Installation](installation-konfiguration/erweiterungen/installation.md)
-  * [Lizenzen](installation-konfiguration/erweiterungen/lizenzen.md)
+
+## Erweiterungen
+
+* [Installation](erweiterungen/installation.md)
+* [Lizenzen](erweiterungen/lizenzen.md)
+* [Erweiterungen](erweiterungen/erweiterungen.md)
 
 ## Entwickler
 
