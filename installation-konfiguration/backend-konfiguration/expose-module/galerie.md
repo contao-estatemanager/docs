@@ -27,6 +27,6 @@ Verhinder die Ausgabe des Exposé-Moduls, sofern keine Elemente / Bilder in den 
 🔸`expose_mod_gallery_items`
 
 {% hint style="success" %}
-Auf diesem Exposé-Modul können beliebige JavaScript-Slider initialisiert werden um es, wie man sie von vielen anderen Immobilien Webseiten kennt, als Bilder-Slideshow darstellen zu lassen.
+Auf diesem Exposé-Modul können beliebige JavaScript-Slider initialisiert werden um die Bilder, wie man es von vielen anderen Immobilien Webseiten kennt, als Bilder-Diashow o.ä. darstellen zu lassen.
 {% endhint %}
 
