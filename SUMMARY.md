@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Willkommen](README.md)
+* [Über das Projekt](ueber-den-estatemanager.md)
 * [Homepage](https://www.contao-estatemanager.com/)
 
 ## Konfiguration & Einrichtung <a id="installation-konfiguration"></a>
