@@ -24,7 +24,7 @@ Die Entwicklung wurde unter Berücksichtigung des OpenImmo Standards durchgefüh
 
 ### Warum Contao?
 
-Dazu wurde bereits schon von vielen etwas geschrieben. Kurz gesagt arbeiten wir bereits seit vielen Jahren mit Contao und empfinden das System und dessen Community als sehr angenehm, zukunftsorientiert und leistungsfähig. In unseren Augen also der perfekte Unterbau für ein solches Projekt.
+Kurz gesagt arbeiten wir bereits seit vielen Jahren mit Contao und empfinden das System und dessen Community als sehr angenehm, zukunftsorientiert und leistungsfähig. In unseren Augen also der perfekte Unterbau für ein solches Projekt.
 
 Noch kürzer gesagt - Weil wir Contao lieben und schätzen gelernt haben ❤ 
 
