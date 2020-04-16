@@ -8,5 +8,5 @@ Nach der Installation stellt der EstateManager im Backend unter dem Reiter Verwa
 * [Anbieter / Standorte](anbieter-standorte.md)
 * [Filter](filter.md)
 * [Feldformatierungen](feldformatierungen.md)
-* [Exposé-Module](expose-module.md)
+* [Exposé-Module](expose-module/)
 
