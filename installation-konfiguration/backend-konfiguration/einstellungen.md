@@ -8,20 +8,25 @@ description: >-
 
 ### Listen & Darstellung
 
-**`Standard-Sortierung`**  
-Definiert anhand welchen Feldes die Sortierung von Listen ausgegeben wird.
+`Standard-Sortierung`
 
-**`Anzeigedauer des "Neu" Status-Token`**  
-Definiert wie lange eine Immobilie als "Neu" eingestuft werden soll.
+_Definiert anhand welchen Feldes die Sortierung von Listen ausgegeben wird._
 
-**`Max. Anzahl der Main-Details`**  
-Definiert die maximale Anzahl der Main-Details einer Immobilie in Listen, welche in den [Objekttypen ](objekttypen.md)definiert werden.
+`Anzeigedauer des "Neu" Status-Token`
 
-**`Max. Anzahl der Main-Attribute`**  
-Definiert die maximale Anzahl der Main-Attributes einer Immobilie in Listen, welche in den [Objekttypen ](objekttypen.md)definiert werden.
+_Definiert wie lange eine Immobilie als "Neu" eingestuft werden soll._
 
-**`Standard-Bild`**  
-Standard-Bild, welches ausgegeben wird, sofern eine Immobilie keine Bilder hat.
+`Max. Anzahl der Main-Details`
+
+_Definiert die maximale Anzahl der Main-Details einer Immobilie in Listen, welche in den_ [_Objekttypen_ ](objekttypen.md)_definiert werden._
+
+`Max. Anzahl der Main-Attribute`
+
+_Definiert die maximale Anzahl der Main-Attributes einer Immobilie in Listen, welche in den_ [_Objekttypen_ ](objekttypen.md)_definiert werden._
+
+`Standard-Bild`
+
+_Standard-Bild, welches ausgegeben wird, sofern eine Immobilie keine Bilder hat._
 
 ### Anbieter / Kontaktpersonen
 
