@@ -19,6 +19,8 @@
     * [Liste](installation-konfiguration/frontend-konfiguration/module/liste.md)
     * [Ergebnisliste](installation-konfiguration/frontend-konfiguration/module/ergebnisliste.md)
     * [Exposé](installation-konfiguration/frontend-konfiguration/module/expose.md)
+  * [Templates](installation-konfiguration/frontend-konfiguration/templates.md)
+  * [Insert-Tags](installation-konfiguration/frontend-konfiguration/insert-tags.md)
 * [Erweiterungen](installation-konfiguration/erweiterungen/README.md)
   * [Installation](installation-konfiguration/erweiterungen/installation.md)
   * [Lizenzen](installation-konfiguration/erweiterungen/lizenzen.md)
