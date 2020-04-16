@@ -4,9 +4,9 @@ Das `Titel` Exposé-Modul liefert den Titel der Immobilie aus.
 
 ### Einstellungen
 
-`Schriftgröße`
+🔹`Schriftgröße`
 
 ### Template
 
-`expose_mod_title`
+🔸`expose_mod_title`
 

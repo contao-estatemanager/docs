@@ -18,15 +18,15 @@ Bitte beachte, dass manuelle Änderungen nach dem zurücksetzen verworfen werden
 
 Über den Button "Neues Feld" können alle Immobilien-Felder, welche in der Datenbank bestehen, ausgewählt und eingerichtet werden.
 
-**Feld** `Feld`
+🔹`Feld`
 
 _Definiert das Feld, welches durch eine Formatierung vor der Ausgabe manipuliert werden soll._
 
-**Feld** `CSS-Klasse`
+🔹`CSS-Klasse`
 
 _Jedes Feld kann ein oder mehrere CSS-Klassen beinhalten \(Leerzeichen getrennte Liste\). Dies ermöglicht die Erstellung eigener Selektoren um diese später mit CSS aufbereiten zu können._
 
-**Feld** `Ausgabe erzwingen`
+🔹`Ausgabe erzwingen`
 
 _Erzwingt die Ausgabe des Feldes, auch wenn kein oder ein leerer Wert vorhanden ist._
 
@@ -34,7 +34,7 @@ Beispiel:
 
 > In den Details sollen "Haustiere" immer ausgegeben werden. Wurde dieser Wert nicht übertragen, können wir davon ausgehen, dass das Objekt / die Immobilie keine Haustiere erlaubt. Wird die Ausgabe erzwungen, ist es egal, ob der Wert übertragen wurde. Somit würde nun "Haustiere: Nein" ebenfalls ausgegeben und nicht als leerer Wert erkannt und somit übersprungen werden.
 
-**Feld** `Bedingung hinzufügen`
+🔹`Bedingung hinzufügen`
 
 _Ermöglicht die Definition einer oder mehrerer Bedingung. Beim hinzufügen mehrerer Bedingungen werden diese "UND"-Verknüpft abgearbeitet._
 
@@ -48,43 +48,43 @@ Innerhalb eines Feldes können nun beliebig viele Aktionen für den Wert des Fel
 
 #### Übersicht aller Aktionen
 
-**Aktion** `prepend`
+🔸`prepend`
 
 _Fügt einen beliebigen Text vor dem Wert ein._
 
-**Aktion** `append`
+🔸`append`
 
 _Fügt einen beliebigen Text nach dem Wert ein._
 
-**Aktion** `number_format`
+🔸`number_format`
 
 _Formatiert einen Zahlenwert anhand der angegebenen Nachkommastellen._
 
-**Aktion** `date_format`
+🔸`date_format`
 
 _Wandelt einen UNIX-Timestamp in ein leserliches Datums-Format um._
 
-**Aktion** `ucfirst`
+🔸`ucfirst`
 
 _Verwandelt das erste Zeichen eines Strings in einen Großbuchstaben._
 
-**Aktion** `wrap`
+🔸`wrap`
 
 _Umschließt den Wert mit dem angegebenen Text/HTML-Code. Die Verwendung eines Platzhalter ist dabei zwingend notwendig. \(s. "_[_sprintf_](https://www.php.net/manual/de/function.sprintf.php#refsect1-function.sprintf-parameters)_" PHP-Funktion\)_
 
-**Aktion** `unserialize`
+🔸`unserialize`
 
 _Validiert eine in der Datenbank serialisierte Liste und gibt diese anhand des angegebenen Trennzeichens aus._
 
-**Aktion** `combine`
+🔸`combine`
 
 _Ermöglicht die Kombination beliebiger Felder und die Ausgabe anhand eines Trennzeichens. Um kombinierte Felder nicht doppelt in einer Detailliste auszugeben, können diese über die Checkbox "entfernen" für die spätere Ausgabe übersprungen werden._
 
-**Aktion** `boolToWord`
+🔸`boolToWord`
 
 _Wandelt Werte mit "0" oder "1" in "Nein" oder "Ja" um._
 
-**Aktion** `custom`
+🔸`custom`
 
 _Verwendung einer eigenen Funktion. Eigene Funktionen müssen dabei als Template mit dem Prefix "re\_ac\_" angelegt werden._
 
