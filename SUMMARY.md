@@ -3,17 +3,25 @@
 * [Willkommen](README.md)
 * [Homepage](https://www.contao-estatemanager.com/)
 
-## Installation & Konfiguration <a id="installation-konfiguration"></a>
+## Konfiguration & Einrichtung <a id="installation-konfiguration"></a>
 
 * [Installation](installation-konfiguration/installation.md)
-* [Konfiguration](installation-konfiguration/konfiguration/README.md)
-  * [Einstellungen](installation-konfiguration/konfiguration/einstellungen.md)
-  * [Schnittstellen](installation-konfiguration/konfiguration/schnittstellen.md)
-  * [Objekttypen](installation-konfiguration/konfiguration/objekttypen.md)
-  * [Anbieter & Standorte](installation-konfiguration/konfiguration/anbieter-standorte.md)
-  * [Filter](installation-konfiguration/konfiguration/filter.md)
-  * [Feldformatierungen](installation-konfiguration/konfiguration/feldformatierungen.md)
-  * [Exposé-Module](installation-konfiguration/konfiguration/expose-module.md)
+* [Backend-Konfiguration](installation-konfiguration/backend-konfiguration/README.md)
+  * [Einstellungen](installation-konfiguration/backend-konfiguration/einstellungen.md)
+  * [Schnittstellen](installation-konfiguration/backend-konfiguration/schnittstellen.md)
+  * [Objekttypen](installation-konfiguration/backend-konfiguration/objekttypen.md)
+  * [Anbieter & Standorte](installation-konfiguration/backend-konfiguration/anbieter-standorte.md)
+  * [Filter](installation-konfiguration/backend-konfiguration/filter.md)
+  * [Feldformatierungen](installation-konfiguration/backend-konfiguration/feldformatierungen.md)
+  * [Exposé-Module](installation-konfiguration/backend-konfiguration/expose-module.md)
+* [Frontend-Konfiguration](installation-konfiguration/frontend-konfiguration/README.md)
+  * [Module](installation-konfiguration/frontend-konfiguration/module/README.md)
+    * [Liste](installation-konfiguration/frontend-konfiguration/module/liste.md)
+    * [Ergebnisliste](installation-konfiguration/frontend-konfiguration/module/ergebnisliste.md)
+    * [Exposé](installation-konfiguration/frontend-konfiguration/module/expose.md)
+* [Erweiterungen](installation-konfiguration/erweiterungen/README.md)
+  * [Installation](installation-konfiguration/erweiterungen/installation.md)
+  * [Lizenzen](installation-konfiguration/erweiterungen/lizenzen.md)
 
 ## Entwickler
 
