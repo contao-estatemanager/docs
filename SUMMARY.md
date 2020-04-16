@@ -26,7 +26,20 @@
 
 * [Installation](erweiterungen/installation.md)
 * [Lizenzen](erweiterungen/lizenzen.md)
-* [Erweiterungen](erweiterungen/erweiterungen.md)
+* [Erweiterungen](erweiterungen/erweiterungen/README.md)
+  * [Merkzettel](erweiterungen/erweiterungen/merkzettel.md)
+  * [Ähnliche Objekte](erweiterungen/erweiterungen/aehnliche-objekte.md)
+  * [Energieausweis](erweiterungen/erweiterungen/energieausweis.md)
+  * [Virtuelle Tour](erweiterungen/erweiterungen/virtuelle-tour.md)
+  * [Video](erweiterungen/erweiterungen/video.md)
+  * [Google Maps](erweiterungen/erweiterungen/google-maps.md)
+  * [Top-Objekte](erweiterungen/erweiterungen/top-objekte.md)
+  * [Neubauprojekte](erweiterungen/erweiterungen/neubauprojekte.md)
+  * [Referenzen](erweiterungen/erweiterungen/referenzen.md)
+  * [Standorte](erweiterungen/erweiterungen/standorte.md)
+  * [Käufer- / Mieterfinder](erweiterungen/erweiterungen/kaeufer-mieterfinder.md)
+  * [WIB Importer](erweiterungen/erweiterungen/wib-importer.md)
+  * [Exposé Social-Tags](erweiterungen/erweiterungen/expose-social-tags.md)
 
 ## Entwickler
 
