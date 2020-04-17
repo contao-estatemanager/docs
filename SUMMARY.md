@@ -43,7 +43,7 @@
 ## Erweiterungen
 
 * [Installation](erweiterungen/installation.md)
-* [Lizenzen](erweiterungen/lizenzen.md)
+* [Lizenzen & Demozugänge](erweiterungen/lizenzen.md)
 * [Erweiterungen](erweiterungen/erweiterungen/README.md)
   * [Merkzettel](erweiterungen/erweiterungen/merkzettel.md)
   * [Ähnliche Objekte](erweiterungen/erweiterungen/aehnliche-objekte.md)

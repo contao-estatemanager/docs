@@ -28,5 +28,9 @@ Installation direkt über GitHub:
 
 Nach der Installation muss das [Contao-Installtool](https://docs.contao.org/manual/de/installation/contao-installtool/) aufgerufen und die Datenbank aktualisiert werden.
 
+### Lizenz
+
+Für diese Erweiterung ist eine Lizenz erforderlich. Bitte folge dafür den Schritte unter [Lizenzen](../lizenzen.md).
+
 
 
