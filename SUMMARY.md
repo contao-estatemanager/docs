@@ -19,10 +19,10 @@
     * [Adresse](installation-konfiguration/backend-konfiguration/expose-module/adresse.md)
     * [Galerie](installation-konfiguration/backend-konfiguration/expose-module/galerie.md)
     * [Details](installation-konfiguration/backend-konfiguration/expose-module/details.md)
-    * [Main-Details](installation-konfiguration/backend-konfiguration/expose-module/main-details.md)
-    * [Main-Attributes](installation-konfiguration/backend-konfiguration/expose-module/main-attributes.md)
-    * [Main-Preis](installation-konfiguration/backend-konfiguration/expose-module/main-preis.md)
-    * [Main-Area](installation-konfiguration/backend-konfiguration/expose-module/main-area.md)
+    * [Primäre Details](installation-konfiguration/backend-konfiguration/expose-module/primaere-details.md)
+    * [Primäre Attribute](installation-konfiguration/backend-konfiguration/expose-module/primaere-attribute.md)
+    * [Primärer Preis](installation-konfiguration/backend-konfiguration/expose-module/primaerer-preis.md)
+    * [Primäre Fläche](installation-konfiguration/backend-konfiguration/expose-module/primaere-flaeche.md)
     * [Status-Token](installation-konfiguration/backend-konfiguration/expose-module/status-token.md)
     * [Marketing-Token](installation-konfiguration/backend-konfiguration/expose-module/marketing-token.md)
     * [Texte](installation-konfiguration/backend-konfiguration/expose-module/texte.md)
@@ -68,6 +68,6 @@
 ## Allgemein
 
 * [Glossar](allgemein/glossar.md)
-* [Erweiterungskatalog](https://www.contao-estatemanager.com/store.html)
+* [Erweiterungskatalog](https://www.contao-estatemanager.com/de/store.html)
 * [Showcase](https://www.contao-estatemanager.com/de/Showcase.html)
 
