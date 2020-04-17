@@ -12,7 +12,7 @@ Exposé-Module deklarieren einzelne Bereiche eines Exposés, welche anschließen
 * [Main-Preis](primaerer-preis.md)
 * [Main-Area](primaere-flaeche.md)
 * [Status-Token](status-token.md)
-* [Marketing-Token](marketing-token.md)
+* [Marketing-Token](vermarktungs-token.md)
 * [Texte](texte.md)
 * [Feldliste](feldliste.md)
 * [Kontaktperson](kontaktperson.md)

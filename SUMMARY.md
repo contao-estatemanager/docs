@@ -24,7 +24,7 @@
     * [Primärer Preis](installation-konfiguration/backend-konfiguration/expose-module/primaerer-preis.md)
     * [Primäre Fläche](installation-konfiguration/backend-konfiguration/expose-module/primaere-flaeche.md)
     * [Status-Token](installation-konfiguration/backend-konfiguration/expose-module/status-token.md)
-    * [Marketing-Token](installation-konfiguration/backend-konfiguration/expose-module/marketing-token.md)
+    * [Vermarktungs-Token](installation-konfiguration/backend-konfiguration/expose-module/vermarktungs-token.md)
     * [Texte](installation-konfiguration/backend-konfiguration/expose-module/texte.md)
     * [Feldliste](installation-konfiguration/backend-konfiguration/expose-module/feldliste.md)
     * [Kontaktperson](installation-konfiguration/backend-konfiguration/expose-module/kontaktperson.md)
