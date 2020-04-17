@@ -26,11 +26,92 @@ Installation direkt über GitHub:
 {% endtab %}
 {% endtabs %}
 
-Nach der Installation muss das [Contao-Installtool](https://docs.contao.org/manual/de/installation/contao-installtool/) aufgerufen und die Datenbank aktualisiert werden.
+Nach der Installation muss das [Contao-Installtool](https://docs.contao.org/manual/de/installation/contao-installtool/) aufgerufen und die Datenbank aktualisiert werden. 
+
+### Module
+
+Hier finden Sie eine Übersicht neuer, sowie erweiterte Module.
+
+{% tabs %}
+{% tab title="🟢 Merkzettel Weiterleitung" %}
+Das Modul `Merkzettel Weiterleitung` dient dazu, eine Weiterleitung auf eine beliebige Seite einzurichten, auf der der Besucher seine gemerkten Immobilien sichten oder entfernen kann. 
+
+**Einstellungen**
+
+🔹`Weiterleitungsseite`
+
+_Die zu Referenzierende Seite_
+
+🔹`Anzahl ausgeben`
+
+_Gibt die Anzahl der sich auf dem Merkzettel befindenden Immobilien aus_
+
+**Template**
+
+🔸`mod_watchlistRedirector`
+{% endtab %}
+
+{% tab title="🔵 Liste" %}
+
+{% endtab %}
+{% endtabs %}
+
+### Exposé-Module
+
+Hier finden Sie eine Übersicht neuer, sowie erweiterte Exposé-Module.
+
+{% tabs %}
+{% tab title="🟢 Merkzettel" %}
+Das Exposé-Modul `Merkzettel` ermöglicht die Ausgabe einer Schaltfläche, um die Immobilie direkt aus dem Exposé heraus auf dem Merkzettel zu speichern.
+
+**Template**
+
+🔸`expose_mod_watchlist`
+{% endtab %}
+{% endtabs %}
+
+### JavaScript-Templates
+
+Hier finden Sie eine Übersicht neuer, sowie erweiterte JavaScript-Templates.
+
+{% tabs %}
+{% tab title="🟢 Merkzettel" %}
+Um die Seite bei Klick der oben gelieferten Merkzettel-Schaltfläche nicht neu laden zu müssen, liefert diese Erweiterung ebenfalls ein neues JS-Template aus, welches unter Layouts zur Verfügung gestellt wird.
+
+**Template**
+
+🔸`js_realestatewatchlist`
+
+**Events**
+
+Um von außen auf einen Statuswechsel des Merkzettels Einfluss nehmen zu können, werden zwei `CustomEvents` registriert und können nach Bedarf entgegengenommen werden.
+
+* `watchlist.onChange`
+* `watchlist.onDelete`
+
+```javascript
+// Listen to the deletion of properties from the watchlist
+document.addEventListener('watchlist.onDelete', function(e){
+    console.log(e.detail);
+    // Do something
+});
+
+// Listen to the adding of properties on the watchlist
+document.addEventListener('watchlist.onChange', function(e){
+    console.log(e.detail);
+    // Do something
+});
+```
+
+{% hint style="warning" %}
+Um Immobilien asynchron aus einer Liste zu entfernen, ist es derzeit noch zwingend notwendig, dieser oder einem darüber liegenden Element die CSS-Klasse **`delete-list`** zu geben.
+{% endhint %}
+{% endtab %}
+{% endtabs %}
 
 ### Lizenz
 
-Für diese Erweiterung ist eine Lizenz erforderlich. Bitte folge dafür den Schritten unter [Lizenzen](../lizenzen.md).
+Für diese Erweiterung ist eine Lizenz erforderlich. Zum Erwerb einer Lizenz folge bitte den Schritten unter [Lizenzen](../lizenzen.md).
 
 
 

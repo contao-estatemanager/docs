@@ -104,7 +104,7 @@ return array('func' => function($field, $varValue, $objRealEstate, &$arrRemovedC
         return $varValue;
     }
 
-    // Your code
+    // Do something
 
     return $varValue;
 });
