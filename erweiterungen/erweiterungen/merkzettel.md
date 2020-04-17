@@ -8,13 +8,25 @@ Die `Merkzettel` Erweiterung integriert die Möglichkeit sich als Besucher der W
 
 ### Installation
 
+{% tabs %}
+{% tab title="Composer" %}
 ```bash
 $ composer require contao-estatemanager/watchlist
 ```
+{% endtab %}
 
-{% hint style="info" %}
-Alternativ kann diese Erweiterung auch über den [Contao Manager](https://docs.contao.org/manual/de/installation/contao-manager/) installieren.
-{% endhint %}
+{% tab title="Contao-Manager" %}
+Über die Suche des Contao-Manager kann der Begriff `EstateManager` gesucht werden. Anschließen wählt man das Paket `Contao EstateManager Watchlist` aus und installiert es anschließend. Eine detaillierte Anleitung wie man mit dem Contao-Manager arbeitet findest du [hier](https://docs.contao.org/manual/de/installation/erweiterungen-installieren/).
+{% endtab %}
+
+{% tab title="GitHub" %}
+Installation direkt über GitHub:
+
+[https://github.com/contao-estatemanager/watchlist](https://github.com/contao-estatemanager/watchlist)
+{% endtab %}
+{% endtabs %}
+
+Nach der Installation muss das [Contao-Installtool](https://docs.contao.org/manual/de/installation/contao-installtool/) aufgerufen und die Datenbank aktualisiert werden.
 
 
 

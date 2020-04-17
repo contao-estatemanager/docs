@@ -6,23 +6,25 @@ description: Open Source EstateManager for Contao CMS
 
 ### Installation
 
-**Composer:**
-
+{% tabs %}
+{% tab title="Composer" %}
 ```bash
 $ composer require contao-estatemanager/core
 ```
+{% endtab %}
 
-**Contao-Manager:**
+{% tab title="Contao-Manager" %}
+Über die Suche des Contao-Manager kann der Begriff `EstateManager` gesucht werden. Anschließen wählt man das Paket `Contao EstateManager Core` aus und installiert es anschließend. Eine detaillierte Anleitung wie man mit dem Contao-Manager arbeitet findest du [hier](https://docs.contao.org/manual/de/installation/erweiterungen-installieren/).
+{% endtab %}
 
-Über die Suche des Contao-Manager kann der Begriff `EstateManager` gesucht werden. Anschließen wählt man das Paket `Contao EstateManager Core` aus und installiert dieses. Eine detaillierte Anleitung wie man mit dem Contao-Manager arbeitet findest du [hier](https://docs.contao.org/manual/de/installation/erweiterungen-installieren/).
-
-**GitHub:**
+{% tab title="GitHub" %}
+Installation direkt über GitHub:
 
 [https://github.com/contao-estatemanager/core](https://github.com/contao-estatemanager/core)
+{% endtab %}
+{% endtabs %}
 
-### Installation abschließen
-
-Nach der Installation kann das [Contao-Installtool](https://docs.contao.org/manual/de/installation/contao-installtool/) aufgerufen und die Datenbank aktualisiert werden.
+Nach der Installation muss das [Contao-Installtool](https://docs.contao.org/manual/de/installation/contao-installtool/) aufgerufen und die Datenbank aktualisiert werden.
 
 ### Systemvoraussetzungen
 
