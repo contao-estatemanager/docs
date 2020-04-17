@@ -31,7 +31,7 @@
     * [Anfrageformular](installation-konfiguration/backend-konfiguration/expose-module/anfrageformular.md)
     * [Teilen](installation-konfiguration/backend-konfiguration/expose-module/teilen.md)
     * [Drucken](installation-konfiguration/backend-konfiguration/expose-module/drucken.md)
-    * [HTML](installation-konfiguration/backend-konfiguration/expose-module/html.md)
+    * [Eigener HTML-Code](installation-konfiguration/backend-konfiguration/expose-module/eigener-html-code.md)
 * [Frontend-Konfiguration](installation-konfiguration/frontend-konfiguration/README.md)
   * [Module](installation-konfiguration/frontend-konfiguration/module/README.md)
     * [Liste](installation-konfiguration/frontend-konfiguration/module/liste.md)
