@@ -58,9 +58,13 @@ Erweitert die [Liste](../../installation-konfiguration/frontend-konfiguration/mo
 
 🔹`Merkzettel hinzufügen`
 
-_Fügt für jeder Immobilie in der Liste die Merkzettel-Schaltfläche hinzu._
+_Fügt für jeder Immobilie in der Liste die Merkzettel-Schaltfläche hinzu. Die neue Einstellung befindet sich in der Palette `Immobilien Erweiterung` ._
 
-Die neue Einstellung befindet sich in der Palette `Immobilien Erweiterung` .
+**Template**
+
+🔹`real_estate_itemext_watchlist_default`
+
+_Das Template muss über das Feld `Immobilien Template Erweiterung: Merkzettel`in der Palette `Templates-Einstellungen` ausgewählt werden._
 {% endtab %}
 
 {% tab title="🔵 Ergebnisliste" %}
