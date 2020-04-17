@@ -30,7 +30,7 @@ Nach der Installation muss das [Contao-Installtool](https://docs.contao.org/manu
 
 ### Lizenz
 
-Für diese Erweiterung ist eine Lizenz erforderlich. Bitte folge dafür den Schritte unter [Lizenzen](../lizenzen.md).
+Für diese Erweiterung ist eine Lizenz erforderlich. Bitte folge dafür den Schritten unter [Lizenzen](../lizenzen.md).
 
 
 
