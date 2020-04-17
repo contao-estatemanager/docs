@@ -52,13 +52,33 @@ _Gibt die Anzahl der sich auf dem Merkzettel befindenden Immobilien aus_
 {% endtab %}
 
 {% tab title="🔵 Liste" %}
+Erweitert die [Liste](../../installation-konfiguration/frontend-konfiguration/module/liste.md) um folgende Einstellungen.
 
+**Einstellungen**
+
+🔹`Merkzettel hinzufügen`
+
+_Fügt für jeder Immobilie in der Liste die Merkzettel-Schaltfläche hinzu._
+
+Die neue Einstellung befindet sich in der Palette `Immobilien Erweiterung` .
+{% endtab %}
+
+{% tab title="🔵 Ergebnisliste" %}
+Erweitert die [Ergebnisliste](../../installation-konfiguration/frontend-konfiguration/module/ergebnisliste.md) um folgende Einstellungen.
+
+**Einstellungen**
+
+🔹`Merkzettel hinzufügen`
+
+_Fügt für jeder Immobilie in der Liste die Merkzettel-Schaltfläche hinzu._
+
+Die neue Einstellung befindet sich in der Palette `Immobilien Erweiterung` .
 {% endtab %}
 {% endtabs %}
 
 ### Exposé-Module
 
-Hier finden Sie eine Übersicht neuer, sowie erweiterte Exposé-Module.
+Hier finden Sie eine Übersicht neuer Exposé-Module.
 
 {% tabs %}
 {% tab title="🟢 Merkzettel" %}
@@ -72,7 +92,7 @@ Das Exposé-Modul `Merkzettel` ermöglicht die Ausgabe einer Schaltfläche, um d
 
 ### JavaScript-Templates
 
-Hier finden Sie eine Übersicht neuer, sowie erweiterte JavaScript-Templates.
+Hier finden Sie eine Übersicht neuer JavaScript-Templates.
 
 {% tabs %}
 {% tab title="🟢 Merkzettel" %}
@@ -92,14 +112,14 @@ Um von außen auf einen Statuswechsel des Merkzettels Einfluss nehmen zu können
 ```javascript
 // Listen to the deletion of properties from the watchlist
 document.addEventListener('watchlist.onDelete', function(e){
-    console.log(e.detail);
     // Do something
+    console.log(e.detail);
 });
 
 // Listen to the adding of properties on the watchlist
 document.addEventListener('watchlist.onChange', function(e){
-    console.log(e.detail);
     // Do something
+    console.log(e.detail);
 });
 ```
 
