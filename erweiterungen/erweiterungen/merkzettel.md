@@ -62,7 +62,7 @@ _Fügt für jeder Immobilie in der Liste die Merkzettel-Schaltfläche hinzu. Die
 
 **Template**
 
-🔹`real_estate_itemext_watchlist_default`
+🔸`real_estate_itemext_watchlist_default`
 
 _Das Template muss über das Feld `Immobilien Template Erweiterung: Merkzettel`in der Palette `Templates-Einstellungen` ausgewählt werden._
 {% endtab %}
@@ -78,7 +78,7 @@ _Fügt für jeder Immobilie in der Liste die Merkzettel-Schaltfläche hinzu. Die
 
 **Template**
 
-🔹`real_estate_itemext_watchlist_default`
+🔸`real_estate_itemext_watchlist_default`
 
 _Das Template muss über das Feld `Immobilien Template Erweiterung: Merkzettel`in der Palette `Templates-Einstellungen` ausgewählt werden._
 {% endtab %}
