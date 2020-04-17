@@ -22,7 +22,7 @@ Exposé-Module deklarieren einzelne Bereiche eines Exposés, welche anschließen
 * [HTML](eigener-html-code.md)
 
 {% hint style="info" %}
-Exposé-Module und dessen Einstellungen können durch verschiedene Erweiterungen um neue Felder ergänzt werden. Die hier dokumentierten Exposé-Module beinhaltet ausschließlich die vom EstateManager \(Core\) gelieferten Einstellungsmöglichkeiten. Felder, welche durch Erweiterungen hinzugefügt wurden, können direkt in der Dokumentation der Erweiterung eingesehen werden.
+Exposé-Module und dessen Einstellungen können durch verschiedene [Erweiterungen](../../../erweiterungen/erweiterungen/) um neue Felder ergänzt werden. Die hier dokumentierten Exposé-Module beinhaltet ausschließlich die vom EstateManager \(Core\) gelieferten Einstellungsmöglichkeiten. Felder, welche durch Erweiterungen hinzugefügt wurden, können direkt in der Dokumentation der dafür verantwortlichen Erweiterung eingesehen werden.
 {% endhint %}
 
 ### Weitere Exposé-Module
