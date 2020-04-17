@@ -12,14 +12,14 @@ Exposé-Module deklarieren einzelne Bereiche eines Exposés, welche anschließen
 * [Primärer Preis](primaerer-preis.md)
 * [Primäre Fläche](primaere-flaeche.md)
 * [Status-Token](status-token.md)
-* [Marketing-Token](vermarktungs-token.md)
+* [Vermarktungs-Token](vermarktungs-token.md)
 * [Texte](texte.md)
 * [Feldliste](feldliste.md)
 * [Kontaktperson](kontaktperson.md)
 * [Anfrageformular](anfrageformular.md)
 * [Teilen](teilen.md)
 * [Drucken](drucken.md)
-* [HTML](eigener-html-code.md)
+* [Eigener HTML-Code](eigener-html-code.md)
 
 {% hint style="info" %}
 Exposé-Module und dessen Einstellungen können durch verschiedene [Erweiterungen](../../../erweiterungen/erweiterungen/) um neue Felder ergänzt werden. Die hier dokumentierten Exposé-Module beinhaltet ausschließlich die vom EstateManager \(Core\) gelieferten Einstellungsmöglichkeiten. Felder, welche durch Erweiterungen hinzugefügt wurden, können direkt in der Dokumentation der dafür verantwortlichen Erweiterung eingesehen werden.
