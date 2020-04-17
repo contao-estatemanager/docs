@@ -1,5 +1,5 @@
 ---
-description: Open Source EstateManager for Contao CMS
+description: Dokumentation - Open Source EstateManager for Contao CMS
 ---
 
 # Über das Projekt
