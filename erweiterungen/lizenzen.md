@@ -23,8 +23,6 @@ Demozugänge können nur einmalig verwendet werden und laufen automatisch ab
 {% endhint %}
 
 {% hint style="danger" %}
-Wir empfehlen die Demozugänge dringend ausschließlich im Entwicklungsstatus der Webseite zu verwenden, da nach Ablauf der Demo ggf. einige Funktionen nicht mehr funktionieren.
+Wir empfehlen dringend die Demozugänge ausschließlich im Entwicklungsstatus der Webseite zu verwenden, da nach Ablauf der Demo ggf. einige Funktionen nicht mehr funktionieren.
 {% endhint %}
-
-
 
