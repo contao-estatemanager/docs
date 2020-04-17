@@ -71,4 +71,5 @@
 * [Erweiterungskatalog](https://www.contao-estatemanager.com/de/store.html)
 * [Showcase](https://www.contao-estatemanager.com/de/Showcase.html)
 * [Fehler melden](https://github.com/contao-estatemanager/core/issues)
+* [Übersetzen helfen](https://www.transifex.com/oveleon/contao-estatemanager/)
 
