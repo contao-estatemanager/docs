@@ -21,6 +21,10 @@ Exposé-Module deklarieren einzelne Bereiche eines Exposés, welche anschließen
 * [Drucken](drucken.md)
 * [HTML](html.md)
 
+{% hint style="info" %}
+Exposé-Module und dessen Einstellungen können durch verschiedene Erweiterungen um neue Felder ergänzt werden. Die hier dokumentierten Exposé-Module beinhaltet ausschließlich die vom EstateManager \(Core\) gelieferten Einstellungsmöglichkeiten. Felder, welche durch Erweiterungen hinzugefügt wurden, können direkt in der Dokumentation der Erweiterung eingesehen werden.
+{% endhint %}
+
 ### Weitere Exposé-Module
 
 Durch verschiedene Erweiterungen können weitere Exposé-Module zur Verfügung gestellt werden.

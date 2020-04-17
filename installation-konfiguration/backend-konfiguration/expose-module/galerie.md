@@ -4,7 +4,18 @@ description: Exposé-Modul
 
 # Galerie
 
-Das `Galerie` Exposé-Modul liefert die Bilder einer Immobilie unter Berücksichtigung der gewählten Galerie-Kategorien aus.
+Das `Galerie` Exposé-Modul liefert die Bilder einer Immobilie unter Berücksichtigung der gewählten Galerie-Kategorien aus. Dabei stehen folgende Kategorien zur Verfügung:
+
+* Titelbild
+* Bilder
+* Grundrisse
+* Interior-Bilder
+* Exterior-Bilder
+* Kartenansicht
+* Panorama
+* Energieskala
+* Logo
+* QR-Code
 
 ### Einstellungen
 
