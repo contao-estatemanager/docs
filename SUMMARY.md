@@ -70,4 +70,5 @@
 * [Glossar](allgemein/glossar.md)
 * [Erweiterungskatalog](https://www.contao-estatemanager.com/de/store.html)
 * [Showcase](https://www.contao-estatemanager.com/de/Showcase.html)
+* [Fehler melden](https://github.com/contao-estatemanager/core/issues)
 
