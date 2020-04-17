@@ -16,10 +16,10 @@ Gehe zunächst über die Contao-Hauptnavigation im Reiter "**Immobilien**" auf "
 
 ### Demozugang aktivieren
 
-Erweiterungen \(Abhängig vom Anbieter der Erweiterung\) können einen Demozugang beinhalten. Dieser ist nach der Aktivierung für 2 Wochen \(Abhängig vom Anbieter der Erweiterung\) gültig. Um den Demozugang zu aktivieren geben Sie in das entsprechende Lizenz-Feld der zu testenden Erweiterung das Wort "DEMO" ein und speichern Sie anschließend. 
+Erweiterungen können einen Demozugang beinhalten \(abhängig vom Anbieter der Erweiterung\). Dieser ist nach der Aktivierung für 2 Wochen gültig. Um den Demozugang zu aktivieren, geben Sie in das entsprechende Lizenz-Feld der zu testenden Erweiterung das Wort "**DEMO**" ein und speichern Sie anschließend.
 
 {% hint style="info" %}
-Demozugänge können nur einmalig verwendet werden und laufen automatisch ab
+Demozugänge können nur einmalig verwendet werden und laufen automatisch ab.
 {% endhint %}
 
 {% hint style="danger" %}

@@ -61,9 +61,12 @@
 
 ## Entwickler
 
+* [Erweiterungen erstellen](entwickler/erweiterungen-erstellen/README.md)
+  * [Erste Schritte](entwickler/erweiterungen-erstellen/erste-schritte.md)
+  * [Lizenzsystem verwenden](entwickler/erweiterungen-erstellen/lizenzsystem-verwenden.md)
+  * [Erweiterung im Erweiterungskatalog anbieten](entwickler/erweiterungen-erstellen/erweiterung-im-erweiterungskatalog-anbieten.md)
 * [Hooks](entwickler/hooks/README.md)
   * [parseRealEstate](entwickler/hooks/parserealestate.md)
-* [Eigene Erweiterungen](entwickler/eigene-erweiterungen.md)
 
 ## Allgemein
 
