@@ -17,11 +17,11 @@ _Erlaubt die Darstellung von Referenz-Immobilien in diesem Modul_
 Das `Exposé` Modul liefert eigene Layoutbereiche, welche über das Exposé-Module Feld befüllt werden können. Folgende Layoutbereiche stehen dabei zur Verfügung.
 
 * 1⃣ Kopfzeile 
-*  Über dem Inhaltsbereich
+* 2 Über dem Inhaltsbereich
 * 3⃣ Linke Spalte
 * 4⃣ Hauptspalte
 * 5⃣ Rechte Spalte
-* 6⃣ Unter dem Inhaltsbereich
+* 6 Unter dem Inhaltsbereich
 * 7⃣ Fußzeile
 
 ![Expos&#xE9;-Modul - Layoutbereiche](../../../.gitbook/assets/expose-layoutbereiche.jpg)
