@@ -50,6 +50,8 @@ Immobilien-Erweiterungen ermöglichen bspw. die Ausgabe des `Anbieters` oder der
 
 ### Templates
 
+🔸`mod_realEstateResultList`
+
 **Immobilien-Templates**
 
 🔸`real_estate_item_default`
