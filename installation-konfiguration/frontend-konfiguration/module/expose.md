@@ -6,7 +6,7 @@ Das `Exposé` Modul ermöglicht die Zusammenfassung und Ausgabe der Exposé-Modu
 
 🔹`Exposé-Module`
 
-_Hier können die zuvor unter_ [_Exposé-Module_](../../backend-konfiguration/expose-module/) _definierten Bereiche in beliebiger Reihenfolge ausgewählt und in die für ein Exposé vordefinierten Layoutbereiche eingefügt werden._
+_Hier können die zuvor unter_ [_Exposé-Module_](../../backend-konfiguration/expose-module/) _definierten Module in beliebiger Reihenfolge ausgewählt und in die für ein Exposé vordefinierten Layoutbereiche eingefügt werden._
 
 🔹`Referenzen erlauben`
 
