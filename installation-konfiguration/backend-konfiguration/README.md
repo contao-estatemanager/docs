@@ -6,7 +6,7 @@ Nach der Installation stellt der EstateManager im Backend unter dem Reiter Verwa
 * [Schnittstellen](schnittstellen.md)
 * [Objekttypen](objekttypen.md)
 * [Anbieter / Standorte](anbieter-standorte.md)
-* [Filter](filter.md)
+* [Filter](filter/)
 * [Feldformatierungen](feldformatierungen.md)
 * [Exposé-Module](expose-module/)
 

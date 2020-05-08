@@ -1,0 +1,2 @@
+# Immobilien-Typ \(separiert\)
+

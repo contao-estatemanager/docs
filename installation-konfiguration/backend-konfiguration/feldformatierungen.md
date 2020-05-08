@@ -4,11 +4,11 @@ description: Formatierung und Ausgabe der Immobilienfelder
 
 # Feldformatierungen
 
-Um Immobilienfelder für die Ausgabe aufzubereiten bietet der EstateManager ein umfangreiches Werkzeug und beliebige Aktionen auf Felder und dessen Werte einer Immobilie anzuwenden.
+Um Immobilienfelder für die Ausgabe aufzubereiten bietet der EstateManager ein umfangreiches Werkzeug um beliebige Aktionen auf Felder und dessen Werte einer Immobilie anzuwenden.
 
 ### Formatierung zurücksetzen
 
-Von Haus aus liefert der EstateManager bereits eine Vorkonfiguration von Feldern und dessen Aktionen aus, welche im ersten Schritt über den Button "Formatierung zurücksetzen" importiert werden können.
+Von Haus aus liefert der EstateManager bereits eine Vorkonfiguration von Feldern und dessen Aktionen aus, welche im ersten Schritt oder nach Fehlkonfiguration über den Button "Formatierung zurücksetzen" importiert / zurückgesetzt werden können.
 
 {% hint style="warning" %}
 Bitte beachte, dass manuelle Änderungen nach dem zurücksetzen verworfen werden
@@ -16,23 +16,23 @@ Bitte beachte, dass manuelle Änderungen nach dem zurücksetzen verworfen werden
 
 ### Feldformatierung erstellen
 
-Über den Button "Neues Feld" können alle Immobilien-Felder, welche in der Datenbank bestehen, ausgewählt und eingerichtet werden.
+Über den Button "Neues Feld" können alle Immobilien-Felder, welche in der Datenbank bestehen, ausgewählt und für die Darstellung konfiguriert werden.
 
 🔹`Feld`
 
-_Definiert das Feld, welches durch eine Formatierung vor der Ausgabe manipuliert werden soll._
+_Definiert das Feld, welches durch eine Formatierung vor der Ausgabe formatiert werden soll._
 
 🔹`CSS-Klasse`
 
-_Jedes Feld kann ein oder mehrere CSS-Klassen beinhalten \(Leerzeichen getrennte Liste\). Dies ermöglicht die Erstellung eigener Selektoren um diese später mit CSS aufbereiten zu können._
+_Jedes Feld kann ein oder mehrere CSS-Klassen beinhalten \(Leerzeichen getrennte Liste\). Dies ermöglicht die Erstellung eigener Selektoren um diese später mittels CSS aufbereiten zu können._
 
 🔹`Ausgabe erzwingen`
 
-_Erzwingt die Ausgabe des Feldes, auch wenn kein oder ein leerer Wert vorhanden ist._
+_Erzwingt die Ausgabe des Feldes, auch wenn kein Wert vorhanden ist._
 
 Beispiel:
 
-> In den Details sollen "Haustiere" immer ausgegeben werden. Wurde dieser Wert nicht übertragen, können wir davon ausgehen, dass das Objekt / die Immobilie keine Haustiere erlaubt. Wird die Ausgabe erzwungen, ist es egal, ob der Wert übertragen wurde. Somit würde nun "Haustiere: Nein" ebenfalls ausgegeben und nicht als leerer Wert erkannt und somit übersprungen werden.
+> In den Details sollen "Haustiere" immer ausgegeben werden. Wurde dieser Wert nicht übertragen, sollen wir davon ausgehen, dass das Objekt / die Immobilie keine Haustiere erlaubt. Mit der Einstellung, dass die Ausgabe erzwungen werden soll, würde nun "Haustiere: Nein" ebenfalls ausgegeben und nicht als leerer Wert erkannt und somit in den Details übersprungen werden.
 
 🔹`Bedingung hinzufügen`
 
@@ -40,11 +40,25 @@ _Ermöglicht die Definition einer oder mehrerer Bedingung. Beim hinzufügen mehr
 
 Beispiel:
 
-> Die Kaltmiete darf ausschließlich angezeigt werden, wenn die Vermarktungsart "miete" ist.
+> Die Breitband-Geschwindigkeit für die Immobilie soll ausschließlich angezeigt werden, wenn die Immobilie auch einen Breitbandanschluss besitzt.
 
 ### Formataktionen
 
-Innerhalb eines Feldes können nun beliebig viele Aktionen für den Wert des Feldes angewendet werden. Diese werden dabei in der Reihenfolge abgearbeitet, wie sie in der Liste platziert werden.
+Innerhalb eines Feldes können beliebig viele Aktionen für den Wert des Feldes konfiguriert werden. Diese werden dabei in der Reihenfolge abgearbeitet, wie sie in der Liste sortiert werden.
+
+{% hint style="warning" %}
+**Logische Reihenfolge der Aktionen verwenden:**  
+Preis- oder Flächenangaben müssen vor dem Anhängen von Einheiten wie `€` oder `m²`   
+\(Aktion: `append`\) den eigentlichen Wert formatiert bekommen \(Aktion: `number_format`\).
+
+_Falsch:_  
+1 append  
+2 number\_format
+
+_Richtig:_  
+1 number\_format  
+2 append
+{% endhint %}
 
 #### Übersicht aller Aktionen
 
@@ -70,7 +84,7 @@ _Verwandelt das erste Zeichen eines Strings in einen Großbuchstaben._
 
 🔸`wrap`
 
-_Umschließt den Wert mit dem angegebenen Text/HTML-Code. Die Verwendung eines Platzhalter ist dabei zwingend notwendig. \(s. "_[_sprintf_](https://www.php.net/manual/de/function.sprintf.php#refsect1-function.sprintf-parameters)_" PHP-Funktion\)_
+_Umschließt den Wert mit dem angegebenen Text/HTML-Code. Die Verwendung eines_ Spezifizierer-_Platzhalters ist dabei zwingend notwendig. \(s. "_[_sprintf_](https://www.php.net/manual/de/function.sprintf.php#refsect1-function.sprintf-parameters)_" PHP-Funktion\)_
 
 🔸`unserialize`
 

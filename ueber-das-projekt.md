@@ -6,21 +6,21 @@ description: Dokumentation - Open Source EstateManager for Contao CMS
 
 ### Was ist der EstateManager
 
-Der EstateManager ist ein Produkt von [Oveleon](www.oveleon.de) welches ermöglicht, auf Basis des [Open Source CMS Contao](www.contao.org), eigene Immobilen Webseiten zu erstellen. 
+Der EstateManager ist ein Produkt von [Oveleon](www.oveleon.de) welches ermöglicht, auf Basis des [Open Source CMS Contao](www.contao.org), eigene Immobilen-Webseiten zu erstellen. 
 
 ### Warum der EstateManager
 
-Nach über 10 Jahren Erfahrung bei der Entwicklung von Immobilien-Lösungen verschiedenster Immobilienmakler, CRM-Systeme sowie Schnittstellen haben wir den Entschluss gefasst, eine Lösung zu schaffen, die den Anforderungen von Immobilienmaklern in allen Bereichen gerecht wird.
+Nach über 10 Jahren Erfahrung bei der Entwicklung von Immobilien-Lösungen verschiedenster Immobilienmakler, CRM-Systeme sowie Schnittstellen haben wir den Entschluss gefasst, eine Lösung zu schaffen, die den Anforderungen von Immobilienmaklern in allen Bereichen gerecht werden soll.
 
-Der Contao EstateManager zeichnet sich vor allem durch seine hohe Flexibilität und Anpassungsfähigkeit aus. Durch die Verwaltbarkeit von Immobilien-Typen, Filtern, Feldformatierungen, Importschnittstellen und vielen weiteren Immobilienbestandteilen hat man direkten Einfluss auf das Verhalten und der Darstellung seines Immobilienkataloges.
+Der Contao EstateManager zeichnet sich vor allem durch seine hohe Flexibilität und Anpassungsfähigkeit aus. Durch die Verwaltbarkeit von Immobilien-Typen und Gruppen, Filtern, Feldformatierungen, Importschnittstellen und vielen weiteren Immobilienbestandteilen hat man direkten Einfluss auf das Verhalten und der Darstellung seines Immobilienkataloges.
 
 ### Open Source
 
-Wie die meisten unserer Produkte haben wir auch den EstateManager als Open Source Projekt entwickelt. Dadurch ist es nicht nur möglich, dass externe Entwickler und Agenturen für und mit diesem Produkt arbeiten, sondern auch die Qualität und zukünftige Lösungen sowie Features bestmöglich integriert und gewartet werden können. Wir erhoffen uns dadurch eine stetig wachsende Community für Contao und dem EstateManager.
+Wie die meisten unserer Produkte haben wir auch den EstateManager als Open Source Projekt entwickelt. Dadurch ist es nicht nur möglich, dass externe Entwickler und Agenturen für und mit diesem Produkt arbeiten, sondern auch die Qualität und zukünftige Lösungen sowie Features bestmöglich integriert und gewartet werden können. Wir erhoffen uns dadurch eine stetig wachsende Community für Contao sowie dem EstateManager.
 
 ### Spezifikationen
 
-Die Entwicklung wurde unter Berücksichtigung des OpenImmo Standards durchgeführt.
+Die Entwicklung wurde unter Berücksichtigung des OpenImmo-Standards durchgeführt.
 
 ### Warum Contao?
 

@@ -8,21 +8,21 @@ description: >-
 
 ### Listen & Darstellung
 
-\*\*\*\*🔹`Standard-Sortierung`
+\*\*\*\*🔹`Standard Sortierung`
 
-_Definiert anhand welchen Feldes die Sortierung von Listen ausgegeben wird._
+_Definiert das Feld, welche für die standardmäßige Sortierung der Immobilien in Listen berücksichtigt werden soll._
 
 🔹`Anzeigedauer des "Neu" Status-Token`
 
-_Definiert wie lange eine Immobilie als "Neu" eingestuft werden soll._
+_Definiert wie lange eine Immobilie als "Neu" eingestuft und der entsprechende Status-Token ausgegeben wird._
 
-🔹`Max. Anzahl der Main-Details`
+🔹`Max. Anzahl der primären Details`
 
-_Definiert die maximale Anzahl der Main-Details einer Immobilie in Listen, welche in den_ [_Objekttypen_ ](objekttypen.md)_definiert werden._
+_Definiert die maximale Anzahl der primären Details einer Immobilie in Listen, welche in den_ [_Objekttypen_ ](objekttypen.md)_definiert werden._
 
-🔹`Max. Anzahl der Main-Attribute`
+🔹`Max. Anzahl der primären Attribute`
 
-_Definiert die maximale Anzahl der Main-Attributes einer Immobilie in Listen, welche in den_ [_Objekttypen_ ](objekttypen.md)_definiert werden._
+_Definiert die maximale Anzahl der primären Attributes einer Immobilie in Listen, welche in den_ [_Objekttypen_ ](objekttypen.md)_definiert werden._
 
 🔹`Standard-Bild`
 
@@ -32,29 +32,29 @@ _Standard-Bild, welches ausgegeben wird, sofern eine Immobilie keine Bilder hat.
 
 🔹`Standard-Bild Kontaktperson`
 
-_Gender neutrales Bild für Kontaktpersonen_
+_Geschlechtsneutrales Platzhalter-Bild für Kontaktpersonen. Sofern eine Kontaktperson kein Bild und keine Anrede hinterlegt hat, wird das hier eingestellte Platzhalter-Bild verwendet._
 
 🔹`Standard-Bild Kontaktpersonen (weiblich)`
 
-_Bild für weibliche Kontaktpersonen_
+_Platzhalter-Bild für weibliche Kontaktpersonen._
 
 🔹`Standard-Bild Kontaktperson (männlich)`
 
-_Bild für männliche Kontaktpersonen_
+_Platzhalter-Bild für männliche Kontaktpersonen._
 
 ### Preis- / Flächenformatierung
 
 🔹`Dezimal-Trennzeichen`
 
-_Trennzeichen für Dezimalstellen für bspw. Preis- oder Flächenangaben_
+_Trennzeichen für Dezimalstellen in Preis- oder Flächenangaben._
 
 🔹`Tausender-Trennzeichen`
 
-_Tausendertrennzeichen für bspw. Preis- oder Flächenangaben_
+_Tausender-Trennzeichen für Preis- oder Flächenangaben._
 
 ### Filter
 
 🔹`Verfügbare Optionen: Zimmer`
 
-_Die zur Auswahl stehenden Zimmer \(Zahl\), welche im Filtern zur Verfügung stehen._
+_Die zur Auswahl stehenden Zimmer-Optionen \(Zahl\), welche im dafür vorgesehenen Filtern-Widget zur Verfügung stehen. Die Eingabe erfolgt dabei in einer mit Kommas getrennten Liste und erlaubt die Eingabe von Dezimal-Zahlen. \(Bspw. `1,1.5,2,2.5`\)_
 

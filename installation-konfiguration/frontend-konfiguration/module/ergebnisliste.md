@@ -1,6 +1,6 @@
 # Ergebnisliste
 
-Das `Ergebnislisten`-Modul liefert den Einstellungen entsprechend ein Liste von Immobilien unter Berücksichtigung eines [Filters](../../backend-konfiguration/filter.md) aus.
+Das `Ergebnislisten`-Modul liefert den Einstellungen entsprechend ein Liste von Immobilien unter Berücksichtigung eines [Filters](../../backend-konfiguration/filter/) aus.
 
 ### Einstellungen
 

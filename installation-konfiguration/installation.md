@@ -14,7 +14,7 @@ $ composer require contao-estatemanager/core
 {% endtab %}
 
 {% tab title="Contao-Manager" %}
-Über die Suche des Contao-Manager kann der Begriff `EstateManager` gesucht werden. Anschließen wählt man das Paket `Contao EstateManager Core` aus und installiert es anschließend. Eine detaillierte Anleitung wie man mit dem Contao-Manager arbeitet findest du [hier](https://docs.contao.org/manual/de/installation/erweiterungen-installieren/).
+Über die Suche des Contao-Manager kann der Begriff `EstateManager` gesucht werden. Anschließend wählt man das Paket `Contao EstateManager Core` aus und installiert es. Eine detaillierte Anleitung wie man mit dem Contao-Manager arbeitet findest du [hier](https://docs.contao.org/manual/de/installation/erweiterungen-installieren/).
 {% endtab %}
 
 {% tab title="GitHub" %}
@@ -28,7 +28,7 @@ Nach der Installation muss das [Contao-Installtool](https://docs.contao.org/manu
 
 ### Systemvoraussetzungen
 
-* [PHP](https://www.php.net/ChangeLog-7.php#PHP_7_1) `>=7.1`
+* [PHP](https://www.php.net/ChangeLog-7.php#PHP_7_1) `>=7.2`
 * [MySQL](https://www.mysql.com/de/) `>5.7` oder gleichwertiger [MariaDB](https://mariadb.org/) Server
 * [Contao](https://github.com/contao/contao) `^4.4`
 * [MultiColumnWizard](https://github.com/menatwork/contao-multicolumnwizard-bundle) `^3.3`
