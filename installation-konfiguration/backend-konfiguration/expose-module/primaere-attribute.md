@@ -10,7 +10,7 @@ Für jeden [Objekttypen](../objekttypen.md) können mehrere primäre Attribute d
 
 🔹`Gesamtzahl der Elemente`
 
-_Definiert die maximale Anzahl an primären Attributen_
+_Definiert die maximale Anzahl an primären Attributen unabhängig davon, was in den Einstellungen definiert wurde._
 
 ### Template
 

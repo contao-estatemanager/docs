@@ -10,7 +10,7 @@ Für jeden [Objekttypen](../objekttypen.md) können mehrere primäre Details def
 
 🔹`Gesamtzahl der Elemente`
 
-_Definiert die maximale Anzahl an primären Details_
+_Definiert die maximale Anzahl an primären Details unabhängig davon, was in den Einstellungen definiert wurde._
 
 ### Template
 

@@ -4,7 +4,7 @@ description: Exposé-Modul
 
 # Feldliste
 
-Das Exposé-Modul `Feldliste` ermöglicht die Ausgabe einer Liste von selbst definierten Feldern. Dabei stehen alle in der Datenbank eingerichteten Felder zur Verfügung.
+Das Exposé-Modul `Feldliste` ermöglicht die Ausgabe einer Liste von selbst definierten Feldern. Dabei stehen alle Datenbankfelder zur Verfügung.
 
 ### Einstellungen
 

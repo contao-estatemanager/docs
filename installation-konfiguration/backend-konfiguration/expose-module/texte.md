@@ -4,7 +4,7 @@ description: Exposé-Modul
 
 # Texte
 
-Das Exposé-Modul `Texte` liefert die in der Immobilie vorhandenen Texte aus. Folgende Text-Blöcke stehen dabei zur Verfügung:
+Das Exposé-Modul `Texte` liefert die in der Immobilie vorhandenen Beschreibungstexte aus. Folgende Text-Blöcke stehen dabei zur Verfügung:
 
 * Beschreibung
 * Ausstattung
