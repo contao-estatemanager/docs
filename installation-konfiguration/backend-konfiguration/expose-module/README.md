@@ -8,7 +8,7 @@ Exposé-Module deklarieren einzelne Bereiche eines Exposés, welche anschließen
 * [Adresse](adresse.md)
 * [Galerie](galerie.md)
 * [Primäre Details](primaere-details.md)
-* [Primäre Attributes](primaere-attribute.md)
+* [Primäre Attribute](primaere-attribute.md)
 * [Primärer Preis](primaerer-preis.md)
 * [Primäre Fläche](primaere-flaeche.md)
 * [Status-Token](status-token.md)
@@ -19,15 +19,16 @@ Exposé-Module deklarieren einzelne Bereiche eines Exposés, welche anschließen
 * [Anfrageformular](anfrageformular.md)
 * [Teilen](teilen.md)
 * [Drucken](drucken.md)
+* [Anhänge](anhaenge.md)
 * [Eigener HTML-Code](eigener-html-code.md)
 
 {% hint style="info" %}
-Exposé-Module und dessen Einstellungen können durch verschiedene [Erweiterungen](../../../erweiterungen/erweiterungen/) um neue Felder ergänzt werden. Die hier dokumentierten Exposé-Module beinhaltet ausschließlich die vom EstateManager \(Core\) gelieferten Einstellungsmöglichkeiten. Felder, welche durch Erweiterungen hinzugefügt wurden, können direkt in der Dokumentation der dafür verantwortlichen Erweiterung eingesehen werden.
+Exposé-Module und dessen Einstellungen können durch verschiedene [Erweiterungen](../../../erweiterungen/erweiterungen/) um neue Module und Felder ergänzt werden. Die hier dokumentierten Exposé-Module beinhaltet ausschließlich die vom EstateManager \(Core\) gelieferten Einstellungsmöglichkeiten. Felder oder Module, welche durch Erweiterungen hinzugefügt wurden, können direkt in der Dokumentation der dafür verantwortlichen Erweiterung eingesehen werden.
 {% endhint %}
 
 ### Weitere Exposé-Module
 
-Durch verschiedene Erweiterungen können weitere Exposé-Module zur Verfügung gestellt werden.
+Durch verschiedene Erweiterungen können weitere Exposé-Module, oder Ergänzungen der bereits bestehenden, zur Verfügung gestellt werden.
 
 {% page-ref page="../../../erweiterungen/erweiterungen/" %}
 

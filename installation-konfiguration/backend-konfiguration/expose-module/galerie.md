@@ -4,7 +4,7 @@ description: Exposé-Modul
 
 # Galerie
 
-Das `Galerie` Exposé-Modul liefert die Bilder einer Immobilie unter Berücksichtigung der gewählten Galerie-Kategorien aus. Dabei stehen folgende Kategorien zur Verfügung:
+Das `Galerie` Exposé-Modul liefert die Bilder einer Immobilie unter Berücksichtigung der gewählten Galerie-Kategorien aus. Dabei stehen folgende Kategorien im Standard zur Verfügung:
 
 * Titelbild
 * Bilder
@@ -21,7 +21,7 @@ Das `Galerie` Exposé-Modul liefert die Bilder einer Immobilie unter Berücksich
 
 🔹`Galerie-Kategorien`
 
-_Eine Immobilien beinhaltet verschiedene Kategorien von Bildern wie bspw. `Titelbild`, `Bilder` oder `Grundrisse`. Hier können die Kategorien sowie die Reihenfolge der Ausgabe ausgewählt werden._
+_Hier können die Kategorien, welche ausgegeben werden dürfen, sowie die Reihenfolge definiert werden._
 
 🔹`Gesamtzahl der Elemente`
 
@@ -29,11 +29,11 @@ _Definiert die maximale Anzahl an Elementen / Bildern._
 
 🔹`Großansicht/Neues Fenster`
 
-_Großansicht des Bildes in einer Lightbox bzw. den Link in einem neuem Browserfenster öffnen._
+_Großansicht des Bildes in einer "Lightbox" bzw. den Link in einem neuem Browserfenster öffnen. Die Initialisierung einer "Lightbox" muss dabei eigenständig eingerichtet werden._
 
 🔹`Ausblenden wenn keine Inhalte angezeigt werden können`
 
-Verhinder die Ausgabe des Exposé-Moduls, sofern keine Elemente / Bilder in den gewählten Kategorien gefunden wurden. Andernfalls wird immer das in den [Einstellungen](../einstellungen.md) hinterlegte Standard-Bild ausgegeben.
+Verhindert die Ausgabe des Exposé-Moduls, sofern keine Elemente / Bilder in den gewählten Kategorien gefunden wurden. Andernfalls wird immer das in den [Einstellungen](../einstellungen.md) hinterlegte Standard-Bild ausgegeben.
 
 ### Templates
 
@@ -42,6 +42,6 @@ Verhinder die Ausgabe des Exposé-Moduls, sofern keine Elemente / Bilder in den 
 🔸`expose_mod_gallery_items`
 
 {% hint style="success" %}
-Auf diesem Exposé-Modul können beliebige JavaScript-Slider initialisiert werden um die Bilder, wie man es von vielen anderen Immobilien Webseiten kennt, als Bilder-Diashow o.ä. darstellen zu lassen.
+Auf diesem Exposé-Modul können beliebige JavaScript-Slider initialisiert werden um die Bilder, wie man es von vielen anderen Webseiten kennt, als Bilder-Diashow o.ä. darstellen zu lassen.
 {% endhint %}
 

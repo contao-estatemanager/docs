@@ -16,15 +16,15 @@ Das `Details` Exposé-Modul liefert alle möglichen Werte der Immobilie aus. Fol
 
 🔹`Detail-Kategorien`
 
-_Details-Kategorien definieren Unterteilungen von Immobilien-Eigenschaften wie `Flächen`, `Preise`, `Attribute`, `Details` und `Energieausweis`-Informationen. Über diese Einstellung können alle oder nur bestimmte dieser Kategorien ausgegeben werden. Die Reihenfolge der Ausgabe dieser Kategorien kann dabei ebenfalls definiert werden._
+_Detail-Kategorien definieren Unterteilungen von Immobilien-Eigenschaften wie `Flächen`, `Preise`, `Attribute`, `Details` und `Energieausweis`-Informationen. Über diese Einstellung können alle oder nur bestimmte dieser Kategorien ausgegeben werden. Die Reihenfolge der Ausgabe dieser Kategorien kann dabei ebenfalls definiert werden._
 
 🔹`Detail-Kategorien zusammenfassen`
 
-_Gruppiert alle Kategorien für die Ausgabe in einer Liste._
+_Gruppiert alle Kategorien für die Ausgabe in einer Liste. Andernfalls werden diese in einzelnen Blöcken \(je Kategorie\) ausgegeben._
 
 🔹`Immobilien-Adresse hinzufügen`
 
-_Fügt die Adresse der Immobilie zur Liste hinzu. Dabei wird Berücksichtigt ob die Adressfreigabe erlaubt ist._
+_Fügt die Adresse der Immobilie zur Liste hinzu. Dabei wird berücksichtigt, ob die Adressfreigabe erlaubt ist._
 
 🔹`Überschriften ausgeben`
 
