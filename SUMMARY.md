@@ -42,10 +42,9 @@
     * [Eigener HTML-Code](installation-konfiguration/backend-konfiguration/expose-module/eigener-html-code.md)
 * [Frontend-Konfiguration](installation-konfiguration/frontend-konfiguration/README.md)
   * [Module](installation-konfiguration/frontend-konfiguration/module/README.md)
-    * [Liste](installation-konfiguration/frontend-konfiguration/module/liste.md)
-    * [Ergebnisliste](installation-konfiguration/frontend-konfiguration/module/ergebnisliste.md)
-    * [Exposé](installation-konfiguration/frontend-konfiguration/module/expose.md)
-  * [Templates](installation-konfiguration/frontend-konfiguration/templates.md)
+    * [Immobilien-Liste](installation-konfiguration/frontend-konfiguration/module/liste.md)
+    * [Immobilien-Ergebnisliste](installation-konfiguration/frontend-konfiguration/module/ergebnisliste.md)
+    * [Immobilien-Exposé](installation-konfiguration/frontend-konfiguration/module/expose.md)
   * [Insert-Tags](installation-konfiguration/frontend-konfiguration/insert-tags.md)
 
 ## Erweiterungen
@@ -69,6 +68,11 @@
 
 ## Entwickler
 
+* [Templates anpassen](entwickler/templates-anpassen.md)
+* [PHP-Klassen](entwickler/php-klassen/README.md)
+  * [RealEstate](entwickler/php-klassen/realestate/README.md)
+    * [FormattedCollection](entwickler/php-klassen/realestate/formattedcollection.md)
+  * [RealEstateModulePreparation](entwickler/php-klassen/realestatemodulepreparation.md)
 * [Erweiterungen erstellen](entwickler/erweiterungen-erstellen/README.md)
   * [Erste Schritte](entwickler/erweiterungen-erstellen/erste-schritte.md)
   * [Lizenzsystem verwenden](entwickler/erweiterungen-erstellen/lizenzsystem-verwenden.md)

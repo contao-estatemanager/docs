@@ -1,4 +1,4 @@
-# Liste
+# Immobilien-Liste
 
 Das `Listen`-Modul liefert den Einstellungen entsprechend ein Liste von Immobilien aus.
 

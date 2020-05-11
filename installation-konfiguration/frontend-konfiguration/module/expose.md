@@ -1,4 +1,4 @@
-# Exposé
+# Immobilien-Exposé
 
 Das `Exposé` Modul ermöglicht die Zusammenfassung und Ausgabe der Exposé-Module um eine Immobilien im Detail zu präsentieren.
 

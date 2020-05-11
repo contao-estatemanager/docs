@@ -2,9 +2,9 @@
 
 ### Verfügbare Module
 
-* [Liste](liste.md)
-* [Ergebnisliste](ergebnisliste.md)
-* [Exposé](expose.md)
+* [Immobilien-Liste](liste.md)
+* [Immobilien-Ergebnisliste](ergebnisliste.md)
+* [Immobilien-Exposé](expose.md)
 
 ### Weitere Module
 
