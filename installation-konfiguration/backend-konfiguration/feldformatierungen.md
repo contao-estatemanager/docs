@@ -4,11 +4,11 @@ description: Formatierung und Ausgabe der Immobilienfelder
 
 # Feldformatierungen
 
-Um Immobilienfelder für die Ausgabe aufzubereiten bietet der EstateManager ein umfangreiches Werkzeug um beliebige Aktionen auf Felder und dessen Werte einer Immobilie anzuwenden.
+Um Immobilienfelder für die Ausgabe aufzubereiten bietet der EstateManager ein umfangreiches Werkzeug um beliebige Aktionen auf Felder und Werte einer Immobilie anzuwenden.
 
 ### Formatierung zurücksetzen
 
-Von Haus aus liefert der EstateManager bereits eine Vorkonfiguration von Feldern und dessen Aktionen aus, welche im ersten Schritt oder nach Fehlkonfiguration über den Button "Formatierung zurücksetzen" importiert / zurückgesetzt werden können.
+Von Haus aus liefert der EstateManager bereits eine Vorkonfiguration von Feldformatierungen und dessen Aktionen, welche im ersten Schritt oder nach Fehlkonfiguration über den Button "Formatierung zurücksetzen" importiert / zurückgesetzt werden können.
 
 {% hint style="warning" %}
 Bitte beachte, dass manuelle Änderungen nach dem zurücksetzen verworfen werden
@@ -36,7 +36,7 @@ Beispiel:
 
 🔹`Bedingung hinzufügen`
 
-_Ermöglicht die Definition einer oder mehrerer Bedingung. Beim hinzufügen mehrerer Bedingungen werden diese "UND"-Verknüpft abgearbeitet._
+_Ermöglicht die Definition einer oder mehrerer Bedingungen. Beim hinzufügen mehrerer Bedingungen werden diese "UND"-Verknüpft abgearbeitet._
 
 Beispiel:
 
@@ -44,12 +44,12 @@ Beispiel:
 
 ### Formataktionen
 
-Innerhalb eines Feldes können beliebig viele Aktionen für den Wert des Feldes konfiguriert werden. Diese werden dabei in der Reihenfolge abgearbeitet, wie sie in der Liste sortiert werden.
+Innerhalb eines Feldes können beliebig viele Aktionen für den Wert des Feldes konfiguriert werden. Diese werden dabei in der Reihenfolge abgearbeitet, wie sie in der Liste definiert werden.
 
 {% hint style="warning" %}
 **Logische Reihenfolge der Aktionen verwenden:**  
-Preis- oder Flächenangaben müssen vor dem Anhängen von Einheiten wie `€` oder `m²`   
-\(Aktion: `append`\) den eigentlichen Wert formatiert bekommen \(Aktion: `number_format`\).
+Preis- oder Flächenangaben müssen bspw. vor dem Anhängen von Einheiten wie `€` oder `m²`   
+\(Aktion: `append`\) den eigentlichen / noch unformatierten Wert formatiert bekommen \(Aktion: `number_format`\).
 
 _Falsch:_  
 1 append  
