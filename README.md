@@ -4,6 +4,8 @@ description: Open Source EstateManager for Contao CMS
 
 # Welcome
 
+![](.gitbook/assets/produktbild_estate-manager-core_github.jpg)
+
 Welcome to the documentation for Contao EstateManager \(hereafter EstateManager\), an open source project to build small to medium sized real estate websites, up to large real estate portals.
 
 **Languages:**
