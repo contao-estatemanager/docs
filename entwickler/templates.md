@@ -54,7 +54,9 @@ Das Immobilien-Objekt steht erst ab **Version 1.0** in Templates zur Verfügung.
 <a href="<?= $this->realEstate->generateExposeUrl() ?>">Details</a>
 ```
 
+Sofern eine Funktion ohne eigene Parameterübergabe aufgerufen wird, werden die im Modul hinterlegten Einstellungen übernommen. Sollten wir uns bspw. im Listen-Modul befinden und wie oben im Beispiel die Funktion `generateExposeUrl` ohne eigene Parameter aufrufen, wird automatisch die im Modul hinterlegte "Weiterleitungsseite" verwendet um die Exposé-URL zu generieren.
+
 {% hint style="info" %}
-Bitte beachte, dass Eigenschaften, welche über bereitgestellte Funktionen abgeholt werden, meist als [FormattedCollection](formattedcollection.md) zurückgeliefert werden.
+Bitte beachte, dass Eigenschaften, welche über bereitgestellte Funktionen abgeholt werden, meist als [FormattedCollection](formattedcollection.md) zurückgeliefert und somit durchlaufen werden müssen.
 {% endhint %}
 
