@@ -1,6 +1,6 @@
 # Immobilien-Liste
 
-Das `Listen`-Modul liefert den Einstellungen entsprechend ein Liste von Immobilien aus.
+Das `Immobilien-Liste`-Modul liefert den Einstellungen entsprechend ein Liste von Immobilien aus.
 
 ### Einstellungen
 

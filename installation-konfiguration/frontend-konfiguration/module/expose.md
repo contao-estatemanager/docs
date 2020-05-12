@@ -1,6 +1,6 @@
 # Immobilien-Exposé
 
-Das `Exposé` Modul ermöglicht die Zusammenfassung und Ausgabe der Exposé-Module um eine Immobilien im Detail zu präsentieren.
+Das `Immobilien-Exposé` Modul ermöglicht die Zusammenfassung und Ausgabe der Exposé-Module um eine Immobilien im Detail zu präsentieren.
 
 ### Einstellungen
 
@@ -14,7 +14,7 @@ _Erlaubt die Darstellung von Referenz-Immobilien in diesem Modul_
 
 ### Layoutbereiche
 
-Das `Exposé` Modul liefert eigene Layoutbereiche, welche über das Exposé-Module Feld befüllt werden können. Folgende Layoutbereiche stehen dabei zur Verfügung.
+Das `Immobilien-Exposé` Modul liefert eigene Layoutbereiche, welche über das Exposé-Module Feld befüllt werden können. Folgende Layoutbereiche stehen dabei zur Verfügung.
 
 1⃣ Kopfzeile   
 2 Über dem Inhaltsbereich  
