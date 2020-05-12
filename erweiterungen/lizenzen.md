@@ -8,10 +8,10 @@ Um eine Lizenz zu erwerben muss die gewünschte Erweiterung über den [Erweiteru
 
 ### Lizenzen aktivieren
 
-Gehe zunächst über die Contao-Hauptnavigation im Reiter "**Immobilien**" auf "**Verwaltung**". Hier findest du die Schaltfläche **"Lizenzen verwalten**". Sofern die Erweiterung installiert ist, erscheint in diesem Bereich nun ein Eingabefeld um die vorher erworbene Lizenz einzutragen. Nach einem Klick auf "**Speichern**" wird das Feld `grün`, `orange` oder `rot` markiert.
+Gehe zunächst über die Contao-Hauptnavigation im Reiter "**Immobilien**" auf "**Verwaltung**". Hier findest du die Schaltfläche **"Lizenzen verwalten**". Sofern die Erweiterung [installiert](installation.md) ist, erscheint in diesem Bereich nun ein Eingabefeld um die vorher erworbene Lizenz einzutragen. Nach einem Klick auf "**Speichern**" wird das Feld `grün`, `orange` oder `rot` markiert.
 
 * `grün`      =     Die Lizenz ist gültig
-* `orange`  =     Die Demo für die Erweiterung läuft bald ab
+* `orange`  =     Demo der Erweiterung läuft bald ab
 * `rot`        =     Lizenz ungültig / Demo abgelaufen
 
 ### Demozugang aktivieren
