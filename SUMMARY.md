@@ -68,11 +68,8 @@
 
 ## Entwickler
 
-* [Templates anpassen](entwickler/templates-anpassen.md)
-* [PHP-Klassen](entwickler/php-klassen/README.md)
-  * [RealEstate](entwickler/php-klassen/realestate/README.md)
-    * [FormattedCollection](entwickler/php-klassen/realestate/formattedcollection.md)
-  * [RealEstateModulePreparation](entwickler/php-klassen/realestatemodulepreparation.md)
+* [Templates](entwickler/templates/README.md)
+  * [FormattedCollection](entwickler/templates/formattedcollection.md)
 * [Erweiterungen erstellen](entwickler/erweiterungen-erstellen/README.md)
   * [Erste Schritte](entwickler/erweiterungen-erstellen/erste-schritte.md)
   * [Lizenzsystem verwenden](entwickler/erweiterungen-erstellen/lizenzsystem-verwenden.md)
