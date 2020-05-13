@@ -63,7 +63,7 @@
   * [Referenzen](erweiterungen/erweiterungen/referenzen.md)
   * [Standorte](erweiterungen/erweiterungen/standorte.md)
   * [Käufer- / Mieterfinder](erweiterungen/erweiterungen/kaeufer-mieterfinder.md)
-  * [WIB Importer](erweiterungen/erweiterungen/wib-importer.md)
+  * [WIB Import](erweiterungen/erweiterungen/wib-import.md)
   * [Exposé Social-Meta](erweiterungen/erweiterungen/expose-social-meta.md)
 
 ## Entwickler

@@ -56,5 +56,5 @@ _Tausender-Trennzeichen für Preis- oder Flächenangaben._
 
 🔹`Verfügbare Optionen: Zimmer`
 
-_Die zur Auswahl stehenden Zimmer-Optionen \(Zahl\), welche im dafür vorgesehenen Filter-Widget zur Verfügung stehen. Die Eingabe erfolgt dabei in einer mit Kommas getrennten Liste und erlaubt die Eingabe von Dezimal-Zahlen. \(Bspw. `1,1.5,2,2.5`\)_
+_Die zur Auswahl stehenden Zimmer-Optionen \(Zahl\), welche im dafür vorgesehenen Filter-Widget zur Verfügung stehen. Die Eingabe erfolgt dabei in einer mit Kommas getrennten Liste und unterstützt Gleitkommazahl. \(Bspw. `1,1.5,2,2.5`\)_
 
