@@ -13,7 +13,7 @@ Eine `FormattedCollection` bezeichnet also ein Paket von validierten Feldwerten 
 array(
     'value' // formatierter Wert
     'raw'   // unformatierter Wert
-    'label' // übersetztesr Bezeichner
+    'label' // übersetzter Bezeichner
     'key'   // Feldname (nicht übersetzt)
     'class' // individuelle CSS-Klasse
 );
