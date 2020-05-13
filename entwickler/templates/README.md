@@ -42,7 +42,7 @@ Das Immobilien-Objekt steht erst ab **Version 1.0** in Templates zur Verfügung.
 | mod\_realEstateList |  | ✖ |
 | mod\_realEstateResultList |  | ✖ |
 
-> 🏠 Das Immobilien-Objekt steht im Template zur Verfügung
+✅ _Das Immobilien-Objekt steht im Template zur Verfügung_
 
 ### Eigenschaften über das Immobilien-Objekt aus dem Template heraus abrufen
 
