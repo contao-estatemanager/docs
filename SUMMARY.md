@@ -68,8 +68,8 @@
 
 ## Entwickler
 
-* [Templates](entwickler/templates.md)
-* [FormattedCollection](entwickler/formattedcollection.md)
+* [Templates](entwickler/templates/README.md)
+  * [FormattedCollection](entwickler/templates/formattedcollection.md)
 * [Erweiterungen erstellen](entwickler/erweiterungen-erstellen/README.md)
   * [Erste Schritte](entwickler/erweiterungen-erstellen/erste-schritte.md)
   * [Lizenzsystem verwenden](entwickler/erweiterungen-erstellen/lizenzsystem-verwenden.md)
