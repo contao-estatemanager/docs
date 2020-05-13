@@ -70,12 +70,13 @@
 
 * [Templates](entwickler/templates/README.md)
   * [FormattedCollection](entwickler/templates/formattedcollection.md)
-* [Erweiterungen erstellen](entwickler/erweiterungen-erstellen/README.md)
-  * [Erste Schritte](entwickler/erweiterungen-erstellen/erste-schritte.md)
-  * [Lizenzsystem verwenden](entwickler/erweiterungen-erstellen/lizenzsystem-verwenden.md)
-  * [Erweiterung im Erweiterungskatalog anbieten](entwickler/erweiterungen-erstellen/erweiterung-im-erweiterungskatalog-anbieten.md)
+* [Erweiterung erstellen](entwickler/erweiterung-erstellen/README.md)
+  * [Erste Schritte](entwickler/erweiterung-erstellen/erste-schritte.md)
+  * [Lizenzsystem verwenden](entwickler/erweiterung-erstellen/lizenzsystem-verwenden.md)
+  * [Erweiterung im Erweiterungskatalog anbieten](entwickler/erweiterung-erstellen/erweiterung-im-erweiterungskatalog-anbieten.md)
 * [Hooks](entwickler/hooks/README.md)
   * [parseRealEstate](entwickler/hooks/parserealestate.md)
+* [API](entwickler/api.md)
 
 ## Allgemein
 

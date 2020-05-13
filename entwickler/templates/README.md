@@ -8,14 +8,16 @@ Das Immobilien-Objekt steht erst ab **Version 1.0** in Templates zur Verfügung.
 
 ### Template-Übersicht
 
-| Template-Präfix \(html5\) | Beschreibung | 🏠  |
+| Template-Präfix \(html5\) | Beschreibung |   |
 | :--- | :--- | ---: |
 | **real\_estate\_item\_\*** | Definiert die Darstellung pro Immobilie in Listen. | ✅ |
 | real\_estate\_item\_default |  | ✅ |
 | real\_estate\_item\_simple |  | ✅ |
+|  |  |  |
 | **real\_estate\_itemext\_\*** | Templates für die Ergänzung weiterer Bestandteile für die Darstellung pro Immobilie in Listen. | ✅ |
 | real\_estate\_itemext\_contact\_person\_default | Ausgabe der Kontaktperson pro Immobilie in Listen. | ✅ |
 | real\_estate\_itemext\_provider\_default | Ausgabe des Anbieters pro Immobilie in Listen. | ✅ |
+|  |  |  |
 | **expose\_mod\_\*** | Definiert die Ausgabe des Exposé-Moduls. | ✅ |
 | expose\_mod\_address |  | ✅ |
 | expose\_mod\_attachments |  | ✅ |
@@ -37,12 +39,14 @@ Das Immobilien-Objekt steht erst ab **Version 1.0** in Templates zur Verfügung.
 | expose\_mod\_statusToken |  | ✅ |
 | expose\_mod\_texts |  | ✅ |
 | expose\_mod\_title |  | ✅ |
+|  |  |  |
 | **mod\_realEstate\*** | Modul-Templates | ✖  |
 | mod\_realEstateExpose |  | ✖ |
 | mod\_realEstateList |  | ✖ |
 | mod\_realEstateResultList |  | ✖ |
 
-✅ _Das Immobilien-Objekt steht im Template zur Verfügung_
+✅_Das Immobilien-Objekt steht im Template zur Verfügung_  
+✖_Das Immobilien-Objekt steht **nicht** im Template zur Verfügung_
 
 ### Eigenschaften über das Immobilien-Objekt aus dem Template heraus abrufen
 
