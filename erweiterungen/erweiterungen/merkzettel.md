@@ -18,7 +18,7 @@ $ composer require contao-estatemanager/watchlist
 {% endtab %}
 
 {% tab title="Contao-Manager" %}
-Über die Suche des Contao-Manager kann der Begriff `EstateManager` gesucht werden. Anschließen wählt man das Paket `Contao EstateManager Watchlist` aus und installiert es anschließend. Eine detaillierte Anleitung wie man mit dem Contao-Manager arbeitet findest du [hier](https://docs.contao.org/manual/de/installation/erweiterungen-installieren/).
+Über die Suche des Contao-Manager kann der Begriff `EstateManager` oder `watchlist` gesucht werden. Anschließen wählt man das Paket `Contao EstateManager Watchlist` über die Schaltfläche "_hinzufügen_" aus und klickt zum installieren über den Reiter "_Pakete_" auf die Schaltfläche "_Änderungen anwenden_". Eine detaillierte Anleitung wie man mit dem Contao-Manager arbeitet findest du [hier](https://docs.contao.org/manual/de/installation/erweiterungen-installieren/).
 {% endtab %}
 
 {% tab title="GitHub" %}
@@ -32,7 +32,7 @@ Nach der Installation muss das [Contao-Installtool](https://docs.contao.org/manu
 
 ### Module
 
-Hier finden Sie eine Übersicht neuer, sowie erweiterte Module.
+Hier finden Sie eine Übersicht neuer \(🟢\), sowie erweiterte \(🔵\) Module.
 
 {% tabs %}
 {% tab title="🟢 Merkzettel Weiterleitung" %}
@@ -134,14 +134,14 @@ document.addEventListener('watchlist.onChange', function(e){
 ```
 
 {% hint style="warning" %}
-Um Immobilien asynchron aus einer Liste zu entfernen, ist es derzeit noch zwingend notwendig, dieser oder einem darüber liegenden Element die CSS-Klasse **`delete-list`** zu geben.
+Um Immobilien asynchron aus einer Liste zu _entfernen_, ist es derzeit noch notwendig, dieser oder einem darüber liegenden Element die CSS-Klasse **`delete-list`** zu geben.
 {% endhint %}
 {% endtab %}
 {% endtabs %}
 
 ### Lizenz
 
-Für diese Erweiterung ist eine Lizenz erforderlich. Zum Erwerb einer Lizenz folge bitte den Schritten unter [Lizenzen](../lizenzen.md).
+Für diese Erweiterung ist eine Lizenz erforderlich. Zum Erwerb einer Lizenz, folge bitte den Schritten unter [Lizenzen](../lizenzen.md).
 
 
 
