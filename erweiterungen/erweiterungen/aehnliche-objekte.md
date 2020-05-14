@@ -32,7 +32,7 @@ Nach der Installation muss das [Contao-Installtool](https://docs.contao.org/manu
 
 ### Exposé-Module
 
-Hier finden Sie eine Übersicht neuer Exposé-Module.
+Hier finden Sie eine Übersicht neuer \(🟢\) und erweiterte \(🔵\) Exposé-Module.
 
 {% tabs %}
 {% tab title="🟢 Ähnliche Objekte" %}

@@ -88,7 +88,7 @@ _Das Template muss über das Feld `Immobilien Template Erweiterung: Merkzettel`i
 
 ### Exposé-Module
 
-Hier finden Sie eine Übersicht neuer Exposé-Module.
+Hier finden Sie eine Übersicht neuer \(🟢\) und erweiterte \(🔵\) Exposé-Module.
 
 {% tabs %}
 {% tab title="🟢 Merkzettel" %}
