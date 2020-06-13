@@ -129,7 +129,7 @@ Bitte beachte das mitgelieferte JavaScript-Template für die Verwendung von Vors
 
 ### Status-Token
 
-Die Liste von vorhandenen Status-Token wird um den `Virtuellen-Rundgang` ergänzt und steht anschließend in Listen oder Ergebnislisten zur Verfügung.
+Die Liste von vorhandenen Status-Token wird um den `Virtuellen-Rundgang` Status-Token ergänzt und steht anschließend überall dort zur Verfügung, wo Status-Token ausgegeben werden können.
 
 ### JavaScript-Templates
 
