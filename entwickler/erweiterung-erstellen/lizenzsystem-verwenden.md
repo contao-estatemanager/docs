@@ -28,3 +28,24 @@ _Die Sammlung verschlüsselter und gültiger Lizenzen._
 
 Die Lizenzen werden `md5`-Verschlüsselt in der `AddonManager`-Klasse hinterlegt.
 
+### Erweiterung registrieren
+
+Damit die Erweiterung vom EstateManager entgegengenommen werden kann, muss diese unter `contao/config/config.php` wie folgt hinzugefügt werden:
+
+```php
+// Add extension to EstateManager
+$GLOBALS['TL_ESTATEMANAGER_ADDONS'][] = array('MeinNamespace\MeineErweiterung', 'AddonManager');
+```
+
+### Lizenz im Code prüfen
+
+Um DCA-Felder und Funktionen erst nach Verwendung einer gültigen Lizenz freizugeben, kann folgende Abfrage über die soeben angepasste `AddonManager`-Klasse durchgeführt werden:
+
+```php
+if(MeinNamespace\MeineErweiterung\AddonManager::valid()) {
+    // Add front end modules...
+}
+```
+
+
+
