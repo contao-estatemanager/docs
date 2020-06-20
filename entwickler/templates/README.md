@@ -56,7 +56,7 @@ Das Immobilien-Objekt steht erst ab **Version 1.0** in Templates zur Verfügung.
 {% endcode %}
 
 {% hint style="info" %}
-Bitte beachte, dass Eigenschaften, welche über bereitgestellte Funktionen abgeholt werden, meist als [FormattedCollection](formattedcollection.md) zurückgeliefert und somit bspw. durchlaufen werden müssen.
+Bitte beachte, dass Eigenschaften, welche über bereitgestellte Funktionen abgeholt werden, meist als [FormattedCollection](formattedcollection.md) zurückgeliefert und somit einen direkten Zugriff auf einen der zurückgelieferten Eigenschaften benötigt.
 {% endhint %}
 
 Der direkte Zugriff auf eine Eigenschaft liefert dabei immer den unformatierten Wert zurück. Um den formatierten Wert zu erhalten, muss die Eigenschaft über die `get` -Methode abgerufen werden.
