@@ -46,6 +46,7 @@
     * [Immobilien-Ergebnisliste](installation-konfiguration/frontend-konfiguration/module/ergebnisliste.md)
     * [Immobilien-Exposé](installation-konfiguration/frontend-konfiguration/module/expose.md)
   * [Insert-Tags](installation-konfiguration/frontend-konfiguration/insert-tags.md)
+* [Immobilie anlegen](installation-konfiguration/immobilie-anlegen.md)
 
 ## Erweiterungen
 
