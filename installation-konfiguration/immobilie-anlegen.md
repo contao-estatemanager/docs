@@ -1,2 +1,0 @@
-# Immobilie anlegen
-
