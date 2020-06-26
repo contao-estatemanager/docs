@@ -68,8 +68,10 @@
 
 ## Entwickler
 
-* [Templates](entwickler/templates/README.md)
-  * [FormattedCollection](entwickler/templates/formattedcollection.md)
+* [Immobilien-Eigenschaften](entwickler/immobilien-eigenschaften/README.md)
+  * [Immobilien-Objekt](entwickler/immobilien-eigenschaften/immobilien-objekt.md)
+  * [FormattedCollection](entwickler/immobilien-eigenschaften/formattedcollection.md)
+* [Templates](entwickler/templates.md)
 * [Erweiterung erstellen](entwickler/erweiterung-erstellen/README.md)
   * [Erste Schritte](entwickler/erweiterung-erstellen/erste-schritte.md)
   * [Lizenzsystem verwenden](entwickler/erweiterung-erstellen/lizenzsystem-verwenden.md)

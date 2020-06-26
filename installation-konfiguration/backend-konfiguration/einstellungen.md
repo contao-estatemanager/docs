@@ -8,7 +8,11 @@ description: >-
 
 ### Listen & Darstellung
 
-\*\*\*\*🔹`Standard Sortierung`
+\*\*\*\*🔹`E-Mail-Adresse des technische Administrators`
+
+_E-Mail-Adresse des technischen Administrators um über Fehler \(bspw. wenn eine Immobilie nicht importiert werden konnte\) informiert zu werden._
+
+🔹`Standard Sortierung`
 
 _Definiert das Feld, welche für die standardmäßige Sortierung der Immobilien in Listen berücksichtigt werden soll._
 
