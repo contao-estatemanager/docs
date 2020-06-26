@@ -4,7 +4,7 @@ description: Erweiterung erstellen
 
 # Lizenzsystem verwenden
 
-Um das Lizenzsystem des EstateManagers verwenden zu können, benötigen Sie die im [`skeleton-extension`](https://github.com/contao-estatemanager/skeleton-extension) mitgelieferte [`AddonManager`](https://github.com/contao-estatemanager/skeleton-extension/blob/master/src/Resources/contao/classes/AddonManager.php)-Klasse. Diese beinhaltet alle Lizenzen \(verschlüsselt\) und kommuniziert mit der Core-Erweiterung um die Gültigkeit einer Lizenz zu prüfen.
+Um das Lizenzsystem des EstateManagers verwenden zu können, wird die im [`skeleton-extension`](https://github.com/contao-estatemanager/skeleton-extension) mitgelieferte [`AddonManager`](https://github.com/contao-estatemanager/skeleton-extension/blob/master/src/Resources/contao/classes/AddonManager.php)-Klasse benötigt. Diese beinhaltet alle Lizenzen \(verschlüsselt\) und kommuniziert mit der Core-Erweiterung um die Gültigkeit einer Lizenz zu prüfen.
 
 {% hint style="info" %}
 Bitte beachte, dass wir eine Testmöglichkeit jeder Erweiterung voraussetzen. Somit können Erweiterungen, welche mit der `AddonManager`-Klasse aufgebaut werden, automatisch 2 Wochen kostenlos getestet werden.

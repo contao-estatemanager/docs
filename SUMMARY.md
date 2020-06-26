@@ -72,13 +72,13 @@
   * [Immobilien-Objekt](entwickler/immobilien-eigenschaften/immobilien-objekt.md)
   * [FormattedCollection](entwickler/immobilien-eigenschaften/formattedcollection.md)
 * [Templates](entwickler/templates.md)
+* [Hooks](entwickler/hooks/README.md)
+  * [parseRealEstate](entwickler/hooks/parserealestate.md)
+* [API](entwickler/api.md)
 * [Erweiterung erstellen](entwickler/erweiterung-erstellen/README.md)
   * [Erste Schritte](entwickler/erweiterung-erstellen/erste-schritte.md)
   * [Lizenzsystem verwenden](entwickler/erweiterung-erstellen/lizenzsystem-verwenden.md)
   * [Erweiterung im Erweiterungskatalog anbieten](entwickler/erweiterung-erstellen/erweiterung-im-erweiterungskatalog-anbieten.md)
-* [Hooks](entwickler/hooks/README.md)
-  * [parseRealEstate](entwickler/hooks/parserealestate.md)
-* [API](entwickler/api.md)
 
 ## Allgemein
 
