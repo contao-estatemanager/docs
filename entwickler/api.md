@@ -106,7 +106,7 @@ Die abzurufenden Kontaktperson-Felder.
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-/api/estatemanager/v1/contactpersons?fields\[\]=vorname&fields\[\]=name
+`/api/estatemanager/v1/contactpersons?fields[]=vorname&fields[]=name`
 {% endapi-method-response-example-description %}
 
 ```javascript
