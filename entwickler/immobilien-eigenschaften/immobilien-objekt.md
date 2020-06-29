@@ -28,7 +28,7 @@
 | `getMainAttributes(<int> $max = null): array` |
 | `getTexts(<array> $validTexts = null, <int> $maxTextLength = 0): array|null` |
 | `getProvider(): ProviderModel` |
-| `getContactPerson(<bool> $forceCompleteAddress = false,< bool> $useProviderForwarding = false): aray|null` |
+| `getContactPerson(<bool> $forceCompleteAddress = false, <bool> $useProviderForwarding = false): aray|null` |
 | `generateMainImage(<array|string> $imgSize): string` |
 | `generateGallery(<array|string> $imgSize, <array> $arrFields = null, <int> $max = null): array` |
 
