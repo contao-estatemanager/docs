@@ -20,7 +20,23 @@ $ composer require contao-estatemanager/core
 {% tab title="GitHub" %}
 Installation direkt über GitHub:
 
-[https://github.com/contao-estatemanager/core](https://github.com/contao-estatemanager/core)
+{% embed url="https://github.com/contao-estatemanager/core" %}
+
+Manuelle Integration in der `composer.json`:
+
+```text
+...
+"repositories": [
+    {
+        "type": "git",
+        "url": "https://github.com/contao-estatemanager/core.git"
+    }
+],
+"require": {
+    "contao-estatemanager/core": "^1.0"
+}
+...
+```
 {% endtab %}
 {% endtabs %}
 
