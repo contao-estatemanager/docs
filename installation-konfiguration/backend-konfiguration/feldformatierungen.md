@@ -100,7 +100,7 @@ _Wandelt Werte mit "0" oder "1" in "Nein" oder "Ja" um._
 
 🔸`custom`
 
-_Verwendung einer eigenen Funktion. Eigene Funktionen müssen dabei als Template mit dem Prefix "re\_ac\_" angelegt werden._
+_Verwendung einer eigenen Funktion. Eigene Funktionen müssen dabei als Template mit dem Präfix "re\_ac\_" angelegt werden._
 
 Beispiel:
 
