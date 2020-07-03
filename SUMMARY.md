@@ -78,7 +78,6 @@
 * [Erweiterung erstellen](entwickler/erweiterung-erstellen/README.md)
   * [Erste Schritte](entwickler/erweiterung-erstellen/erste-schritte.md)
   * [Lizenzsystem verwenden](entwickler/erweiterung-erstellen/lizenzsystem-verwenden.md)
-  * [Erweiterung im Erweiterungskatalog anbieten](entwickler/erweiterung-erstellen/erweiterung-im-erweiterungskatalog-anbieten.md)
 
 ## Allgemein
 
