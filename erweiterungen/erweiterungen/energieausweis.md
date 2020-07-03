@@ -2,9 +2,9 @@
 description: Contao EstateManager Erweiterung
 ---
 
-# Energieausweis
+# Energieskala
 
-![](../../.gitbook/assets/produktbild_energiepass_github.jpg)
+![](../../.gitbook/assets/produktbild_energiepass_github%20%281%29.jpg)
 
 Die `Energieskala` Erweiterung integriert eine visuelle Ansicht \(Skala\) des Energieverbrauchs der Immobilie.
 

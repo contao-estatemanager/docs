@@ -54,7 +54,7 @@
 * [Erweiterungen](erweiterungen/erweiterungen/README.md)
   * [Merkzettel](erweiterungen/erweiterungen/merkzettel.md)
   * [Ähnliche Objekte](erweiterungen/erweiterungen/aehnliche-objekte.md)
-  * [Energieausweis](erweiterungen/erweiterungen/energieausweis.md)
+  * [Energieskala](erweiterungen/erweiterungen/energieausweis.md)
   * [Virtuelle Tour](erweiterungen/erweiterungen/virtuelle-tour.md)
   * [Video](erweiterungen/erweiterungen/video.md)
   * [Google Maps](erweiterungen/erweiterungen/google-maps.md)
