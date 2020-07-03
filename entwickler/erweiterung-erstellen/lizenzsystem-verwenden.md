@@ -14,7 +14,7 @@ Bitte beachte, dass wir eine Testmöglichkeit jeder Erweiterung voraussetzen. So
 
 🔹`$bundle`
 
-_Der Name des Bundles, auf dem die Erweiterung registriert wurde._ 
+_Der Name des Bundle, auf dem die Erweiterung registriert wurde._ 
 
 🔹`$package`
 
