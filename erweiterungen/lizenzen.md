@@ -4,7 +4,7 @@ Für die Verwendung einiger Erweiterungen wird eine Lizenz benötigt. Wie du Liz
 
 ### Lizenz erwerben
 
-Um eine Lizenz zu erwerben muss die gewünschte Erweiterung über den [Erweiterungskatalog](https://www.contao-estatemanager.com/de/store.html) bestellt werden. Über die [Kundeninfo-Seite](https://www.contao-estatemanager.com/de/Kundeninfo.html) der [Homepage](https://www.contao-estatemanager.com/) des EstateManagers erfährst du weitere Details zum Bestellprozess.
+Um eine Lizenz zu erwerben, muss die gewünschte Erweiterung über den [Erweiterungskatalog](https://www.contao-estatemanager.com/de/store.html) bestellt werden. Über die [Kundeninfo-Seite](https://www.contao-estatemanager.com/de/Kundeninfo.html) der [Homepage](https://www.contao-estatemanager.com/) des EstateManagers erfährst du weitere Details zum Bestellprozess.
 
 ### Lizenzen aktivieren
 
