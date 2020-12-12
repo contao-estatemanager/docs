@@ -26,7 +26,7 @@ _Der Feldname des Input-Feldes \(Bspw._ `addon_meine_erweiterung_license`\)_._
 
 🔹`<array> $liceses`
 
-_Die Sammlung verschlüsselter sowie gültiger Lizenzen._
+_Sammlung verschlüsselter sowie gültiger Lizenzen._
 
 ### Verschlüsselung
 
@@ -50,6 +50,8 @@ if(MeinNamespace\MeineErweiterung\AddonManager::valid()) {
     // Add front end modules...
 }
 ```
+
+Als Beispiel können bereits [verfügbare Erweiterungen](https://github.com/contao-estatemanager) herangezogen werden.
 
 ### Logo für die Lizenzverwaltung bereitstellen
 
