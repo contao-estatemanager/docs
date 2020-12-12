@@ -26,6 +26,10 @@ Das `Immobilien-Exposé` Modul liefert eigene Layoutbereiche, welche über das E
 
 ![Expos&#xE9;-Modul - Layoutbereiche](../../../.gitbook/assets/expose-layoutbereiche.jpg)
 
+{% hint style="info" %}
+Layoutbereiche bilden ausschließlich die Struktur der Ausgabe ab. Die Anordnung und dessen Darstellung müssen selber über CSS definiert werden.
+{% endhint %}
+
 ### Template
 
 🔸`mod_realEstateExpose`
