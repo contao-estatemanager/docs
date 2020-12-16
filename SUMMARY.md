@@ -58,6 +58,8 @@
   * [Virtuelle Tour](erweiterungen/erweiterungen/virtuelle-tour.md)
   * [Video](erweiterungen/erweiterungen/video.md)
   * [Google Maps](erweiterungen/erweiterungen/google-maps.md)
+  * [Google Autocomplete](erweiterungen/erweiterungen/google-autocomplete.md)
+  * [Google Geodata](erweiterungen/erweiterungen/google-geodata.md)
   * [Top-Objekte](erweiterungen/erweiterungen/top-objekte.md)
   * [Projekte](erweiterungen/erweiterungen/projekte.md)
   * [Referenzen](erweiterungen/erweiterungen/referenzen.md)
