@@ -160,5 +160,5 @@ document.addEventListener('virtualtour.onClickPreview', function(e){
 
 ### Lizenz
 
-Für diese Erweiterung ist eine Lizenz erforderlich. Zum Erwerb einer Lizenz, folge bitte den Schritten unter [Lizenzen](../lizenzen.md).
+Für diese Erweiterung ist eine Lizenz erforderlich. Zum Erwerb einer Lizenz folge bitte den Schritten unter [Lizenzen](../lizenzen.md).
 

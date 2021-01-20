@@ -6,7 +6,7 @@ description: Contao EstateManager Erweiterung
 
 ![](../../.gitbook/assets/produktbild_merkzettel_github.jpg)
 
-Die `Merkzettel` Erweiterung integriert die Möglichkeit sich als Besucher der Webseite einzelne Immobilien in einem ausschließlich für den Besucher sichtbaren Merkzettel zu speichern. Diese werden dabei vorerst für die laufende Session beibehalten. Sofern es einen internen Bereich für Besucher gibt, können die auf dem Merkzettel gespeicherten Immobilien nach dem Login dauerhaft im `Mitglied` -Datensatz gespeichert werden, bis diese wieder manuell vom Besucher aus dem Merkzettel entfernt werden.
+Die `Merkzettel` Erweiterung integriert die Möglichkeit sich, als Besucher der Webseite einzelne Immobilien in einem ausschließlich für den Besucher sichtbaren Merkzettel zu speichern. Diese werden dabei vorerst für die laufende Session beibehalten. Sofern es einen internen Bereich für Besucher gibt, können die auf dem Merkzettel gespeicherten Immobilien nach dem Login dauerhaft im `Mitglied` - Datensatz gespeichert werden, bis diese wieder manuell vom Besucher aus dem Merkzettel entfernt werden.
 
 ### Installation
 
