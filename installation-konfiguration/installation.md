@@ -55,3 +55,5 @@ Sofern der EstateManager über Composer oder dem Contao Manager installiert wird
 Bitte überprüfe ebenfalls die [Systemvoraussetzungen](https://docs.contao.org/manual/de/installation/systemvoraussetzungen/) von Contao
 {% endhint %}
 
+
+
