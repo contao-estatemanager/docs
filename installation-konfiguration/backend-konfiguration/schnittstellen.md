@@ -76,11 +76,3 @@ _Hier kann angegeben werden, ob Immobiliendatensätze nicht importiert werden so
 
 _Einstellung, um neue Immobiliendatensätze nicht automatisch auf der Website zu veröffentlichen._
 
-\_\_
-
-\_\_
-
-\_\_
-
-\`\`
-

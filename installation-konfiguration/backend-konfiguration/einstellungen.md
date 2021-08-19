@@ -6,15 +6,17 @@ description: >-
 
 # Einstellungen
 
+### Globale Konfiguration
+
+\*\*\*\*🔹`E-Mail-Adresse des technischen Administrators`
+
+_E-Mail-Adresse des technischen Administrators wird verwendet, um über Fehler \(bspw. wenn eine Immobilie nicht importiert werden konnte\) informiert zu werden._
+
 ### Listen & Darstellung
-
-\*\*\*\*🔹`E-Mail-Adresse des technische Administrators`
-
-_E-Mail-Adresse des technischen Administrators um über Fehler \(bspw. wenn eine Immobilie nicht importiert werden konnte\) informiert zu werden._
 
 🔹`Standard Sortierung`
 
-_Definiert das Feld, welche für die standardmäßige Sortierung der Immobilien in Listen berücksichtigt werden soll._
+_Definiert die Standard-Sortierung der Immobilien in Listen._
 
 🔹`Anzeigedauer des "Neu" Status-Token`
 
@@ -22,15 +24,15 @@ _Definiert wie lange eine Immobilie als "Neu" eingestuft und der entsprechende S
 
 🔹`Max. Anzahl der primären Details`
 
-_Definiert die maximale Anzahl der primären Details einer Immobilie in Listen, welche in den_ [_Objekttypen_ ](objekttypen.md)_definiert werden._
+_Definiert die maximale Anzahl der primären Details einer Immobilie in Listen. Primäre Details können individuell für jeden_ [_Objekttypen_ ](objekttypen.md)_definiert werden._
 
 🔹`Max. Anzahl der primären Attribute`
 
-_Definiert die maximale Anzahl der primären Attributes einer Immobilie in Listen, welche in den_ [_Objekttypen_ ](objekttypen.md)_definiert werden._
+_Definiert die maximale Anzahl der primären Attribute einer Immobilie in Listen Primäre Attribute können ebenfalls individuell für jeden_ [_Objekttypen_ ](objekttypen.md)_definiert werden._
 
 🔹`Standard-Bild`
 
-_Standard-Bild, welches ausgegeben wird, sofern eine Immobilie keine Bilder hat._
+_Standard-Bild, welches ausgegeben wird, sofern eine Immobilie keine Bilder hinterlegt hat._
 
 ### Anbieter / Kontaktpersonen
 
