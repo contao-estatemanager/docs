@@ -64,7 +64,6 @@
   * [Projekte](erweiterungen/erweiterungen/projekte.md)
   * [Referenzen](erweiterungen/erweiterungen/referenzen.md)
   * [Standorte](erweiterungen/erweiterungen/standorte.md)
-  * [Käufer- / Mieterfinder](erweiterungen/erweiterungen/kaeufer-mieterfinder.md)
   * [WIB Import](erweiterungen/erweiterungen/wib-import.md)
   * [Exposé Social-Meta](erweiterungen/erweiterungen/expose-social-meta.md)
 
