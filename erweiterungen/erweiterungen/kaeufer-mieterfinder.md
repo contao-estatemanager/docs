@@ -41,7 +41,7 @@ Suchanfragen dienen als Grundlage des Käufer- / Mieterfinders und können über
 ![](../../.gitbook/assets/search-criteria-dia.jpg)
 
 {% hint style="info" %}
-Mit der Erweiterung [onOffice API Import](onoffice-api-import.md) können alle Bestandteile des Käufer- / Mieterfinders direkt aus onOffice importiert und aktuell gehalten werden.
+Mit der Erweiterung [onOffice API Import](onoffice-api-import.md) können alle benötigten Daten für den Käufer- / Mieterfinders direkt aus onOffice importiert und aktuell gehalten werden.
 {% endhint %}
 
 ### Konfiguration
@@ -152,7 +152,7 @@ Hier finden Sie eine Übersicht neuer \(🟢\) Module.
 
 {% tabs %}
 {% tab title="🟢 Käufer- / Mieterfinder" %}
-Gibt das Tool "Käufer- / Mieterfinder" aus.
+Gibt das Tool "Käufer- / Mieterfinder" anhand einer Konfiguration aus.
 
 **Einstellungen**
 
