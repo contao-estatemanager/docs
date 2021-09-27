@@ -14,6 +14,10 @@ Gehe zunächst über die Contao-Hauptnavigation im Reiter "**Immobilien**" auf "
 * `orange`  =     Demo der Erweiterung läuft bald ab
 * `rot`        =     Lizenz ungültig / Demo abgelaufen
 
+{% hint style="warning" %}
+Je nach Contao-Version muss nach der Eingabe der Lizenz anschließend das Installtool erneut aufgerufen werden.
+{% endhint %}
+
 ### Demozugang aktivieren
 
 Erweiterungen können einen Demozugang beinhalten \(abhängig vom Anbieter der Erweiterung\). Dieser ist nach der Aktivierung für 2 Wochen gültig. Um den Demozugang zu aktivieren, geben Sie in das entsprechende Lizenz-Feld der zu testenden Erweiterung das Wort "**DEMO**" ein und speichern Sie anschließend.

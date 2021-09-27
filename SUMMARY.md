@@ -56,6 +56,7 @@
   * [Ähnliche Objekte](erweiterungen/erweiterungen/aehnliche-objekte.md)
   * [Energieskala](erweiterungen/erweiterungen/energieausweis.md)
   * [Virtuelle Tour](erweiterungen/erweiterungen/virtuelle-tour.md)
+  * [Käufer- / Mieterfinder](erweiterungen/erweiterungen/kaeufer-mieterfinder.md)
   * [Video](erweiterungen/erweiterungen/video.md)
   * [Google Maps](erweiterungen/erweiterungen/google-maps.md)
   * [Google Autocomplete](erweiterungen/erweiterungen/google-autocomplete.md)
@@ -66,6 +67,7 @@
   * [Standorte](erweiterungen/erweiterungen/standorte.md)
   * [WIB Import](erweiterungen/erweiterungen/wib-import.md)
   * [Exposé Social-Meta](erweiterungen/erweiterungen/expose-social-meta.md)
+  * [onOffice API Import](erweiterungen/erweiterungen/onoffice-api-import.md)
 
 ## Entwickler
 
