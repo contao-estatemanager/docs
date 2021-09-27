@@ -8,8 +8,8 @@ description: Contao EstateManager Erweiterung
 
 Die `Käufer- / Mieterfinder` Erweiterung liefert ein Tool, welches Verkäufern / Immobilienbesitzern anhand der eigenen Immobilien-Eckdaten ermöglicht, passende Interessenten zu finden. Dabei können bis zu drei Bereiche ausgegeben und kombiniert werden. 
 
-1. **Ermittlung der Immobilien-Eckdaten \(Filter\)** _Ermöglicht die Filterung der Interessenten anhand eigener Immobilien-Eckdaten_
-2. **Anzeige der gefundenen Interessenten \(Liste\)** _Zeigt anonyme Daten der Interessenten wie Anzahl der Zimmer oder Preisvorstellungen._
+1. **Ermittlung der Immobilien-Eckdaten \(Filter\)** _Ermöglicht die Filterung der Interessenten anhand eigener Immobilien-Eckdaten_ 
+2. **Anzeige der gefundenen Interessenten \(Liste\)** _Zeigt anonyme Daten der Interessenten wie Anzahl der Zimmer oder Preisvorstellungen._ 
 3. **Kontaktaufnahme \(Formular\)** Beliebiges Formular, welches über den von Contao mitgelieferten Formulargenerator angelegt werden kann.
 
 {% hint style="warning" %}
