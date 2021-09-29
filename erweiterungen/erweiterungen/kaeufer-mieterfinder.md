@@ -38,7 +38,7 @@ Nach der Installation muss das [Contao-Installtool](https://docs.contao.org/manu
 
 Suchanfragen dienen als Grundlage des Käufer- / Mieterfinders und können über verschiedene Wege in das System überführt werden.
 
-![](../../.gitbook/assets/search-criteria-dia.jpg)
+![](../../.gitbook/assets/grafik-onoffice-import.svg)
 
 {% hint style="info" %}
 Mit der Erweiterung [onOffice API Import](onoffice-api-import.md) können alle benötigten Daten für den Käufer- / Mieterfinders direkt aus onOffice importiert und aktuell gehalten werden.
