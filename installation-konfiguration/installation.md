@@ -44,7 +44,7 @@ Nach der Installation muss das [Contao-Installtool](https://docs.contao.org/manu
 
 ### Systemvoraussetzungen
 
-* [PHP](https://www.php.net/ChangeLog-7.php#PHP_7_1) `>=7.2`
+* [PHP](https://www.php.net/ChangeLog-7.php#PHP_7_1) `>=7.4`
 * [MySQL](https://www.mysql.com/de/) `>5.7` oder gleichwertiger [MariaDB](https://mariadb.org/) Server
 * [Contao](https://github.com/contao/contao) `^4.4`
 * [MultiColumnWizard](https://github.com/menatwork/contao-multicolumnwizard-bundle) `^3.3`
