@@ -1,127 +1,127 @@
 # API
 
-{% api-method method="get" host="https://domain.com" path="/api/estatemanager/v1/estates/:id" %}
-{% api-method-summary %}
- Immobilien
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://domain.com" path="/api/estatemanager/v1/estates/:id" method="get" summary=" Immobilien" %}
+{% swagger-description %}
 Abrufen einer oder mehrerer Immobilien.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="id" type="integer" %}
+{% swagger-parameter in="path" name="id" type="integer" %}
 ID der abzurufenden Immobilie
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
+{% endswagger-parameter %}
 
-{% api-method-query-parameters %}
-{% api-method-parameter name="moduleID" type="integer" required=false %}
-Modul-ID \(`required` für das verwenden eines Filters sowie eines Templates mit Immobilien-Objekt\)
-{% endapi-method-parameter %}
+{% swagger-parameter in="query" name="moduleID" type="integer" %}
+Modul-ID (
 
-{% api-method-parameter name="pageId" type="integer" required=false %}
-Seiten-ID \(`required` für das verwenden eines Filters\)
-{% endapi-method-parameter %}
+`required`
 
-{% api-method-parameter name="template" type="string" required=false %}
-Name des Fronend-Templates \(Bspw. `real_estate_item_default`\).
-{% endapi-method-parameter %}
+ für das verwenden eines Filters sowie eines Templates mit Immobilien-Objekt)
+{% endswagger-parameter %}
 
-{% api-method-parameter name="dataType" type="string" required=false %}
-`json, geojson` Default: `json`
-{% endapi-method-parameter %}
+{% swagger-parameter in="query" name="pageId" type="integer" %}
+Seiten-ID (
 
-{% api-method-parameter name="fields" type="array" required=false %}
+`required`
+
+ für das verwenden eines Filters)
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="template" type="string" %}
+Name des Fronend-Templates (Bspw. 
+
+`real_estate_item_default`
+
+).
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="dataType" type="string" %}
+`json, geojson`
+
+ Default: 
+
+`json`
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="fields" type="array" %}
 Die abzurufenden Immobilien-Felder. 
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="groups" type="array" required=false %}
-Die abzurufenden Immobilien-Gruppen. \(`required` für das verwenden eines Filters\)
-{% endapi-method-parameter %}
+{% swagger-parameter in="query" name="groups" type="array" %}
+Die abzurufenden Immobilien-Gruppen. (
 
-{% api-method-parameter name="filter" type="boolean" %}
+`required`
+
+ für das verwenden eines Filters)
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="filter" type="boolean" %}
 Die Abfrage findet unter Berücksichtigung eines Filters statt.
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="filterMode" type="boolean" %}
-Sofern ein Filter verwendet werden soll, kann hier der Filter-Modus definiert werden. \(`required` für das verwenden eines Filters\)
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
-{% endapi-method-request %}
+{% swagger-parameter in="query" name="filterMode" type="boolean" %}
+Sofern ein Filter verwendet werden soll, kann hier der Filter-Modus definiert werden. (
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-`/api/estatemanager/v1/estates/35`
-{% endapi-method-response-example-description %}
+`required`
 
+ für das verwenden eines Filters)
+{% endswagger-parameter %}
+
+{% swagger-response status="200" description="/api/estatemanager/v1/estates/35" %}
 ```javascript
 {
+  "status": "OK",
+  "meta": [
+    "total": 1,
+    "query": []
+  ],
   "results": [
     {
       "id": "35",
       "dateAdded": "1543328488",
       "dateChanged": "1572949938"
     }
-  ],
-  "status": "OK"
+  ]
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://domain.com" path="/api/estatemanager/v1/contactpersons/:id" %}
-{% api-method-summary %}
-Kontaktpersonen
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://domain.com" path="/api/estatemanager/v1/contactpersons/:id" method="get" summary="Kontaktpersonen" %}
+{% swagger-description %}
 Abrufen einer oder mehrerer Kontaktpersonen.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="id" type="string" required=false %}
+{% swagger-parameter in="path" name="id" type="string" %}
 ID der abzurufenden Kontaktperson
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
+{% endswagger-parameter %}
 
-{% api-method-query-parameters %}
-{% api-method-parameter name="imgSize" type="array" required=false %}
+{% swagger-parameter in="query" name="imgSize" type="array" %}
 Bildgröße des Kontaktpersonen-Fotos.
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="fields" type="array" required=false %}
+{% swagger-parameter in="query" name="fields" type="array" %}
 Die abzurufenden Kontaktperson-Felder.
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-`/api/estatemanager/v1/contactpersons?fields[]=vorname&fields[]=name`
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="/api/estatemanager/v1/contactpersons?fields[]=vorname&fields[]=name" %}
 ```javascript
 {
-  "results": {
-    "4": {
+  "status": "OK",
+  "meta": [
+    "total": 1,
+    "query": [
+      "fields": [
+        "vorname",
+        "name"
+      ]
+    ]
+  ],
+  "results": [
+    {
       "vorname": "Maria",
       "name": "Musterfrau"
     }
-  },
-  "status": "OK"
+  ]
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
+{% endswagger-response %}
+{% endswagger %}
