@@ -125,3 +125,7 @@ Die abzurufenden Kontaktperson-Felder.
 ```
 {% endswagger-response %}
 {% endswagger %}
+
+{% content-ref url="fehlerbehandlung.md" %}
+[fehlerbehandlung.md](fehlerbehandlung.md)
+{% endcontent-ref %}

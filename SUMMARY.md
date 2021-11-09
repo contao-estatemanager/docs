@@ -2,9 +2,9 @@
 
 * [Willkommen](README.md)
 * [Über das Projekt](ueber-das-projekt.md)
-* [Homepage](https://www.contao-estatemanager.com/)
+* [Homepage](https://www.contao-estatemanager.com)
 
-## Konfiguration & Einrichtung <a id="installation-konfiguration"></a>
+## Konfiguration & Einrichtung <a href="installation-konfiguration" id="installation-konfiguration"></a>
 
 * [Installation](installation-konfiguration/installation.md)
 * [Backend-Konfiguration](installation-konfiguration/backend-konfiguration/README.md)
@@ -17,7 +17,7 @@
       * [Land](installation-konfiguration/backend-konfiguration/filter/filter-widgets/land.md)
       * [Eindeutiges Feld / Objektnummer](installation-konfiguration/backend-konfiguration/filter/filter-widgets/eindeutiges-feld-objektnummer.md)
       * [Immobilien-Typ](installation-konfiguration/backend-konfiguration/filter/filter-widgets/immobilien-typ.md)
-      * [Immobilien-Typ \(separiert\)](installation-konfiguration/backend-konfiguration/filter/filter-widgets/immobilien-typ-separiert.md)
+      * [Immobilien-Typ (separiert)](installation-konfiguration/backend-konfiguration/filter/filter-widgets/immobilien-typ-separiert.md)
       * [Primäre Felder](installation-konfiguration/backend-konfiguration/filter/filter-widgets/primaere-felder.md)
       * [Zurücksetzen](installation-konfiguration/backend-konfiguration/filter/filter-widgets/zuruecksetzen.md)
   * [Feldformatierungen](installation-konfiguration/backend-konfiguration/feldformatierungen.md)
@@ -81,6 +81,7 @@
 * [Erweiterung erstellen](entwickler/erweiterung-erstellen/README.md)
   * [Erste Schritte](entwickler/erweiterung-erstellen/erste-schritte.md)
   * [Lizenzsystem verwenden](entwickler/erweiterung-erstellen/lizenzsystem-verwenden.md)
+* [Fehlerbehandlung](entwickler/fehlerbehandlung.md)
 
 ## Allgemein
 
@@ -88,4 +89,3 @@
 * [Erweiterungskatalog](https://www.contao-estatemanager.com/de/store.html)
 * [Fehler melden](https://github.com/contao-estatemanager/core/issues)
 * [Übersetzen helfen](https://www.transifex.com/oveleon/contao-estatemanager/)
-
