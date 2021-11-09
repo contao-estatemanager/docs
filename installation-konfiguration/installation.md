@@ -24,7 +24,7 @@ Installation direkt über GitHub:
 
 Manuelle Integration in der `composer.json`:
 
-```text
+```
 ...
 "repositories": [
     {
@@ -44,9 +44,9 @@ Nach der Installation muss das [Contao-Installtool](https://docs.contao.org/manu
 
 ### Systemvoraussetzungen
 
-* [PHP](https://www.php.net/ChangeLog-7.php#PHP_7_1) `>=7.4`
-* [MySQL](https://www.mysql.com/de/) `>5.7` oder gleichwertiger [MariaDB](https://mariadb.org/) Server
-* [Contao](https://github.com/contao/contao) `^4.4`
+* [PHP](https://www.php.net/ChangeLog-7.php#PHP\_7\_1) `>=7.4`
+* [MySQL](https://www.mysql.com/de/) `>5.7` oder gleichwertiger [MariaDB](https://mariadb.org) Server
+* [Contao](https://github.com/contao/contao)` ^4.4`
 * [MultiColumnWizard](https://github.com/menatwork/contao-multicolumnwizard-bundle) `^3.3`
 
 Sofern der EstateManager über Composer oder dem Contao Manager installiert wird, werden alle benötigten Abhängigkeiten mit installiert.
@@ -54,6 +54,4 @@ Sofern der EstateManager über Composer oder dem Contao Manager installiert wird
 {% hint style="info" %}
 Bitte überprüfe ebenfalls die [Systemvoraussetzungen](https://docs.contao.org/manual/de/installation/systemvoraussetzungen/) von Contao
 {% endhint %}
-
-
 

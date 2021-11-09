@@ -4,71 +4,70 @@ Das `Immobilien-Liste`-Modul liefert den Einstellungen entsprechend eine Liste v
 
 ### Einstellungen
 
-🔹`Gesamtanzahl der Beiträge`
+:small\_blue\_diamond:`Gesamtanzahl der Beiträge`
 
 _Hier können die auszugebenden Immobilien begrenzt werden._
 
-\_\_🔹`Elemente pro Seite`
+__:small\_blue\_diamond:`Elemente pro Seite`
 
 _Die Anzahl an Elementen pro Seite._
 
-🔹`Leere Listen ausgeben`
+:small\_blue\_diamond:`Leere Listen ausgeben`
 
 _Sollte für die aktuelle Konfiguration der Liste keine Immobilie gefunden werden, kann die Liste mit dieser Einstellung dennoch ausgegeben werden._
 
-🔹`Ausgabe-Modus`
+:small\_blue\_diamond:`Ausgabe-Modus`
 
 _Der Ausgabe-Modus bietet die Möglichkeit die Immobilien-Typen der Ausgabe wie bspw. `Bisher besuchte Immobilien`, eine `Immobilien-Gruppe` oder `Ferienimmobilien` zu definieren._
 
-🔹`Immobilien-Gruppen`
+:small\_blue\_diamond:`Immobilien-Gruppen`
 
 _Auswahl der anzuzeigenden Immobilien-Gruppen._
 
-🔹`Filter-Modus`
+:small\_blue\_diamond:`Filter-Modus`
 
 _Über den Filter-Modus kann die Liste auf einen bestimmten Typ an Immobilien begrenzt werden._
 
-🔹`Sortierreihenfolge`
+:small\_blue\_diamond:`Sortierreihenfolge`
 
 _Definiert die Reihenfolge wie die Immobilien ausgegeben werden. Bspw. nach `Einstellungsdatum` oder `Aktualität`._
 
-🔹_`Benutzerdefinierte Sortierung hinzufügen`_
+:small\_blue\_diamond:_`Benutzerdefinierte Sortierung hinzufügen`_
 
 _Ermöglicht die Ergänzung einer benutzerdefinierten Sortierung._
 
-🔹`Benutzerdefinierte Sortierung`
+:small\_blue\_diamond:`Benutzerdefinierte Sortierung`
 
-_Hier muss das Benutzerdefinierte SQL-Order-Statement eingetragen werden \(z.B. FIELD\(anbieternr, 'xyz'\)\). Bitte beachte, dass die zuvor über das Feld_ `Sortierreihenfolge` ausgewählte Eigenschaft immer mit Priorität behandelt wird.
+_Hier muss das Benutzerdefinierte SQL-Order-Statement eingetragen werden (z.B. FIELD(anbieternr, 'xyz')). Bitte beachte, dass die zuvor über das Feld _`Sortierreihenfolge` ausgewählte Eigenschaft immer mit Priorität behandelt wird.
 
-🔹`Weiterleitungsseite`
+:small\_blue\_diamond:`Weiterleitungsseite`
 
 _Die Seite auf welche bei Klick auf einer Immobilie weitergeleitet werden soll._
 
-🔹`Erlaubte Status-Token`
+:small\_blue\_diamond:`Erlaubte Status-Token`
 
 _Definiert die anzuzeigenden Status-Token in diesem Modul._
 
 ### Immobilien-Erweiterungen
 
-Immobilien-Erweiterungen ermöglichen bspw. die Ausgabe des `Anbieters` oder der zugewiesenen `Kontaktperson` pro Immobilie. Durch Erweiterungen kann dieser Bereich um weitere Funktionalitäten ergänzt werden \(s. bspw. [Merkzettel](../../../erweiterungen/erweiterungen/merkzettel.md)\).
+Immobilien-Erweiterungen ermöglichen bspw. die Ausgabe des `Anbieters` oder der zugewiesenen `Kontaktperson` pro Immobilie. Durch Erweiterungen kann dieser Bereich um weitere Funktionalitäten ergänzt werden (s. bspw. [Merkzettel](../../../erweiterungen/erweiterungen/merkzettel.md)).
 
 ### Templates
 
-🔸`mod_realEstateList`
+:small\_orange\_diamond:`mod_realEstateList`
 
 **Immobilien-Templates**
 
-🔸`real_estate_item_default`
+:small\_orange\_diamond:`real_estate_item_default`
 
-🔸`real_estate_item_simple`
+:small\_orange\_diamond:`real_estate_item_simple`
 
 #### Immobilien Template Erweiterung: Anbieter
 
-🔸`real_estate_itemext_provider_default`
+:small\_orange\_diamond:`real_estate_itemext_provider_default`
 
 #### Immobilien Template Erweiterung: Kontaktperson
 
-🔸`real_estate_itemext_contact_person_default`
+:small\_orange\_diamond:`real_estate_itemext_contact_person_default`
 
-\_\_
-
+__

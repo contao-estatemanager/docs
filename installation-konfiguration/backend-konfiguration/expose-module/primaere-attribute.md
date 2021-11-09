@@ -8,11 +8,10 @@ Für jeden [Objekttypen](../objekttypen.md) können mehrere primäre Attribute d
 
 ### Einstellungen
 
-🔹`Gesamtzahl der Elemente`
+:small\_blue\_diamond:`Gesamtzahl der Elemente`
 
 _Definiert die maximale Anzahl an primären Attributen unabhängig davon, was in den Einstellungen definiert wurde._
 
 ### Template
 
-🔸`expose_mod_mainAttributes`
-
+:small\_orange\_diamond:`expose_mod_mainAttributes`

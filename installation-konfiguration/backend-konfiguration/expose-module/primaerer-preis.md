@@ -8,7 +8,5 @@ Das Exposé-Modul `Primärer Preis` prüft und liefert den im [Objekttypen](../o
 
 ### Template
 
-🔸`expose_mod_mainPrice`
-
-
+:small\_orange\_diamond:`expose_mod_mainPrice`
 

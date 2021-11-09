@@ -8,7 +8,5 @@ Das Exposé-Modul `Primärer Fläche` prüft und liefert die im [Objekttypen](..
 
 ### Template
 
-🔸`expose_mod_mainArea`
-
-
+:small\_orange\_diamond:`expose_mod_mainArea`
 

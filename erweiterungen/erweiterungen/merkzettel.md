@@ -4,7 +4,7 @@ description: Contao EstateManager Erweiterung
 
 # Merkzettel
 
-![](../../.gitbook/assets/produktbild_merkzettel_github.jpg)
+![](../../.gitbook/assets/produktbild\_merkzettel\_github.jpg)
 
 Die `Merkzettel` Erweiterung integriert die Möglichkeit sich, als Besucher der Webseite einzelne Immobilien in einem ausschließlich für den Besucher sichtbaren Merkzettel zu speichern. Diese werden dabei vorerst für die laufende Session beibehalten. Sofern es einen internen Bereich für Besucher gibt, können die auf dem Merkzettel gespeicherten Immobilien nach dem Login dauerhaft im `Mitglied` - Datensatz gespeichert werden, bis diese wieder manuell vom Besucher aus dem Merkzettel entfernt werden.
 
@@ -28,29 +28,29 @@ Installation direkt über GitHub:
 {% endtab %}
 {% endtabs %}
 
-Nach der Installation muss das [Contao-Installtool](https://docs.contao.org/manual/de/installation/contao-installtool/) aufgerufen und die Datenbank aktualisiert werden. 
+Nach der Installation muss das [Contao-Installtool](https://docs.contao.org/manual/de/installation/contao-installtool/) aufgerufen und die Datenbank aktualisiert werden.&#x20;
 
 ### Module
 
-Hier finden Sie eine Übersicht neuer \(🟢\), sowie erweiterte \(🔵\) Module.
+Hier finden Sie eine Übersicht neuer (🟢), sowie erweiterte (🔵) Module.
 
 {% tabs %}
 {% tab title="🟢 Merkzettel Weiterleitung" %}
-Das Modul `Merkzettel Weiterleitung` dient dazu, eine Weiterleitung auf eine beliebige Seite einzurichten, auf der der Besucher seine gemerkten Immobilien sichten oder entfernen kann. 
+Das Modul `Merkzettel Weiterleitung` dient dazu, eine Weiterleitung auf eine beliebige Seite einzurichten, auf der der Besucher seine gemerkten Immobilien sichten oder entfernen kann.&#x20;
 
 **Einstellungen**
 
-🔹`Weiterleitungsseite`
+:small\_blue\_diamond:`Weiterleitungsseite`
 
 _Die zu Referenzierende Seite_
 
-🔹`Anzahl ausgeben`
+:small\_blue\_diamond:`Anzahl ausgeben`
 
 _Gibt die Anzahl der sich auf dem Merkzettel befindenden Immobilien aus_
 
 **Template**
 
-🔸`mod_watchlistRedirector`
+:small\_orange\_diamond:`mod_watchlistRedirector`
 {% endtab %}
 
 {% tab title="🔵 Liste" %}
@@ -58,13 +58,13 @@ Erweitert die [Liste](../../installation-konfiguration/frontend-konfiguration/mo
 
 **Einstellungen**
 
-🔹`Merkzettel hinzufügen`
+:small\_blue\_diamond:`Merkzettel hinzufügen`
 
 _Fügt für jeder Immobilie in der Liste die Merkzettel-Schaltfläche hinzu. Die neue Einstellung befindet sich in der Palette `Immobilien Erweiterung` ._
 
 **Template**
 
-🔸`real_estate_itemext_watchlist_default`
+:small\_orange\_diamond:`real_estate_itemext_watchlist_default`
 
 _Das Template muss über das Feld `Immobilien Template Erweiterung: Merkzettel`in der Palette `Templates-Einstellungen` ausgewählt werden._
 {% endtab %}
@@ -74,13 +74,13 @@ Erweitert die [Ergebnisliste](../../installation-konfiguration/frontend-konfigur
 
 **Einstellungen**
 
-🔹`Merkzettel hinzufügen`
+:small\_blue\_diamond:`Merkzettel hinzufügen`
 
 _Fügt für jeder Immobilie in der Liste die Merkzettel-Schaltfläche hinzu. Die neue Einstellung befindet sich in der Palette `Immobilien Erweiterung` ._
 
 **Template**
 
-🔸`real_estate_itemext_watchlist_default`
+:small\_orange\_diamond:`real_estate_itemext_watchlist_default`
 
 _Das Template muss über das Feld `Immobilien Template Erweiterung: Merkzettel`in der Palette `Templates-Einstellungen` ausgewählt werden._
 {% endtab %}
@@ -88,7 +88,7 @@ _Das Template muss über das Feld `Immobilien Template Erweiterung: Merkzettel`i
 
 ### Exposé-Module
 
-Hier finden Sie eine Übersicht neuer \(🟢\) und erweiterte \(🔵\) Exposé-Module.
+Hier finden Sie eine Übersicht neuer (🟢) und erweiterte (🔵) Exposé-Module.
 
 {% tabs %}
 {% tab title="🟢 Merkzettel" %}
@@ -96,7 +96,7 @@ Das Exposé-Modul `Merkzettel` ermöglicht die Ausgabe einer Schaltfläche, um d
 
 **Template**
 
-🔸`expose_mod_watchlist`
+:small\_orange\_diamond:`expose_mod_watchlist`
 {% endtab %}
 {% endtabs %}
 
@@ -110,7 +110,7 @@ Um die Seite bei Klick der oben gelieferten Merkzettel-Schaltfläche nicht neu l
 
 **Template**
 
-🔸`js_realestatewatchlist`
+:small\_orange\_diamond:`js_realestatewatchlist`
 
 **Events**
 
@@ -142,6 +142,4 @@ Um Immobilien asynchron aus einer Liste zu _entfernen_, ist es derzeit noch notw
 ### Lizenz
 
 Für diese Erweiterung ist eine Lizenz erforderlich. Zum Erwerb einer Lizenz, folge bitte den Schritten unter [Lizenzen](../lizenzen.md).
-
-
 

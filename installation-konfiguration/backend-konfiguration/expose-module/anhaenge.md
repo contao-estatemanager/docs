@@ -8,19 +8,18 @@ Das Exposé-Modul `Anhänge` ermöglicht den Download / die Weiterleitung von Im
 
 ### Einstellungen
 
-🔹`Anhang-Typ`
+:small\_blue\_diamond:`Anhang-Typ`
 
-_Definiert welche Anhänge einer Immobilie ausgegeben werden sollen. Dabei stehen die Optionen `Dokumente` und `Links` zur Verfügung._ 
+_Definiert welche Anhänge einer Immobilie ausgegeben werden sollen. Dabei stehen die Optionen `Dokumente` und `Links` zur Verfügung. _
 
-🔹`Erlaubte Dateiendungen`
+:small\_blue\_diamond:`Erlaubte Dateiendungen`
 
-_Ermöglicht die Einschränkung von Dateiendungen \(Anhang-Typ: `Dokumente`\). Dabei müssen die erlaubten Dateiendungen als Komma getrennte Liste angegeben werden._
+_Ermöglicht die Einschränkung von Dateiendungen (Anhang-Typ: `Dokumente`). Dabei müssen die erlaubten Dateiendungen als Komma getrennte Liste angegeben werden._
 
-🔹_`Download erzwingen`_
+:small\_blue\_diamond:_`Download erzwingen`_
 
-_Erzwingt den Download von Dokumenten \(Anhang-Typ: `Dokumente`\)._ 
+_Erzwingt den Download von Dokumenten (Anhang-Typ: `Dokumente`). _
 
 ### Template
 
-🔸`expose_mod_attachments`
-
+:small\_orange\_diamond:`expose_mod_attachments`

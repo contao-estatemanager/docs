@@ -8,42 +8,42 @@ Das [Immobilien-Objekt](immobilien-eigenschaften/immobilien-objekt.md) steht ers
 
 ### Template-Übersicht
 
-| Template-Präfix \(html5\) | Beschreibung |   |
-| :--- | :--- | ---: |
-| **real\_estate\_item\_\*** | Definiert die Darstellung pro Immobilie in Listen. | ✅ |
-| real\_estate\_item\_default |  | ✅ |
-| real\_estate\_item\_simple |  | ✅ |
-| **real\_estate\_itemext\_\*** | Templates für die Ergänzung weiterer Bestandteile für die Darstellung pro Immobilie in Listen. | ✅ |
-| real\_estate\_itemext\_contact\_person\_default | Ausgabe der Kontaktperson pro Immobilie in Listen. | ✅ |
-| real\_estate\_itemext\_provider\_default | Ausgabe des Anbieters pro Immobilie in Listen. | ✅ |
-| **expose\_mod\_\*** | Definiert die Ausgabe des Exposé-Moduls. | ✅ |
-| expose\_mod\_address |  | ✅ |
-| expose\_mod\_attachments |  | ✅ |
-| expose\_mod\_contactPerson |  | ✅ |
-| expose\_mod\_details |  | ✅ |
-| expose\_mod\_enquiryForm |  | ✅ |
-| expose\_mod\_fieldList |  | ✅ |
-| expose\_mod\_gallery |  | ✅ |
-| expose\_mod\_gallery\_items |  | ✅ |
-| expose\_mod\_html |  | ✅ |
-| expose\_mod\_mainArea |  | ✅ |
-| expose\_mod\_mainAttributes |  | ✅ |
-| expose\_mod\_mainDetails |  | ✅ |
-| expose\_mod\_mainPrice |  | ✅ |
-| expose\_mod\_marketingToken |  | ✅ |
-| expose\_mod\_print |  | ✅ |
-| expose\_mod\_share |  | ✅ |
-| expose\_mod\_share\_email |  | ✅ |
-| expose\_mod\_statusToken |  | ✅ |
-| expose\_mod\_texts |  | ✅ |
-| expose\_mod\_title |  | ✅ |
-| **mod\_realEstate\*** | Modul-Templates | ✖  |
-| mod\_realEstateExpose |  | ✖ |
-| mod\_realEstateList |  | ✖ |
-| mod\_realEstateResultList |  | ✖ |
+| Template-Präfix (html5)                         | Beschreibung                                                                                   |                             |
+| ----------------------------------------------- | ---------------------------------------------------------------------------------------------- | --------------------------: |
+| **real\_estate\_item\_\***                      | Definiert die Darstellung pro Immobilie in Listen.                                             |        :white\_check\_mark: |
+| real\_estate\_item\_default                     |                                                                                                |        :white\_check\_mark: |
+| real\_estate\_item\_simple                      |                                                                                                |        :white\_check\_mark: |
+| **real\_estate\_itemext\_\***                   | Templates für die Ergänzung weiterer Bestandteile für die Darstellung pro Immobilie in Listen. |        :white\_check\_mark: |
+| real\_estate\_itemext\_contact\_person\_default | Ausgabe der Kontaktperson pro Immobilie in Listen.                                             |        :white\_check\_mark: |
+| real\_estate\_itemext\_provider\_default        | Ausgabe des Anbieters pro Immobilie in Listen.                                                 |        :white\_check\_mark: |
+| **expose\_mod\_\***                             | Definiert die Ausgabe des Exposé-Moduls.                                                       |        :white\_check\_mark: |
+| expose\_mod\_address                            |                                                                                                |        :white\_check\_mark: |
+| expose\_mod\_attachments                        |                                                                                                |        :white\_check\_mark: |
+| expose\_mod\_contactPerson                      |                                                                                                |        :white\_check\_mark: |
+| expose\_mod\_details                            |                                                                                                |        :white\_check\_mark: |
+| expose\_mod\_enquiryForm                        |                                                                                                |        :white\_check\_mark: |
+| expose\_mod\_fieldList                          |                                                                                                |        :white\_check\_mark: |
+| expose\_mod\_gallery                            |                                                                                                |        :white\_check\_mark: |
+| expose\_mod\_gallery\_items                     |                                                                                                |        :white\_check\_mark: |
+| expose\_mod\_html                               |                                                                                                |        :white\_check\_mark: |
+| expose\_mod\_mainArea                           |                                                                                                |        :white\_check\_mark: |
+| expose\_mod\_mainAttributes                     |                                                                                                |        :white\_check\_mark: |
+| expose\_mod\_mainDetails                        |                                                                                                |        :white\_check\_mark: |
+| expose\_mod\_mainPrice                          |                                                                                                |        :white\_check\_mark: |
+| expose\_mod\_marketingToken                     |                                                                                                |        :white\_check\_mark: |
+| expose\_mod\_print                              |                                                                                                |        :white\_check\_mark: |
+| expose\_mod\_share                              |                                                                                                |        :white\_check\_mark: |
+| expose\_mod\_share\_email                       |                                                                                                |        :white\_check\_mark: |
+| expose\_mod\_statusToken                        |                                                                                                |        :white\_check\_mark: |
+| expose\_mod\_texts                              |                                                                                                |        :white\_check\_mark: |
+| expose\_mod\_title                              |                                                                                                |        :white\_check\_mark: |
+| **mod\_realEstate\***                           | Modul-Templates                                                                                | :heavy\_multiplication\_x:  |
+| mod\_realEstateExpose                           |                                                                                                |  :heavy\_multiplication\_x: |
+| mod\_realEstateList                             |                                                                                                |  :heavy\_multiplication\_x: |
+| mod\_realEstateResultList                       |                                                                                                |  :heavy\_multiplication\_x: |
 
-✅_Das_ [_Immobilien-Objekt_](immobilien-eigenschaften/immobilien-objekt.md) _steht im Template zur Verfügung_  
-✖_Das_ [_Immobilien-Objekt_](immobilien-eigenschaften/immobilien-objekt.md) _steht **nicht** im Template zur Verfügung_
+:white\_check\_mark:_Das _[_Immobilien-Objekt_](immobilien-eigenschaften/immobilien-objekt.md)_ steht im Template zur Verfügung_\
+__:heavy\_multiplication\_x:_Das _[_Immobilien-Objekt_](immobilien-eigenschaften/immobilien-objekt.md)_ steht **nicht **im Template zur Verfügung_
 
 ### Eigenschaften über das Immobilien-Objekt aus dem Template heraus abrufen
 
@@ -70,4 +70,3 @@ Der direkte Zugriff auf eine Eigenschaft liefert dabei immer den unformatierten 
 <?= $this->realEstate->kaufpreis ?>
 ```
 {% endcode %}
-

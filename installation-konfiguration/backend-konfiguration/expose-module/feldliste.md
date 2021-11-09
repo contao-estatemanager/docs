@@ -12,11 +12,10 @@ Um alle Details einer Immobilie auszugeben, wird dringend empfohlen, das Exposé
 
 ### Einstellungen
 
-🔹`Feldliste`
+:small\_blue\_diamond:`Feldliste`
 
 _Ermöglicht die Auswahl beliebig vieler Felder, welche in einer Liste ausgegeben werden sollen._
 
 ### Template
 
-🔸`expose_mod_fieldList`
-
+:small\_orange\_diamond:`expose_mod_fieldList`

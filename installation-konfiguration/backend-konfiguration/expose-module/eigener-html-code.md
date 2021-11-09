@@ -8,9 +8,8 @@ Das Exposé-Modul `Eigener HTML-Code` ermöglicht das Einbetten von eigenem HTML
 
 ### Einstellungen
 
-🔹`HTML-Code`
+:small\_blue\_diamond:`HTML-Code`
 
 ### Template
 
-🔸`expose_mod_html`
-
+:small\_orange\_diamond:`expose_mod_html`

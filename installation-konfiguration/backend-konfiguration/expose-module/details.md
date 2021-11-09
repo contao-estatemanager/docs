@@ -14,29 +14,27 @@ Das `Details` Exposé-Modul liefert alle möglichen Werte der Immobilie aus. Fol
 
 ### Einstellungen
 
-🔹`Detail-Kategorien`
+:small\_blue\_diamond:`Detail-Kategorien`
 
-_Detail-Kategorien definieren Unterteilungen von Immobilien-Eigenschaften wie `Flächen`, `Preise`, `Attribute`, `Details` und `Energieausweis`-Informationen. Über diese Einstellung können alle oder nur bestimmte dieser Kategorien ausgegeben werden. Die Reihenfolge der Ausgabe dieser Kategorien kann dabei ebenfalls definiert werden._
+_Detail-Kategorien definieren Unterteilungen von Immobilien-Eigenschaften wie `Flächen`, `Preise`, `Attribute`, `Details `und `Energieausweis`-Informationen. Über diese Einstellung können alle oder nur bestimmte dieser Kategorien ausgegeben werden. Die Reihenfolge der Ausgabe dieser Kategorien kann dabei ebenfalls definiert werden._
 
-🔹`Detail-Kategorien zusammenfassen`
+:small\_blue\_diamond:`Detail-Kategorien zusammenfassen`
 
-_Gruppiert alle Kategorien für die Ausgabe in einer Liste. Andernfalls werden diese in einzelnen Blöcken \(je Kategorie\) ausgegeben._
+_Gruppiert alle Kategorien für die Ausgabe in einer Liste. Andernfalls werden diese in einzelnen Blöcken (je Kategorie) ausgegeben._
 
-🔹`Immobilien-Adresse hinzufügen`
+:small\_blue\_diamond:`Immobilien-Adresse hinzufügen`
 
 _Fügt die Adresse der Immobilie zur Liste hinzu. Dabei wird berücksichtigt, ob die Adressfreigabe erlaubt ist._
 
-🔹`Überschriften ausgeben`
+:small\_blue\_diamond:`Überschriften ausgeben`
 
 _Gibt die Überschriften der einzelnen Kategorien oder der gesammelten Detailliste aus._
 
-🔹`Schriftgröße`
+:small\_blue\_diamond:`Schriftgröße`
 
 _Sofern Überschriften ausgegeben werden sollen, kann über diese Einstellung die Schriftgröße definiert werden._
 
 ### Template
 
-🔸`expose_mod_details`
-
-
+:small\_orange\_diamond:`expose_mod_details`
 

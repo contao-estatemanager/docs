@@ -4,13 +4,13 @@
 
 `{{realestate::ID::FIELD}}`
 
-🔹`<int> ID`
+:small\_blue\_diamond:`<int> ID`
 
 _ID der abzufragenden Immobilie_
 
-🔹`<string> FIELD`
+:small\_blue\_diamond:`<string> FIELD`
 
-_Die abzufragende_ [_Immobilien-Eigenschaft_](../../entwickler/immobilien-eigenschaften/)_._
+_Die abzufragende _[_Immobilien-Eigenschaft_](../../entwickler/immobilien-eigenschaften/)_._
 
 {% code title="Beispiel" %}
 ```markup
@@ -22,13 +22,12 @@ _Die abzufragende_ [_Immobilien-Eigenschaft_](../../entwickler/immobilien-eigens
 
 `{{realestate::FIELD}}`
 
-🔹`<string> FIELD`
+:small\_blue\_diamond:`<string> FIELD`
 
-_Die abzufragende_ [_Immobilien-Eigenschaft_](../../entwickler/immobilien-eigenschaften/)_._
+_Die abzufragende _[_Immobilien-Eigenschaft_](../../entwickler/immobilien-eigenschaften/)_._
 
 {% code title="Beispiel" %}
 ```markup
 {{realestate::objekttitel}}
 ```
 {% endcode %}
-

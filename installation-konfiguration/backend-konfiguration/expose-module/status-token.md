@@ -13,11 +13,10 @@ Das Exposé-Modul `Status-Token` gibt alle vorhandenen Status-Token einer Immobi
 
 ### Einstellungen
 
-🔹`Erlaubte Status-Token`
+:small\_blue\_diamond:`Erlaubte Status-Token`
 
 _Begrenzt die Ausgabe auf nur ausgewählte Token._
 
 ### Template
 
-🔸`expose_mod_statusToken`
-
+:small\_orange\_diamond:`expose_mod_statusToken`

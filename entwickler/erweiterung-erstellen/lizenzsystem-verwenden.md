@@ -4,7 +4,7 @@ description: Erweiterung erstellen
 
 # Lizenzsystem verwenden
 
-Um das Lizenzsystem des EstateManagers verwenden zu können, wird die im [`skeleton-extension`](https://github.com/contao-estatemanager/skeleton-extension) mitgelieferte [`AddonManager`](https://github.com/contao-estatemanager/skeleton-extension/blob/master/src/Resources/contao/classes/AddonManager.php)-Klasse benötigt. Diese beinhaltet alle Lizenzen \([verschlüsselt](lizenzsystem-verwenden.md#verschluesselung)\) und kommuniziert mit der Core-Erweiterung um die Gültigkeit einer Lizenz zu prüfen.
+Um das Lizenzsystem des EstateManagers verwenden zu können, wird die im [`skeleton-extension`](https://github.com/contao-estatemanager/skeleton-extension) mitgelieferte [`AddonManager`](https://github.com/contao-estatemanager/skeleton-extension/blob/master/src/Resources/contao/classes/AddonManager.php)-Klasse benötigt. Diese beinhaltet alle Lizenzen ([verschlüsselt](lizenzsystem-verwenden.md#verschluesselung)) und kommuniziert mit der Core-Erweiterung um die Gültigkeit einer Lizenz zu prüfen.
 
 {% hint style="info" %}
 Bitte beachte, dass wir eine Testmöglichkeit jeder Erweiterung voraussetzen. Somit können Erweiterungen, welche mit der `AddonManager`-Klasse aufgebaut werden, automatisch 2 Wochen kostenlos getestet werden.
@@ -12,19 +12,19 @@ Bitte beachte, dass wir eine Testmöglichkeit jeder Erweiterung voraussetzen. So
 
 ### `AddonManager`-Klasse anpassen
 
-🔹`$bundle`
+:small\_blue\_diamond:`$bundle`
 
-_Der Name des Bundle, auf dem die Erweiterung registriert wurde._ 
+_Der Name des Bundle, auf dem die Erweiterung registriert wurde. _
 
-🔹`$package`
+:small\_blue\_diamond:`$package`
 
-Der in der `composer.json` hinterlegte `name` \(Bspw. `contao-estatemanager/neue-erweiterung`\)
+Der in der `composer.json` hinterlegte `name` (Bspw. `contao-estatemanager/neue-erweiterung`)
 
-🔹`$key`
+:small\_blue\_diamond:`$key`
 
-_Der Feldname des Input-Feldes \(Bspw._ `addon_meine_erweiterung_license`\)_._
+_Der Feldname des Input-Feldes (Bspw. _`addon_meine_erweiterung_license`)_._
 
-🔹`<array> $liceses`
+:small\_blue\_diamond:`<array> $liceses`
 
 _Sammlung verschlüsselter sowie gültiger Lizenzen._
 
@@ -56,4 +56,3 @@ Als Beispiel können bereits [verfügbare Erweiterungen](https://github.com/cont
 ### Logo für die Lizenzverwaltung bereitstellen
 
 Um in der Lizenzverwaltung ein eigenes Logo für die Erweiterung bereitzustellen, muss im `public`Ordner der Erweiterung das Logo als `logo.svg` abgelegt werden.
-

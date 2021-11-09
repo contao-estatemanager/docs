@@ -6,7 +6,7 @@ description: Dokumentation - Open Source EstateManager for Contao CMS
 
 ### Was ist der EstateManager?
 
-Der EstateManager ist ein Produkt von [Oveleon](www.oveleon.de) welches ermöglicht, auf Basis des [Open Source CMS Contao](www.contao.org), eigene Immobilen-Webseiten zu erstellen. 
+Der EstateManager ist ein Produkt von [Oveleon](https://www.oveleon.de) welches ermöglicht, auf Basis des [Open Source CMS Contao](https://www.contao.org), eigene Immobilen-Webseiten zu erstellen.&#x20;
 
 ### Warum der EstateManager?
 
@@ -26,5 +26,4 @@ Die Entwicklung wurde unter Berücksichtigung des OpenImmo-Standards durchgefüh
 
 Kurz gesagt arbeiten wir bereits seit vielen Jahren mit Contao und empfinden das System und dessen Community als sehr angenehm, zukunftsorientiert und leistungsfähig. In unseren Augen also der perfekte Unterbau für ein solches Projekt.
 
-Noch kürzer gesagt - Weil wir Contao lieben und schätzen gelernt haben ❤ 
-
+Noch kürzer gesagt - Weil wir Contao lieben und schätzen gelernt haben :heart:&#x20;

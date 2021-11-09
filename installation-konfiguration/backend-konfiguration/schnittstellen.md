@@ -6,27 +6,27 @@ Mit Hilfe von Schnittstellen können Immobilen und Kontaktpersonen importiert, s
 
 Schnittstellen können den eigenen Anforderungen entsprechend umfangreich konfiguriert werden. Dabei können beliebig viele Schnittstellen angelegt werden, um Datensätze unterschiedlicher Quellen und Strukturen zuverlässig importieren zu können. Eine Schnittstelle muss einem eindeutigen Anbieter zugeordnet werden, weshalb vor der Schnittstellen-Konfiguration der entsprechende Anbieter angelegt werden muss.
 
-🔹`Titel`
+:small\_blue\_diamond:`Titel`
 
 _Dient der Identifizierung einer Schnittstelle im Backend_
 
-🔹`Typ`
+:small\_blue\_diamond:`Typ`
 
 _Mit Hilfe des Typs können verschiedene Arten von Schnittstellen konfiguriert werden. Im Standard steht ausschließlich der Typ "OpenImmo" zur Verfügung, welcher den Import nach den Regeln des OpenImmo Standards durchführt_
 
-\_\_🔹`Anbieter`
+__:small\_blue\_diamond:`Anbieter`
 
 _Eine Schnittstelle muss einem bestimmten Anbieter zugeordnet werden, damit Immobilien und Kontaktpersonen stets diesem Anbieter zugeordnet werden können_
 
-🔹`Anbieternummer`
+:small\_blue\_diamond:`Anbieternummer`
 
 _Die eindeutige Anbieternummer der OpenImmo Übertragung_
 
-🔹`Eindeutiges Anbieterfeld`
+:small\_blue\_diamond:`Eindeutiges Anbieterfeld`
 
 _Gibt an, über welchen Wert eine OpenImmo Übertragung eindeutig einem bestimmten Anbieter zugeordnet werden kann_
 
-🔹`Eindeutiges Feld`
+:small\_blue\_diamond:`Eindeutiges Feld`
 
 _Gibt an, über welchen Wert eine OpenImmo Übertragung eindeutig einer bestimmten Immobilie zugeordnet werden kann_
 
@@ -34,15 +34,15 @@ _Gibt an, über welchen Wert eine OpenImmo Übertragung eindeutig einer bestimmt
 Immobilien müssen auf mehrsprachigen Websites mehrfach in den jeweils unterschiedlichen Sprachen importiert werden. Diese Immobilien teilen sich dabei oft eine gemeinsame Objektnummer, weswegen das eindeutige Feld auf den Wert festgelegt werden muss, über den sich ein Immobiliendatensatz eindeutig identifizieren lässt.
 {% endhint %}
 
-🔹`Importverzeichnis`
+:small\_blue\_diamond:`Importverzeichnis`
 
 _Verzeichnis, in dem OpenImmo Übertragungen abgelegt werden, damit diese durch die Schnittstelle gefunden und importiert werden kann_
 
-🔹`Zielverzeichnis`
+:small\_blue\_diamond:`Zielverzeichnis`
 
-_Verzeichnis, in dem Bilder und Dokumente von Immobiliendatensätzen abgelegt werden. Für jeden Immobiliendatensatz wird dabei ein eigener Ordner \(Objektnummer\) innerhalb eines Ordners des Anbieters \(Anbieternummer\) angelegt_
+_Verzeichnis, in dem Bilder und Dokumente von Immobiliendatensätzen abgelegt werden. Für jeden Immobiliendatensatz wird dabei ein eigener Ordner (Objektnummer) innerhalb eines Ordners des Anbieters (Anbieternummer) angelegt_
 
-🔹`Importverzeichnis Kontaktperson`
+:small\_blue\_diamond:`Importverzeichnis Kontaktperson`
 
 _Verzeichnis, in dem Bilder von Kontaktpersonen abgelegt werden_
 
@@ -50,7 +50,7 @@ _Verzeichnis, in dem Bilder von Kontaktpersonen abgelegt werden_
 
 Über die Palette "Erstellen & Aktualisieren" kann eingestellt werden, wie Kontaktpersonen während eines Imports behandelt werden sollen und ob Immobilien anderer Anbieter Importiert und dabei einer eigenen Kontaktperson zugeordnet werden sollen.
 
-🔹`Kontaktperson`
+:small\_blue\_diamond:`Kontaktperson`
 
 _Hier kann angegeben werden, ob neue Kontaktpersonen durch die Schnittstelle erstellt und / oder aktualisiert werden sollen_
 
@@ -58,21 +58,20 @@ _Hier kann angegeben werden, ob neue Kontaktpersonen durch die Schnittstelle ers
 Kann eine Immobilie während eines Imports keiner Kontaktperson zugeordnet werden, wird die Immobilie übersprungen und nicht importiert. Darf über die Schnittstelle keine Kontaktperson erstellt werden, muss sichergestellt werden, dass die Kontaktperson in der Anbieterverwaltung existiert, um Immobilien importieren zu können.
 {% endhint %}
 
-🔹`Eindeutiges Feld der Kontaktperson`
+:small\_blue\_diamond:`Eindeutiges Feld der Kontaktperson`
 
 _Hier muss das Feld angegeben werden, über das eine Kontaktperson eindeutig identifiziert werden kann._
 
- __🔹`Datensätze anderer Anbieter importieren`
+_ _:small\_blue\_diamond:`Datensätze anderer Anbieter importieren`
 
 _Hier kann angegeben werden, wie mit Immobilien anderer Anbieter umgegangen werden soll. Für gewöhnlich werden innerhalb einer OpenImmo Übertragung lediglich Immobilien des eigenen Anbieters übertragen. Sollte dies nicht der Fall sein, können Immobilien anderer Anbieter schlicht mit den Einstellungen der eigenen Schnittstelle importiert werden, oder alternativ anhand der Vermarktungsart einer bestimmten Kontaktperson zugeordnet werden._
 
 #### Weitere Einstellungen
 
-🔹`Datensätze überspringen`
+:small\_blue\_diamond:`Datensätze überspringen`
 
 _Hier kann angegeben werden, ob Immobiliendatensätze nicht importiert werden sollen, wenn der Objekttitel oder die Objektbeschreibung nicht übergeben wurden._
 
-🔹`Datensätze nicht veröffentlichen`
+:small\_blue\_diamond:`Datensätze nicht veröffentlichen`
 
 _Einstellung, um neue Immobiliendatensätze nicht automatisch auf der Website zu veröffentlichen._
-

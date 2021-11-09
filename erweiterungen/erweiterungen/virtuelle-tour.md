@@ -4,7 +4,7 @@ description: Contao EstateManager Erweiterung
 
 # Virtuelle Tour
 
-![](../../.gitbook/assets/produktbild_virtual-tour_github.jpg)
+![](../../.gitbook/assets/produktbild\_virtual-tour\_github.jpg)
 
 Die `Virtual Tour` Erweiterung ermöglicht das entgegennehmen und darstellen von 3D-Rundgängen bekannter Drittanbieter. Folgende Drittanbieter werden dabei bereits unterstützt:
 
@@ -41,11 +41,11 @@ Installation direkt über GitHub:
 {% endtab %}
 {% endtabs %}
 
-Nach der Installation muss das [Contao-Installtool](https://docs.contao.org/manual/de/installation/contao-installtool/) aufgerufen und die Datenbank aktualisiert werden. 
+Nach der Installation muss das [Contao-Installtool](https://docs.contao.org/manual/de/installation/contao-installtool/) aufgerufen und die Datenbank aktualisiert werden.&#x20;
 
 ### Module
 
-Hier finden Sie eine Übersicht neuer \(🟢\), sowie erweiterte \(🔵\) Module.
+Hier finden Sie eine Übersicht neuer (🟢), sowie erweiterte (🔵) Module.
 
 {% tabs %}
 {% tab title="🔵 Liste" %}
@@ -53,13 +53,13 @@ Erweitert die [Liste](../../installation-konfiguration/frontend-konfiguration/mo
 
 **Einstellungen**
 
-🔹`Virtuellen Rundgang hinzufügen`
+:small\_blue\_diamond:`Virtuellen Rundgang hinzufügen`
 
 _Fügt für jeder Immobilie in der Liste die Möglichkeit hinzu, den virtuellen Rundgang zu öffnen. Die neue Einstellung befindet sich in der Palette `Immobilien Erweiterung` ._
 
 **Template**
 
-🔸`real_estate_itemext_virtual_tour_default`
+:small\_orange\_diamond:`real_estate_itemext_virtual_tour_default`
 
 _Das Template muss über das Feld `Immobilien Template Erweiterung: Virtueller Rundgang`in der Palette `Templates-Einstellungen` ausgewählt werden._
 {% endtab %}
@@ -69,13 +69,13 @@ Erweitert die [Ergebnisliste](../../installation-konfiguration/frontend-konfigur
 
 **Einstellungen**
 
-🔹`Virtuellen Rundgang hinzufügen`
+:small\_blue\_diamond:`Virtuellen Rundgang hinzufügen`
 
 _Fügt für jeder Immobilie in der Liste die Möglichkeit hinzu, den virtuellen Rundgang zu öffnen. Die neue Einstellung befindet sich in der Palette `Immobilien Erweiterung` ._
 
 **Template**
 
-🔸`real_estate_itemext_virtual_tour_default`
+:small\_orange\_diamond:`real_estate_itemext_virtual_tour_default`
 
 _Das Template muss über das Feld `Immobilien Template Erweiterung: Virtueller Rundgang`in der Palette `Templates-Einstellungen` ausgewählt werden._
 {% endtab %}
@@ -83,7 +83,7 @@ _Das Template muss über das Feld `Immobilien Template Erweiterung: Virtueller R
 
 ### Exposé-Module
 
-Hier finden Sie eine Übersicht neuer \(🟢\) und erweiterte \(🔵\) Exposé-Module.
+Hier finden Sie eine Übersicht neuer (🟢) und erweiterte (🔵) Exposé-Module.
 
 {% tabs %}
 {% tab title="🟢 Virtueller-Rundgang" %}
@@ -91,29 +91,29 @@ Das Exposé-Modul `Virtueller-Rundgang` ermöglicht die Ausgabe einer Schaltflä
 
 **Einstellungen**
 
-🔹`Text`
+:small\_blue\_diamond:`Text`
 
 _Ermöglicht die Ergänzung eines beliebigen Textes._
 
-🔹`Ausblenden bei keinen Ergebnissen`
+:small\_blue\_diamond:`Ausblenden bei keinen Ergebnissen`
 
 _Dieses Modul wird nur ausgegeben wenn ein virtueller Rundgang zum darstellen gefunden wurde._
 
 **Template**
 
-🔸`expose_mod_virtualTour`
+:small\_orange\_diamond:`expose_mod_virtualTour`
 {% endtab %}
 
 {% tab title="🔵 Galerie" %}
-Erweitert das Exposé-Modul [Galerie](../../installation-konfiguration/backend-konfiguration/expose-module/galerie.md) um eine weitere Galerie-Kategorie \(Virtueller-Rundgang\). Des Weiteren wird eine neue Palette \(Virtueller-Rundgang Einstellungen\) erzeugt um folgende Einstellungen vornehmen zu können.
+Erweitert das Exposé-Modul [Galerie](../../installation-konfiguration/backend-konfiguration/expose-module/galerie.md) um eine weitere Galerie-Kategorie (Virtueller-Rundgang). Des Weiteren wird eine neue Palette (Virtueller-Rundgang Einstellungen) erzeugt um folgende Einstellungen vornehmen zu können.
 
 **Einstellungen**
 
-🔹`Vorschaubild verwenden`
+:small\_blue\_diamond:`Vorschaubild verwenden`
 
 Gibt ein Vorschaubild aus. Sofern kein eigenes Bild ausgewählt wurde, wird das Titelbild der Immobilie verwendet.
 
-🔹`Eigenes Vorschaubild`
+:small\_blue\_diamond:`Eigenes Vorschaubild`
 
 Hier können Sie ein eigenes Vorschaubild definieren.
 
@@ -123,7 +123,7 @@ Bitte beachte das mitgelieferte JavaScript-Template für die Verwendung von Vors
 
 **Template**
 
-🔸`expose_mod_virtual_tour_gallery_default`
+:small\_orange\_diamond:`expose_mod_virtual_tour_gallery_default`
 {% endtab %}
 {% endtabs %}
 
@@ -137,11 +137,11 @@ Hier finden Sie eine Übersicht neuer JavaScript-Templates.
 
 {% tabs %}
 {% tab title="🟢 Virtueller Rundgang" %}
-Um den virtuellen Rundgang bei Verwendung eines Vorschaubild nicht direkt einzubinden \(da diese zum Beispiel bei verschiedenen Anbietern mit Musik unterspielt werden\), bindet das mitgelieferte JavaScript-Template die Zielseite erst nach Klick auf das Vorschaubild ein.
+Um den virtuellen Rundgang bei Verwendung eines Vorschaubild nicht direkt einzubinden (da diese zum Beispiel bei verschiedenen Anbietern mit Musik unterspielt werden), bindet das mitgelieferte JavaScript-Template die Zielseite erst nach Klick auf das Vorschaubild ein.
 
 **Template**
 
-🔸`js_realestatevirtualtour`
+:small\_orange\_diamond:`js_realestatevirtualtour`
 
 **Events**
 
@@ -161,4 +161,3 @@ document.addEventListener('virtualtour.onClickPreview', function(e){
 ### Lizenz
 
 Für diese Erweiterung ist eine Lizenz erforderlich. Zum Erwerb einer Lizenz folge bitte den Schritten unter [Lizenzen](../lizenzen.md).
-

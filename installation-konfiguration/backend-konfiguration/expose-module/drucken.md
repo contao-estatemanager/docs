@@ -8,5 +8,4 @@ Das Exposé-Modul `Durcken` liefert eine Schaltfläche aus mit der der "Drucken"
 
 ### Template
 
-🔸`expose_mod_print`
-
+:small\_orange\_diamond:`expose_mod_print`

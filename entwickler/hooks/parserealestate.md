@@ -4,9 +4,14 @@ Der `parseRealEstate` Hook wird aufgerufen bevor das Template einer einzelnen Im
 
 ### Parameter
 
-1. \Contao\FrontendTemplate `$objTemplate` Das Immobilien-Template 
-2. \ContaoEstateManager\RealEstate`$objRealEstate` Das Immobilien-Objekt 
-3. \ContaoEstateManager\ModuleRealEstate`$objModule` Das aktuelle Modul
+1. \Contao\FrontendTemplate `$objTemplate`\
+   Das Immobilien-Template\
+
+2. \ContaoEstateManager\RealEstate`$objRealEstate`\
+   Das Immobilien-Objekt\
+
+3. \ContaoEstateManager\ModuleRealEstate`$objModule`\
+   Das aktuelle Modul
 
 ### Beispiel
 
@@ -16,4 +21,3 @@ public function onParseRealEstate(\Contao\FrontendTemplate &$objTemplate, \Conta
     // Do something …
 }
 ```
-

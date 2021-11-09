@@ -4,9 +4,9 @@ description: Contao EstateManager Erweiterung
 
 # Energieskala
 
-![](../../.gitbook/assets/produktbild_energiepass_github%20%281%29.jpg)
+![](<../../.gitbook/assets/produktbild\_energiepass\_github (1).jpg>)
 
-Die `Energieskala` Erweiterung integriert eine visuelle Ansicht \(Skala\) des Energieverbrauchs der Immobilie.
+Die `Energieskala` Erweiterung integriert eine visuelle Ansicht (Skala) des Energieverbrauchs der Immobilie.
 
 ### Installation
 
@@ -28,11 +28,11 @@ Installation direkt über GitHub:
 {% endtab %}
 {% endtabs %}
 
-Nach der Installation muss das [Contao-Installtool](https://docs.contao.org/manual/de/installation/contao-installtool/) aufgerufen und die Datenbank aktualisiert werden. 
+Nach der Installation muss das [Contao-Installtool](https://docs.contao.org/manual/de/installation/contao-installtool/) aufgerufen und die Datenbank aktualisiert werden.&#x20;
 
 ### Exposé-Module
 
-Hier finden Sie eine Übersicht neuer \(🟢\) und erweiterte \(🔵\) Exposé-Module.
+Hier finden Sie eine Übersicht neuer (🟢) und erweiterte (🔵) Exposé-Module.
 
 {% tabs %}
 {% tab title="🔵 Details" %}
@@ -40,13 +40,13 @@ Erweitert die [Details](../../installation-konfiguration/backend-konfiguration/e
 
 **Einstellungen**
 
-🔹`Energieskala hinzufügen`
+:small\_blue\_diamond:`Energieskala hinzufügen`
 
 _Fügt nach dem Energieausweis eine Energieskala ein. Dafür muss die Detail-Kategorie Energieausweis angewählt sein._
 
 **Template**
 
-🔸`energiebar_default`
+:small\_orange\_diamond:`energiebar_default`
 {% endtab %}
 {% endtabs %}
 
@@ -60,7 +60,7 @@ Für die Animationen innerhalb der Energieskala wird folgendes JavaScript-Templa
 
 **Template**
 
-🔸`js_realestateenergiebar`
+:small\_orange\_diamond:`js_realestateenergiebar`
 
 {% hint style="info" %}
 Die zugehörigen CSS-Stile der Energieskala werden automatisch über dieses Template mit eingebunden.
@@ -71,4 +71,3 @@ Die zugehörigen CSS-Stile der Energieskala werden automatisch über dieses Temp
 ### Lizenz
 
 Für diese Erweiterung ist eine Lizenz erforderlich. Zum Erwerb einer Lizenz, folge bitte den Schritten unter [Lizenzen](../lizenzen.md).
-

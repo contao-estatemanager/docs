@@ -10,13 +10,12 @@ Das Exposé-Modul `Teilen` ermöglicht das hinzufügen von verschiedenen "Teilen
 
 ### Einstellungen
 
-🔹`Teilen über`
+:small\_blue\_diamond:`Teilen über`
 
 _Hier können die einzelnen Arten zum Teilen angewählt werden._
 
 ### Template
 
-🔸`expose_mod_share`
+:small\_orange\_diamond:`expose_mod_share`
 
-🔸`expose_mod_share_email`
-
+:small\_orange\_diamond:`expose_mod_share_email`
