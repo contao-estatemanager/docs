@@ -1,6 +1,6 @@
 # Schnittstellen
 
-Mit Hilfe von Schnittstellen können Immobilen und Kontaktpersonen importiert, sowie mit einer Maklersoftware synchronisiert werden. Der Abgleich von Immobilien findet dabei auf Basis des OpenImmo Standards statt, sodass Immobilien-Datensätze automatisch erstellt, aktualisiert und gelöscht werden können.
+Mit Hilfe von Schnittstellen können Immobilen und Kontaktpersonen importiert, sowie mit einer Maklersoftware synchronisiert werden. Der Abgleich von Immobilien findet dabei auf Basis des OpenImmo Standards statt, sodass Immobilien-Datensätze und dessen Kontaktpersonen automatisch erstellt, aktualisiert und gelöscht werden können.
 
 ### Schnittstellen konfigurieren
 
@@ -62,7 +62,7 @@ Kann eine Immobilie während eines Imports keiner Kontaktperson zugeordnet werde
 
 _Hier muss das Feld angegeben werden, über das eine Kontaktperson eindeutig identifiziert werden kann._
 
-_ _:small\_blue\_diamond:`Datensätze anderer Anbieter importieren`
+&#x20;__ :small\_blue\_diamond:`Datensätze anderer Anbieter importieren`
 
 _Hier kann angegeben werden, wie mit Immobilien anderer Anbieter umgegangen werden soll. Für gewöhnlich werden innerhalb einer OpenImmo Übertragung lediglich Immobilien des eigenen Anbieters übertragen. Sollte dies nicht der Fall sein, können Immobilien anderer Anbieter schlicht mit den Einstellungen der eigenen Schnittstelle importiert werden, oder alternativ anhand der Vermarktungsart einer bestimmten Kontaktperson zugeordnet werden._
 
