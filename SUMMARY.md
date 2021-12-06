@@ -4,13 +4,13 @@
 * [Über das Projekt](ueber-das-projekt.md)
 * [Homepage](https://www.contao-estatemanager.com)
 
-## Konfiguration & Einrichtung <a href="installation-konfiguration" id="installation-konfiguration"></a>
+## Konfiguration & Einrichtung <a href="#installation-konfiguration" id="installation-konfiguration"></a>
 
 * [Installation](installation-konfiguration/installation.md)
 * [Backend-Konfiguration](installation-konfiguration/backend-konfiguration/README.md)
   * [Einstellungen](installation-konfiguration/backend-konfiguration/einstellungen.md)
   * [Schnittstellen](installation-konfiguration/backend-konfiguration/schnittstellen.md)
-  * [Objekttypen](installation-konfiguration/backend-konfiguration/objekttypen.md)
+  * [Objektgruppen & -Typen](installation-konfiguration/backend-konfiguration/objekttypen.md)
   * [Anbieter & Standorte](installation-konfiguration/backend-konfiguration/anbieter-standorte.md)
   * [Filter](installation-konfiguration/backend-konfiguration/filter/README.md)
     * [Filter-Widgets](installation-konfiguration/backend-konfiguration/filter/filter-widgets/README.md)
