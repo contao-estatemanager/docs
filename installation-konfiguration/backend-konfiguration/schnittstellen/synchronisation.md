@@ -42,12 +42,11 @@ Durch das ![](../../../.gitbook/assets/sync.svg)-Symbol können Datensätze manu
 
 ### Verlauf der Synchronisationen
 
-{% hint style="warning" %}
-Bereich folgt in Kürze
-{% endhint %}
+Der Verlauf der zuletzt synchronisierten Dateien lässt sich über das Symbol ![](../../../.gitbook/assets/history.svg)öffnen.\
+In dieser Übersicht sieht man die zuletzt synchronisierten Dateien mit einer Meldung. Weitere Details lassen sich über die Details des Eintrags aufrufen.
 
 ### Bereinigung von Dateien
 
-{% hint style="warning" %}
-Bereich folgt in Kürze
-{% endhint %}
+Beim Import von Immobiliendatensätzen werden Bilder und Anhänge in der Dateiverwaltung für eine Immobilie im ausgewählten Importverzeichnis abgelegt. Dateien von gelöschten Immobilien bleiben grundsätzlich in der Dateiverwaltung bestehen.
+
+Mithilfe der Funktion **Datensätze aufräumen** ![](../../../.gitbook/assets/clear.svg) lassen sich Dateien, welche keiner Immobilie zugeordnet werden können, löschen.
