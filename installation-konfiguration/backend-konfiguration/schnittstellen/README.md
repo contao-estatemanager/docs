@@ -113,7 +113,7 @@ Die Ausführung der Synchronisierung erfolgt über einen **poor man cron**. Hier
 :small\_blue\_diamond:`Automatische Synchronisierung`
 
 _Hier kann die **Frequenz** der automatischen Synchronisierung eingestellt werden. Um **nur manuelle** Synchronisationen zu erlauben, kann hier "**Niemals**" ausgewählt werden._\
-_Die manuelle Synchronisation wird über das_ ![](../../.gitbook/assets/sync.svg)-Symbol in der Übersicht ausgeführt.
+_Die manuelle Synchronisation wird über das_ ![](../../../.gitbook/assets/sync.svg)-Symbol in der Übersicht ausgeführt.
 
 :small\_blue\_diamond:`Dateien älter als * löschen`
 
