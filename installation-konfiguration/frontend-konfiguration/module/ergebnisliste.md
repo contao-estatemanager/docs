@@ -34,7 +34,7 @@ _Ermöglicht die Ergänzung einer benutzerdefinierten Sortierung._
 
 :small\_blue\_diamond:`Benutzerdefinierte Sortierung`
 
-_Hier muss das Benutzerdefinierte SQL-Order-Statement eingetragen werden (z.B. FIELD(anbieternr, 'xyz')). Bitte beachte, dass die zuvor über das Feld _`Sortierreihenfolge` ausgewählte Eigenschaft immer mit Priorität behandelt wird.
+_Hier muss das Benutzerdefinierte SQL-Order-Statement eingetragen werden (z.B. FIELD(anbieternr, 'xyz')). Bitte beachte, dass die zuvor über das Feld_ `Sortierreihenfolge` ausgewählte Eigenschaft immer mit Priorität behandelt wird.
 
 :small\_blue\_diamond:`Weiterleitungsseite`
 

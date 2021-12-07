@@ -14,7 +14,7 @@ Bitte beachte, dass wir eine Testmöglichkeit jeder Erweiterung voraussetzen. So
 
 :small\_blue\_diamond:`$bundle`
 
-_Der Name des Bundle, auf dem die Erweiterung registriert wurde. _
+_Der Name des Bundle, auf dem die Erweiterung registriert wurde._&#x20;
 
 :small\_blue\_diamond:`$package`
 
@@ -22,7 +22,7 @@ Der in der `composer.json` hinterlegte `name` (Bspw. `contao-estatemanager/neue-
 
 :small\_blue\_diamond:`$key`
 
-_Der Feldname des Input-Feldes (Bspw. _`addon_meine_erweiterung_license`)_._
+_Der Feldname des Input-Feldes (Bspw._ `addon_meine_erweiterung_license`)_._
 
 :small\_blue\_diamond:`<array> $liceses`
 

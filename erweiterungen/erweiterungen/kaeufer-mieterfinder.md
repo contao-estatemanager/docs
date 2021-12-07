@@ -61,7 +61,7 @@ _Dieser Titel wird ausschließlich zu Beschreibungszwecken im  Backend verwendet
 
 :small\_blue\_diamond:_`Vermarktungsart`_
 
-_Hier stehen drei Auswahlmöglichkeiten zur Verfügung. Bei Auswahl einer fest definierten Option wie **Kauf **oder **Miete**, wird die Auswahl der Vermarktungsart im Frontend unterbunden._
+_Hier stehen drei Auswahlmöglichkeiten zur Verfügung. Bei Auswahl einer fest definierten Option wie **Kauf** oder **Miete**, wird die Auswahl der Vermarktungsart im Frontend unterbunden._
 
 :small\_blue\_diamond:_`Regionen Eingabemodus`_
 

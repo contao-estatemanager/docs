@@ -10,7 +10,7 @@ Das Exposé-Modul `Anfrageformular` inkludiert ein Formular aus dem Formulargene
 
 :small\_blue\_diamond:`Formular`
 
-_Hier kann das im _[_Formulargenerator _](https://docs.contao.org/manual/de/formulargenerator/)_erstellte Formular ausgewählt werden._
+_Hier kann das im_ [_Formulargenerator_ ](https://docs.contao.org/manual/de/formulargenerator/)_erstellte Formular ausgewählt werden._
 
 :small\_blue\_diamond:`Für Referenzen ausblenden`
 

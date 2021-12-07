@@ -84,7 +84,7 @@ _Verwandelt das erste Zeichen eines Strings in einen Großbuchstaben._
 
 :small\_orange\_diamond:`wrap`
 
-_Umschließt den Wert mit dem angegebenen Text/HTML-Code. Die Verwendung eines _Spezifizierer-_Platzhalters ist dabei zwingend notwendig. (s. "_[_sprintf_](https://www.php.net/manual/de/function.sprintf.php#refsect1-function.sprintf-parameters)_" PHP-Funktion)_
+_Umschließt den Wert mit dem angegebenen Text/HTML-Code. Die Verwendung eines_ Spezifizierer-_Platzhalters ist dabei zwingend notwendig. (s. "_[_sprintf_](https://www.php.net/manual/de/function.sprintf.php#refsect1-function.sprintf-parameters)_" PHP-Funktion)_
 
 :small\_orange\_diamond:`unserialize`
 

@@ -42,8 +42,8 @@ Das [Immobilien-Objekt](immobilien-eigenschaften/immobilien-objekt.md) steht ers
 | mod\_realEstateList                             |                                                                                                |  :heavy\_multiplication\_x: |
 | mod\_realEstateResultList                       |                                                                                                |  :heavy\_multiplication\_x: |
 
-:white\_check\_mark:_Das _[_Immobilien-Objekt_](immobilien-eigenschaften/immobilien-objekt.md)_ steht im Template zur Verfügung_\
-__:heavy\_multiplication\_x:_Das _[_Immobilien-Objekt_](immobilien-eigenschaften/immobilien-objekt.md)_ steht **nicht **im Template zur Verfügung_
+:white\_check\_mark:_Das_ [_Immobilien-Objekt_](immobilien-eigenschaften/immobilien-objekt.md) _steht im Template zur Verfügung_\
+__:heavy\_multiplication\_x:_Das_ [_Immobilien-Objekt_](immobilien-eigenschaften/immobilien-objekt.md) _steht **nicht** im Template zur Verfügung_
 
 ### Eigenschaften über das Immobilien-Objekt aus dem Template heraus abrufen
 
