@@ -414,17 +414,119 @@ _Wenn importierte Objekte trotz **nicht-existenter Informationen in der Import.x
 
 ### Formatierung
 
-
+Durch Formatierungen können die eingelesenen Werte vor der Speicherung in die Datenbank in eine gewünschte Form umgewandelt werden.
 
 :small\_blue\_diamond:`Formatierung`
 
-_Formatierung._
+_Hier kann ausgewählt werden, **welche Formatierung** angewendet werden soll. Folgende Optionen stehen zur Verfügung:_
+
+* Keine
+* Zahl
+* Datum
+* Text
+* Boolescher Wert
+
+#### Zahl (Formatierung)
+
+Kürzt eine Zahl anhand der der übergebenen Dezimalstellen.
+
+> Beispiel:\
+> **Anzahl an Dezimalstellen:** 2\
+> \
+> Aus `5000` wird `50.00`
+
+{% hint style="info" %}
+Nutzt die Funktion [**number\_format()**](https://www.php.net/manual/de/function.number-format.php)****
+{% endhint %}
+
+#### Datum (Formatierung)
+
+Wandelt ein übertragenes Datum in einen Timestamp um. Optional kann ein Datumsformat angegeben werden.
+
+> Beispiel:\
+> Aus `1990-03-21` wird `638006400`
+
+{% hint style="info" %}
+Nutzt die Funktion [**strtotime()**](https://www.php.net/manual/de/function.strtotime.php)****
+{% endhint %}
+
+#### Text (Formatierung)
+
+Mithilfe der Text-Formatierung können gefundene Strings formatiert werden. Folgende Auswahlmöglichkeiten stehen zur Verfügung:
+
+* Keine
+* Kleinschreibung
+* Großschreibung
+* Erstes Zeichen groß
+* Sonderzeichen ersetzen
+
+{% tabs %}
+{% tab title="Kleinschreibung" %}
+**Setzt einen String in Kleinbuchstaben um.**
+
+> Beispiel:\
+> Aus `GEWERBE` wird `gewerbe`
+
+{% hint style="info" %}
+Nutzt die Funktion [**strtolower()**](https://php.net/manual/de/function.strtolower.php)****
+{% endhint %}
+{% endtab %}
+
+{% tab title="Großschreibung" %}
+**Wandelt alle Zeichen eines Strings in Großbuchstaben um.**
+
+> Beispiel:\
+> Aus `beispiel` wird `BEISPIEL`
+
+{% hint style="info" %}
+Nutzt die Funktion [**strtoupper()**](https://php.net/manual/de/function.strtoupper.php)****
+{% endhint %}
+{% endtab %}
+
+{% tab title="Erstes Zeichen groß" %}
+**Verwandelt das erste Zeichen eines Strings in einen Großbuchstaben.**
+
+> Beispiel:\
+> Aus `beispiel` wird `Beispiel`
+
+{% hint style="info" %}
+Nutzt die Funktion [**ucfirst()**](https://php.net/manual/de/function.ucfirst.php)****
+{% endhint %}
+{% endtab %}
+
+{% tab title="Sonderzeichen ersetzen" %}
+**Ersetzt folgende Sonderzeichen innerhalb eines übertragenen Strings.**
+
+| Original | Umwandlung |
+| -------- | ---------- |
+| ‘        | '          |
+| ’        | '          |
+| ”        | "          |
+| “        | "          |
+|         | "          |
+|         | "          |
+| –        | -          |
+| —        | -          |
+|         | -          |
+| …        | \&#8230;   |
+{% endtab %}
+{% endtabs %}
+
+#### Trimmen (Textformatierung)
+
+Entfernt Whitespaces (oder andere Zeichen) am Anfang und Ende eines Strings.
+
+{% hint style="info" %}
+Nutzt die Funktion [**trim()**](https://www.php.net/manual/de/function.trim.php)****
+{% endhint %}
+
+#### Boolescher Wert (Formatierung)
+
+Wandelt übertragene Werte in boolsche Werte um (0 und 1). Kann mithilfe von **Vergleichswert** auch zur Überprüfung von vorgegebenen Werten genutzt werden.
 
 ### Experten-Einstellungen
 
-
-
 :small\_blue\_diamond:`Datei speichern`
 
-_Datei speichern._
+_Hier kann angegeben werden, ob eine Datei bei einer Feldzuordnung gespeichert werden soll._
 
