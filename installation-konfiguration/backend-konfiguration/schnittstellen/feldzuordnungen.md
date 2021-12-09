@@ -53,7 +53,7 @@ Die Feldeinstellungen dienen dazu, die übertragenen Feldinformationen innerhalb
 
 _Feldgruppen dienen zur Identifizierung einer Kategorie. Innerhalb einer Feldgruppe können Felder gefunden werden._
 
-#### **Beispiele für OpenImmo-Feldgruppen**
+#### Beispielhafte Ausschnitte aus einer Import.xml
 
 {% tabs %}
 {% tab title="Normale Feldgruppe" %}
@@ -93,9 +93,13 @@ Der Zugriff auf das OpenImmo-Feld `<gueltig_bis>` wäre mit folgender Konfigurat
 {% endtab %}
 {% endtabs %}
 
+
+
 :small\_blue\_diamond:`OpenImmo-Feld`
 
 _Innerhalb der OpenImmo-Felder befinden sich Werte . Auf diese kann über verschiedene Wege zugegriffen werden:_
+
+#### Beispielhafte Ausschnitte aus einer Import.xml
 
 {% tabs %}
 {% tab title="Element-Werte" %}
@@ -244,21 +248,167 @@ Sollte der Name des **zweiten** oder **dritten** Elementes von Bedeutung sein, k
 {% endtab %}
 {% endtabs %}
 
+
+
 :small\_blue\_diamond:`OpenImmo-Bedingungsfeld`
+
+_Bedingungsfelder sind ähnlich der OpenImmo-Felder und dienen mithilfe des `OpenImmo-Bedingungswertes` der Überprüfung von Attributwerten._
+
+#### Beispielhafter Ausschnitt aus einer Import.xml
+
+{% tabs %}
+{% tab title="Attributname" %}
+Im nachfolgenden Beispiel sind `<infrastruktur>` und `<distanzen>` die OpenImmo-Feldgruppe, das Attribut **distanz\_zu** wäre das **OpenImmo-Bedingungsfeld**.\
+\
+Auf den Attributnamen kann mithilfe von <mark style="color:blue;">`@attributname`</mark> zugegriffen werden.
+
+```
+<infrastruktur>
+    <distanzen distanz_zu="EINKAUFSMOEGLICHKEITEN">0.50</distanzen>
+    <distanzen distanz_zu="FLUGHAFEN">25.00</distanzen>
+    <distanzen distanz_zu="AUTOBAHN">2.00</distanzen>
+    <distanzen distanz_zu="BUS">0.20</distanzen>
+</infrastruktur>
+```
+
+Folgende Konfiguration ist für die Verwendung des Attributnamen als Bedingungsfeld von Nöten:
+
+> **OpenImmo-Feldgruppe:**         infrastruktur/distanzen
+>
+> **OpenImmo-Feld:**                    &#x20;
+>
+> **OpenImmo-Bedingungsfeld:** @distanz\_zu
+
+{% hint style="warning" %}
+Ein Bedingungsfeld **benötigt immer einen Bedingungswert**, welcher überprüft werden muss.
+{% endhint %}
+{% endtab %}
+{% endtabs %}
 
 
 
 :small\_blue\_diamond:`OpenImmo-Bedingungswert`
 
+_Der Bedingungswert ist der zu überprüfende **Attributwert** des Attributnamen, welcher im OpenImmo-Bedingungsfeld eingetragen wird._\
+_Mithilfe eines Bedingungswertes kann ein Wert innerhalb mehrerer gleichnamiger Elemente ausgelesen werden._
+
+#### Beispielhafte_r_ Ausschnitt aus einer Import.xml
+
+{% tabs %}
+{% tab title="Attributwert" %}
+Im nachfolgenden Beispiel sind `<infrastruktur>` und `<distanzen>` die OpenImmo-Feldgruppe, das Attribut `distanz_zu` ist das OpenImmo-Bedingungsfeld.\
+\
+Es soll auf den Wert des Elements `<distanzen distanz_zu="FLUGHAFEN">25.00</distanzen>` zugegriffen werden.\
+\
+Das Attribut `distanz_zu` ist das _OpenImmo-Bedingungsfeld_.\
+Der Wert **FLUGHAFEN** ist der **OpenImmo-Bedingungswert**.
+
+```
+<infrastruktur>
+    <distanzen distanz_zu="EINKAUFSMOEGLICHKEITEN">0.50</distanzen>
+    <distanzen distanz_zu="FLUGHAFEN">25.00</distanzen>
+    <distanzen distanz_zu="AUTOBAHN">2.00</distanzen>
+    <distanzen distanz_zu="BUS">0.20</distanzen>
+</infrastruktur>
+```
+
+Folgende Konfiguration ist für die Überprüfung des Attributwertes von Nöten:
+
+> **OpenImmo-Feldgruppe:**           infrastruktur/distanzen
+>
+> **OpenImmo-Feld:**                      &#x20;
+>
+> **OpenImmo-Bedingungsfeld:**   @distanz\_zu
+>
+> **OpenImmo-Bedingungswert:**  FLUGHAFEN
+
+Der Rückgabewert mit der oben genannten Konfiguration wäre:\
+`25.00`.
+{% endtab %}
+{% endtabs %}
+
 
 
 :small\_blue\_diamond:`Werte serialisieren`
 
+_Mit dieser Option lassen sich gefundene Werte serialisieren. Anwendung findet diese Option z. B. bei Bildern eines Objektes._
 
+#### Beispielhafter Ausschnitt aus einer Import.xml
+
+{% tabs %}
+{% tab title="Serialisierung" %}
+Im nachfolgenden Beispiel sind:
+
+* `<anhaenge>` und `<anhang>` die **OpenImmo-Feldgruppe**
+* `<daten>` und `<pfad>` die **OpenImmo-Felder**
+* `@gruppe` ist das **OpenImmo-Bedingungsfeld**
+* `BILD` ist der zu überprüfende **OpenImmo-Bedingungswert**
+
+\
+Es sollen **alle Werte** innerhalb von **anhang/daten/pfad** ausgegeben werden, in welchem `<anhang>` das **Attribut** `gruppe` und den **Attributwert** `BILD` besitzt.
+
+Da es sich um mehrere Werte handelt, welche dem System übergeben werden sollen, **kann hier serialisiert** werden.
+
+```
+<anhaenge>
+    <anhang location="EXTERN" gruppe="TITELBILD">
+        <anhangtitel>Immobilie 1</anhangtitel>
+        <format>jpg</format>
+        <daten>
+            <pfad>Foto_1.jpg</pfad>
+        </daten>
+    </anhang>
+    <anhang location="EXTERN" gruppe="BILD">
+        <anhangtitel>Bild 1</anhangtitel>
+        <format>jpg</format>
+        <daten>
+            <pfad>Bild_1.jpg</pfad>
+        </daten>
+    </anhang>
+    <anhang location="EXTERN" gruppe="BILD">
+        <anhangtitel>Bild 2</anhangtitel>
+        <format>jpg</format>
+        <daten>
+            <pfad>Bild_2.jpg</pfad>
+        </daten>
+    </anhang>
+    <anhang location="EXTERN" gruppe="BILD">
+        <anhangtitel>Bild 3</anhangtitel>
+        <format>jpg</format>
+        <daten>
+            <pfad>Bild_3.jpg</pfad>
+        </daten>
+    </anhang>
+    <anhang location="EXTERN" gruppe="BILD">
+        <anhangtitel>Bild 4</anhangtitel>
+        <format>jpg</format>
+        <daten>
+            <pfad>Bild_3.jpg</pfad>
+        </daten>
+    </anhang>
+</anhaenge>
+```
+
+Folgende Konfiguration dient der Serialisierung der Werte:
+
+> **OpenImmo-Feldgruppe:**           anhaenge/anhang
+>
+> **OpenImmo-Feld:**                       daten/pfad
+>
+> **OpenImmo-Bedingungsfeld:**   @gruppe
+>
+> **OpenImmo-Bedingungswert:**  BILD\
+> \
+> Werte Serialisieren ✅d
+
+Der Rückgabewert mit der oben genannten Konfiguration wäre:\
+
+{% endtab %}
+{% endtabs %}
 
 :small\_blue\_diamond:`Leeren Wert mappen`
 
-
+_Leeren Wert mappen._
 
 ### Formatierung
 
@@ -266,7 +416,7 @@ Sollte der Name des **zweiten** oder **dritten** Elementes von Bedeutung sein, k
 
 :small\_blue\_diamond:`Formatierung`
 
-
+_Formatierung._
 
 ### Experten-Einstellungen
 
@@ -274,5 +424,5 @@ Sollte der Name des **zweiten** oder **dritten** Elementes von Bedeutung sein, k
 
 :small\_blue\_diamond:`Datei speichern`
 
-
+_Datei speichern._
 
