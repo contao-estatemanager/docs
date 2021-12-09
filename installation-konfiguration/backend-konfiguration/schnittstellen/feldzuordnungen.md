@@ -99,7 +99,7 @@ _Innerhalb der OpenImmo-Felder befinden sich Werte . Auf diese kann über versch
 
 {% tabs %}
 {% tab title="Element-Werte" %}
-Im nachfolgenden Beispiel soll der Wert **Mustermann** innerhalb von `<name>` ausgelesen werden.
+Im nachfolgenden Beispiel wird der Wert **Mustermann** innerhalb von `<name>` ausgelesen.
 
 ```
 <kontaktperson>
@@ -119,7 +119,8 @@ Hierfür ist folgende Konfiguration notwendig:
 {% endtab %}
 
 {% tab title="Attribut-Werte" %}
-Im nachfolgenden Beispiel soll der Wert **51.06995** des Attributs `breitengrad` innerhalb von `<geokoordinaten>` ausgelesen werden.\
+Im nachfolgenden Beispiel wird der Wert **51.06995** des Attributs `breitengrad` innerhalb von `<geokoordinaten>` ausgelesen.\
+\
 Auf Attributwerte kann mithilfe von <mark style="color:blue;">`element@attribut`</mark> zugegriffen werden.
 
 ```
@@ -221,7 +222,25 @@ Der Rückgabewert mit der oben genannten Konfiguration wäre:\
 {% endtab %}
 
 {% tab title="Element-Namen" %}
+Im nachfolgenden Beispiel wird der Name des Elements **buero\_praxen** innerhalb von `<objektart>` ausgelesen.\
+\
+Auf den **Namen des ersten Elements innerhalb eines Elternelements** kann mithilfe von <mark style="color:blue;">`elternelement@[1]`</mark> zugegriffen werden.
 
+```
+<objektkategorie>
+    <objektart>
+        <buero_praxen buero_typ="BUEROFLAECHE"/>
+    </objektart>
+</objektkategorie>
+```
+
+Hierfür ist folgende Konfiguration notwendig:
+
+> **OpenImmo-Feldgruppe:** objektkategorie
+>
+> **OpenImmo-Feld:** objektart@\[1]
+
+Sollte der Name des **zweiten** oder **dritten** Elementes von Bedeutung sein, kann man auch <mark style="color:blue;">`elternelement@[`</mark><mark style="color:blue;">**`2`**</mark><mark style="color:blue;">`]`</mark> oder <mark style="color:blue;">`elternelement@[`</mark><mark style="color:blue;">**`3`**</mark><mark style="color:blue;">`]`</mark> verwenden.
 {% endtab %}
 {% endtabs %}
 
