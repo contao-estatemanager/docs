@@ -399,16 +399,18 @@ Folgende Konfiguration dient der Serialisierung der Werte:
 >
 > **OpenImmo-Bedingungswert:**  BILD\
 > \
-> Werte Serialisieren ✅d
+> **Werte Serialisieren:** ✅
 
 Der Rückgabewert mit der oben genannten Konfiguration wäre:\
-
+`{Bild1.jpg, Bild2.jpg, Bild3.jpg, Bild4.jpg}`
 {% endtab %}
 {% endtabs %}
 
+
+
 :small\_blue\_diamond:`Leeren Wert mappen`
 
-_Leeren Wert mappen._
+_Wenn importierte Objekte trotz **nicht-existenter Informationen in der Import.xml** einen **Standardwer**t erhalten sollen, kann hier bei Aktivierung der Checkbox, ein **gewünschter Standardwert** eingetragen werden._
 
 ### Formatierung
 
