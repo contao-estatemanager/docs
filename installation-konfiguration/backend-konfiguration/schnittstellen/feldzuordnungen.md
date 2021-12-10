@@ -4,10 +4,6 @@ description: Zuordnung von Feldern für Immobiliendatensätze
 
 # Feldzuordnungen
 
-{% hint style="warning" %}
-Dieser Bereich befindet sich zurzeit in Bearbeitung.
-{% endhint %}
-
 **Innerhalb jeder Schnittstelle** ist es möglich, jedes **Feld** einer **Import-XML** einem bestimmten Feld der im Contao EstateManager existierenden Objektfelder **zuzuordnen** und zu formatieren.
 
 Die XML-Datei, welche die OpenImmo Felder beinhaltet, kann sich auch innerhalb eines importierten Archivs befinden.
