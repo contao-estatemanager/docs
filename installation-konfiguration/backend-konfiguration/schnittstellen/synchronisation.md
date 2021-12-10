@@ -2,6 +2,10 @@
 
 Bereits eingerichtete Schnittstellen synchronisieren Immobiliendatensätze anhand der Schnittstellen-Konfiguration.
 
+{% hint style="warning" %}
+Die **Synchronisation** von Immobiliendatensätzen erfolgt **über einen Teilabgleich**. Ein Vollabgleich ist für eine nächste Version des Contao EstateManager geplant.
+{% endhint %}
+
 ### Manuelle Synchronisierung
 
 Die manuelle Synchronisierung von Immobiliendatensätzen ist über das ![](../../../.gitbook/assets/sync.svg)-Symbol in der Schnittstellenübersicht möglich. Durch Klicken des Symbols öffnet sich eine neue Maske, in welcher weitere Details zu Datensätzen vorzufinden sind.
