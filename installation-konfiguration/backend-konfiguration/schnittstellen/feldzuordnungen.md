@@ -333,6 +333,10 @@ Der Rückgabewert mit der oben genannten Konfiguration wäre:\
 
 _Mit dieser Option lassen sich gefundene Werte serialisieren. Anwendung findet diese Option z. B. bei Bildern eines Objektes._
 
+{% hint style="warning" %}
+Diese Einstellung ist **notwendig für Felder**, welche **in Contao serialisiert** sind und als **ein Wert** in der **Datenbank eingespeichert** werden. Ein Beispiel für einen serialisierten Wert in Contao wäre das Feld `multiSRC`.
+{% endhint %}
+
 #### Beispielhafter Ausschnitt aus einer Import.xml
 
 {% tabs %}
@@ -528,5 +532,7 @@ Wandelt übertragene Werte in boolsche Werte um (0 und 1). Kann mithilfe von **V
 
 :small\_blue\_diamond:`Datei speichern`
 
-_Hier kann angegeben werden, ob eine Datei bei einer Feldzuordnung gespeichert werden soll._
+_Hier kann angegeben werden, ob eine **Datei bei einer Feldzuordnung gespeichert** werden soll. Diese Option ist **nötig**, um **übertragene Dateien** für ein Objekt zu **speichern**._
+
+Sollte sich im **Immobilien-Import** eine **Datei mit dem angegebenen Wert** befinden, wird diese Datei im Ordner der Immobilie **gespeichert**.
 
