@@ -24,11 +24,11 @@ _Definiert wie lange eine Immobilie als "Neu" eingestuft und der entsprechende S
 
 :small\_blue\_diamond:`Max. Anzahl der primären Details`
 
-_Definiert die maximale Anzahl der primären Details einer Immobilie in Listen. Primäre Details können individuell für jeden_ [_Objekttypen_ ](objekttypen.md)_definiert werden._
+_Definiert die maximale Anzahl der primären Details einer Immobilie in Listen. Primäre Details können individuell für jeden_ [_Objekttypen_ ](objekttypen/)_definiert werden._
 
 :small\_blue\_diamond:`Max. Anzahl der primären Attribute`
 
-_Definiert die maximale Anzahl der primären Attribute einer Immobilie in Listen Primäre Attribute können ebenfalls individuell für jeden_ [_Objekttypen_ ](objekttypen.md)_definiert werden._
+_Definiert die maximale Anzahl der primären Attribute einer Immobilie in Listen Primäre Attribute können ebenfalls individuell für jeden_ [_Objekttypen_ ](objekttypen/)_definiert werden._
 
 :small\_blue\_diamond:`Standard-Bild`
 

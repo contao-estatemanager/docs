@@ -4,7 +4,7 @@ description: Exposé-Modul
 
 # Primäre Fläche
 
-Das Exposé-Modul `Primärer Fläche` prüft und liefert die im [Objekttypen](../objekttypen.md) definierte Fläche aus.
+Das Exposé-Modul `Primärer Fläche` prüft und liefert die im [Objekttypen](../objekttypen/) definierte Fläche aus.
 
 ### Template
 

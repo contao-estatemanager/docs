@@ -11,7 +11,3 @@ Innerhalb der Objekttypen können außerdem für diesen Typen **spezielle Expos�
 
 Mit Hilfe des [Einrichtungsassistenten ](https://www.contao-estatemanager.com/de/erweiterungen/einrichtungsassistent.html)können Objektgruppen und -Typen automatisch angelegt werden.
 {% endhint %}
-
-{% hint style="warning" %}
-Dieser Bereich befindet sich zurzeit in Bearbeitung.
-{% endhint %}

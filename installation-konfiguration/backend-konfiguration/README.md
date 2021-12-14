@@ -4,7 +4,7 @@ Nach der Installation stellt der EstateManager im Backend unter dem Reiter _Verw
 
 * [Einstellungen](einstellungen.md)
 * [Schnittstellen](schnittstellen/)
-* [Objekttypen](objekttypen.md)
+* [Objekttypen](objekttypen/)
 * [Anbieter / Standorte](anbieter-standorte.md)
 * [Filter](filter/)
 * [Feldformatierungen](feldformatierungen.md)
