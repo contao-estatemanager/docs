@@ -48,8 +48,7 @@ Innerhalb eines Feldes können beliebig viele Aktionen für den Wert des Feldes 
 
 {% hint style="warning" %}
 **Logische Reihenfolge der Aktionen verwenden:**\
-Preis- oder Flächenangaben müssen bspw. vor dem Anhängen von Einheiten wie `€` oder `m²` \
-(Aktion: `append`) den eigentlichen / noch unformatierten Wert formatiert bekommen (Aktion: `number_format`).
+Preis- oder Flächenangaben müssen bspw. vor dem Anhängen von Einheiten wie `€` oder `m²` (Aktion: `append`) den eigentlichen / noch unformatierten Wert formatiert bekommen (Aktion: `number_format`).
 
 _Falsch:_\
 :digit\_one: append\
