@@ -6,7 +6,7 @@ Mit Hilfe des Landesfilter kann der Immobilienbestand über ein Auswahlfeld anha
 
 &#x20;:small\_blue\_diamond:`Feldbezeichnung`
 
-Die Feldbezeichnung wird als HTML-Label vor dem eigenetlichen Aiswahlfeld ausgeliefert.
+Die Feldbezeichnung wird als HTML-Label vor dem eigentlichen Auswahlfeld ausgeliefert.
 
 &#x20;:small\_blue\_diamond:`Pflichtfeld`
 
@@ -18,11 +18,11 @@ Der Platzhalter wird als erste Option im Auswahlfeld ausgegeben.
 
 ### Länder-Optionen
 
-Um lediglich relevante Länder im Filter zur Auswahl zu stellen, kann der Landesfilter entweder auf Basis des aktuellen Immobiliendatenbestandes, oder anhand einer fest definierten Liste befüllt werden.
+Um lediglich relevante Länder im Filter zur Auswahl zu stellen, kann der Landesfilter entweder auf Basis des aktuellen Immobiliendatenbestandes oder anhand einer fest definierten Liste befüllt werden.
 
 &#x20;:small\_blue\_diamond:`Quelle`
 
-Hier kann eingestellt werden, auf welchem Datenbstand die Landesauswahl ermittelt werden soll.
+Hier kann eingestellt werden, auf welchem Datenbestand die Landesauswahl ermittelt werden soll.
 
 * Vorhandener Datenbestand\
   _Landesauswahl wird anhand des existierenden Datenbestandes automatisch ermittelt._
