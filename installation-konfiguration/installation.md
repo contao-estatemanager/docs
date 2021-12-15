@@ -46,8 +46,7 @@ Nach der Installation muss das [Contao-Installtool](https://docs.contao.org/manu
 
 * [PHP](https://www.php.net/ChangeLog-7.php#PHP\_7\_1) `>=7.4`
 * [MySQL](https://www.mysql.com/de/) `>5.7` oder gleichwertiger [MariaDB](https://mariadb.org) Server
-* [Contao](https://github.com/contao/contao)` ^4.4`
-* [MultiColumnWizard](https://github.com/menatwork/contao-multicolumnwizard-bundle) `^3.3`
+* [Contao](https://github.com/contao/contao) `^4.9`
 
 Sofern der EstateManager über Composer oder dem Contao Manager installiert wird, werden alle benötigten Abhängigkeiten mit installiert.
 
