@@ -68,6 +68,15 @@ Kann eine Immobilie während eines Imports keiner Kontaktperson zugeordnet werde
 
 _Hier muss das Feld ausgewählt werden, über das eine Kontaktperson eindeutig identifiziert werden kann._
 
+* E-Mail (Zentrale)
+* E-Mail (Direkt)
+* Persononennummer
+* Nachname, Vorname
+
+{% hint style="info" %}
+Die Personennummer stellt die zuverlässigste Möglichkeit der Identifizierung dar und wird daher von uns empfohlen.
+{% endhint %}
+
 &#x20;__ :small\_blue\_diamond:`Datensätze anderer Anbieter importieren`
 
 _Hier kann angegeben werden, wie mit Immobilien anderer Anbieter umgegangen werden soll. Für gewöhnlich werden innerhalb einer OpenImmo Übertragung lediglich Immobilien des eigenen Anbieters übertragen. Sollte dies nicht der Fall sein, können Immobilien anderer Anbieter schlicht mit den Einstellungen der eigenen Schnittstelle importiert werden oder alternativ anhand der Vermarktungsart einer bestimmten Kontaktperson zugeordnet werden._

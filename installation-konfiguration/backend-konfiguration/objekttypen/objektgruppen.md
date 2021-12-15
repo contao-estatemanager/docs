@@ -5,7 +5,7 @@ Innerhalb von Objektgruppen kann eine spezielle **Sammlung von Immobilientypen**
 {% hint style="info" %}
 **Mehrsprachigkeit**
 
-Mit Hilfe von Immobiliengruppen können auch **mehrsprachige** Immobilien-Websites erstellt werden.
+Mit Hilfe von Immobiliengruppen können auch **mehrsprachige** Immobilien-Websites erstellt werden. Objektgruppen müssen dafür in der jeweiligen Sprache vorliegen und über die entsprechenden Frontend-Module in der korrekten Sprachversion der Website eingebunden werden.&#x20;
 {% endhint %}
 
 ### Einstellungen
