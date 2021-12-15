@@ -1,6 +1,6 @@
 # Filter-Widgets
 
-Filter-Widgets ähneln Formularfeldern, welche anstelle des Contao Formulargenerator in der Filter-Verwaltung verwendet werden können. Filter-Widgets können innerhalb eines Filters an beliebiger stelle Positioniert werden, um das Erscheinungsbild eines Filters vollumfänglich steuern zu können.
+Filter-Widgets ähneln Formularfeldern, welche anstelle des Contao Formulargenerator in der Filter-Verwaltung verwendet werden können. Filter-Widgets können innerhalb eines Filters an beliebiger Stelle positioniert werden, um das Erscheinungsbild eines Filters vollumfänglich steuern zu können.
 
 ### Verfügbare Filter-Widgets
 
