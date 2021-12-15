@@ -10,5 +10,5 @@
 Anbieter sind für den **Import** von Datensätzen wie **Immobilien und Ansprechpartner** essenziell, da nur Datensätze importiert werden können, die einem bestimmten Anbieter zugeordnet sind. Im **OpenImmo** Standard werden Datensätze dabei über eine **XML-Datei** übertragen, die stets einem konkreten Anbieter zugeordnet sind. Die Ermittlung des korrekten Anbieters erfolgt über die in der XML-Datei ebenfalls enthaltene **Anbieternummer** und muss der Anbieternummer des Anbieterdatensatzes entsprechen.
 
 {% hint style="danger" %}
-Immobiliendatensätze können nur importiert werden, wenn diese einer g**ültigen Anbieter-ID** zugeordnet werden können.
+Immobiliendatensätze können nur importiert werden, wenn diese einer **gültigen Anbieter-ID** zugeordnet werden können.
 {% endhint %}
