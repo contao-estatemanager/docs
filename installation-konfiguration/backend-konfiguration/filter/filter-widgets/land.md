@@ -6,7 +6,7 @@ Mit Hilfe des Landesfilter kann der Immobilienbestand über ein Auswahlfeld anha
 
 &#x20;:small\_blue\_diamond:`Feldbezeichnung`
 
-Die Feldbezeichnung wird als HTML-Label vor dem eigentlichen Auswahlfeld ausgeliefert.
+Die Feldbezeichnung wird als HTML-Label vor dem eigenetlichen Aiswahlfeld ausgeliefert.
 
 &#x20;:small\_blue\_diamond:`Pflichtfeld`
 
