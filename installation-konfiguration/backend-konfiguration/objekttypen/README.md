@@ -6,6 +6,9 @@ Die **Konfiguration ist zwingend notwendig**, um Objekte **filtern** und / oder 
 
 Innerhalb der Objekttypen können außerdem für diesen Typen **spezielle Exposé-Seiten** definiert werden. Die hier definierten primären Felder wie "**Primärer Preis**", "**Primäre Fläche**", "Primäre Details" etc. werden herangezogen, um über den mitgelieferten Immobilien-Filter **gefiltert werden zu können**.
 
+* [Objektgruppen](objektgruppen.md)
+* [Objekttypen](objekttypen.md)
+
 {% hint style="info" %}
 #### Automatische Konfiguration
 
