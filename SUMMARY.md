@@ -28,6 +28,7 @@
       * [Immobilien-Typ (separiert)](installation-konfiguration/backend-konfiguration/filter/filter-widgets/immobilien-typ-separiert.md)
       * [Primäre Felder](installation-konfiguration/backend-konfiguration/filter/filter-widgets/primaere-felder.md)
       * [Zurücksetzen](installation-konfiguration/backend-konfiguration/filter/filter-widgets/zuruecksetzen.md)
+      * [Absendefeld](installation-konfiguration/backend-konfiguration/filter/filter-widgets/absendefeld.md)
   * [Feldformatierungen](installation-konfiguration/backend-konfiguration/feldformatierungen.md)
   * [Exposé-Module](installation-konfiguration/backend-konfiguration/expose-module/README.md)
     * [Titel](installation-konfiguration/backend-konfiguration/expose-module/titel.md)

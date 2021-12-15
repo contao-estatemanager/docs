@@ -1,6 +1,27 @@
 # Primäre Felder
 
+Der primäre Felder Filter zeigt dynamisch die Filtermöglichkeiten an, die in einem Objekttyp als Suchfelder aktiviert wurden. Dadurch ist es möglich, genau einzustellen, welche Filtermöglichkeiten bei der Auswahlt jedes einzelnen Objekttypen zur Verfügung stehen.
+
 {% hint style="info" %}
-Dieser Bereich folgt in Kürze.
+**JavaScript-Template notwendig**
+
+Damit automatisch die richtigen Filter anhand des Objekttypen ausgegeben werden können, muss im Layout das "**js\_**_**em**_**\_filter"** JavaScript-Template aktiviert werden.
 {% endhint %}
 
+### Beispiel
+
+Die verschiedenen Objekttypen zeichen sich fachlich durch unterschiedliche Eckdaten und Informationen aus. Alle Objekttypen lassen sich in der Regel anhand des Preises oder der Fläche filtern. Bei der Anzahl der Zimmer wird dieser Umstand im Falle von Grundstücken allerdings bereits schwieriger. Bei Gewerbeobjekten ist oftmals der Quadratmeterpreis entscheidend, sodass bei jeden Objekttyp filigran die plausiblen Filtermöglichkeiten definiert werden können.
+
+### Konfiguration
+
+:small\_blue\_diamond:`Label anzeigen`
+
+Hier kann eingestellt werden, ob HTML-Label vor den eigentlichen Auswahlfeldern ausgeliefert werden sollen.
+
+:small\_blue\_diamond:`Placeholder anzeigen`
+
+Hier kann angegeben werden, ob Placeholder in den jeweiligen Auswahlfeldern ausgegeben werden sollen.&#x20;
+
+:small\_blue\_diamond:`Bereichs-Modus`
+
+Hier kann eingestellt werden, die Filterung in einen Bereich von zwei Werten gefiltert werden soll (Von-Bis Suche).

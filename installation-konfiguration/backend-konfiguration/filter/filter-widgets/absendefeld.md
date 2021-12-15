@@ -1,6 +1,6 @@
-# Zurücksetzen
+# Absendefeld
 
-Über den Zurücksetzen-Button kann der Filter im Frontend über einen Button zurückgesetzt werden. Optional kann dieser als Bildschaltfläche ausgeliefert werden.
+Über den Absende-Button kann der Filter im Frontend abgeschickt werden. Optional kann dieser als Bildschaltfläche ausgeliefert werden.
 
 ### Konfiguration
 
