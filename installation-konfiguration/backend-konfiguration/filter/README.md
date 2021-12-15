@@ -10,7 +10,7 @@ Mithilfe von Immobilien-Filtern lassen sich Objekte in Kombination mit einer Imm
 
 ### Funktionsweise
 
-Filter können grundsätzlich wie Formulare im Contao Formulargenerator aufgebaut und verwaltet werden. Anstelle von Formularfeldern stehen dabei in der Filterverwaltung sogenannte Filter-Widgets zur verfügung, über die ein Filter ganz nach den eigenen Wünschen eingerichtet werden kann.
+Filter können ähnlich wie Formulare im Contao Formulargenerator aufgebaut und verwaltet werden. Anstelle von Formularfeldern stehen dabei in der Filterverwaltung sogenannte Filter-Widgets zur Verfügung, über die ein Filter ganz nach den eigenen Wünschen eingerichtet werden kann.
 
 ### Neuen Filter erstellen
 
