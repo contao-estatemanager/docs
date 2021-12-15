@@ -15,3 +15,9 @@ In der Regel muss der Adressfilter nicht als Pflichtfeld deklariert werden.
 &#x20;:small\_blue\_diamond:`Platzhalter`
 
 Der Platzhalter wird als HTML Platzhalter-Attribut im Freitextfeld ausgegeben.
+
+{% hint style="success" %}
+**Tipp: Adressvervollständigung**
+
+Über die Erweiterung [Google Autocomplete](../../../../erweiterungen/erweiterungen/google-autocomplete.md), wird ein neues Filter-Widget zur Verfügung gestellt, welche eine Autovervollständigung von Postleitzahlen, Städten oder Regionen zur Verfügung stellt.
+{% endhint %}
