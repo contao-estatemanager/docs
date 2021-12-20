@@ -8,6 +8,10 @@ description: Schnittstellen anlegen und Verwalten
 
 Schnittstellen können den eigenen Anforderungen entsprechend umfangreich konfiguriert werden. Dabei können beliebig viele Schnittstellen angelegt werden, um Datensätze unterschiedlicher Quellen und Strukturen zuverlässig importieren zu können. Eine Schnittstelle **muss einem eindeutigen Anbieter zugeordnet werden**, weshalb **vor der** Schnittstellen-**Konfiguration** der entsprechende **Anbieter angelegt werden muss**.
 
+{% hint style="info" %}
+Anbieter können unter "<mark style="background-color:blue;">**EstateManager > Verwaltung > Anbieter/Standorte verwalten**</mark>" eingerichtet werden. Für die Zuordnung von Immobiliendatensätzen ist die **Anbieternummer** von Nöten.
+{% endhint %}
+
 ### Titel & Typ
 
 :small\_blue\_diamond:`Titel`
@@ -27,6 +31,10 @@ _Eine Schnittstelle **muss** einem bestimmten **Anbieter zugeordnet werden**, da
 :small\_blue\_diamond:`Anbieternummer`
 
 _Die eindeutige Anbieternummer der OpenImmo Übertragung._
+
+{% hint style="danger" %}
+Die **Anbieternummer ist essenziell** für die Übertragung von Immobilien und Kontaktpersonen.
+{% endhint %}
 
 :small\_blue\_diamond:`Eindeutiges Anbieterfeld`
 

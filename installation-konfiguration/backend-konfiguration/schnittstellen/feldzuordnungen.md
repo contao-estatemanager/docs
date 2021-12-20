@@ -330,7 +330,7 @@ Der Rückgabewert mit der oben genannten Konfiguration wäre:\
 _Mit dieser Option lassen sich gefundene Werte serialisieren. Anwendung findet diese Option z. B. bei Bildern eines Objektes._
 
 {% hint style="warning" %}
-Diese Einstellung ist **notwendig für Felder**, welche **in Contao serialisiert** sind und als **ein Wert** in der **Datenbank eingespeichert** werden. Ein Beispiel für einen serialisierten Wert in Contao wäre das Feld `multiSRC`.
+Diese Einstellung ist **notwendig für Felder**, welche **in Contao serialisiert** sind und als **ein Wert** in der **Datenbank gespeichert** werden. Ein Beispiel für einen serialisierten Wert in Contao wäre das Feld `multiSRC`.
 {% endhint %}
 
 #### Beispielhafter Ausschnitt aus einer Import.xml
@@ -428,7 +428,7 @@ _Hier kann ausgewählt werden, **welche Formatierung** angewendet werden soll. F
 
 #### Zahl (Formatierung)
 
-Kürzt eine Zahl anhand der der übergebenen Dezimalstellen.
+Kürzt eine Zahl anhand der übergebenen Dezimalstellen.
 
 > Beispiel:\
 > **Anzahl an Dezimalstellen:** 2\
@@ -514,7 +514,7 @@ Nutzt die Funktion [**ucfirst()**](https://php.net/manual/de/function.ucfirst.ph
 
 #### Trimmen (Textformatierung)
 
-Entfernt Whitespaces (oder andere Zeichen) am Anfang und Ende eines Strings.
+Entfernt Zwischenraumzeichen (oder andere Zeichen) am Anfang und Ende eines Strings.
 
 {% hint style="info" %}
 Nutzt die Funktion [**trim()**](https://www.php.net/manual/de/function.trim.php)****

@@ -2,8 +2,11 @@
 
 Bereits eingerichtete Schnittstellen synchronisieren Immobiliendatensätze anhand der Schnittstellen-Konfiguration.
 
-{% hint style="warning" %}
-Die **Synchronisation** von Immobiliendatensätzen erfolgt **über einen Teilabgleich**. Ein Vollabgleich ist für eine nächste Version des Contao EstateManager geplant.
+{% hint style="info" %}
+Die **Synchronisation** von Immobiliendatensätzen erfolgt **über einen Teilabgleich**. \
+Durch einen Teilabgleich können einzelne **Löschaufträge** für Immobiliendatensätze erfolgen. Löschaufträge werden ausschließlich von Teilabgleichen eines ERP-Systems (z. B. onOffice) übermittelt.\
+\
+Ein **Vollausgleich ist bei der initialen Befüllung** des Systems erlaubt. Hierbei werden Immobilien **nur hinzugefügt**, durch den Vollausgleich können jedoch die Datensätze jedoch **nicht gelöscht** werden.
 {% endhint %}
 
 ### Manuelle Synchronisierung
@@ -51,6 +54,10 @@ In dieser Übersicht sieht man die zuletzt synchronisierten Dateien mit einer Me
 
 ### Bereinigung von Dateien
 
-Beim Import von Immobiliendatensätzen werden Bilder und Anhänge in der Dateiverwaltung für eine Immobilie im ausgewählten Importverzeichnis abgelegt. Dateien von gelöschten Immobilien bleiben grundsätzlich in der Dateiverwaltung bestehen.
+Beim Import von Immobiliendatensätzen werden Bilder und Anhänge in der Dateiverwaltung für eine Immobilie im ausgewählten Importverzeichnis abgelegt. Durch Löschaufträge werden die zugehörigen Dateien gelöscht.
+
+{% hint style="warning" %}
+Bei einem **Vollausgleich** werden Immobiliendatensätze **nur angelegt**, eine **Löschung** der Datensätze ist hier **nicht möglich**.
+{% endhint %}
 
 Mithilfe der Funktion **Datensätze aufräumen** ![](../../../.gitbook/assets/clear.svg) lassen sich Dateien, welche keiner Immobilie zugeordnet werden können, löschen.
