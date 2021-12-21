@@ -1,6 +1,7 @@
 # Adresse
 
-Mit Hilfe des Adressfilters können Immobilien anhand der Stadt oder der Postleitzahl gefiltert werden. Dabei sei zu beachten, dass gelcihzeitig entweder nach der Stadt, oder aber nach der Postleitzahl gesucht werden kann. Die Suche erfolgt stets ungenau, sodass Städtenamen nicht vollständig ausgeschrieben werden müssen.
+Mit Hilfe des Adressfilters können Immobilien anhand der Stadt oder der Postleitzahl gefiltert werden. \
+Zu beachten ist, dass **entweder** nach der **Stadt oder** nach der **Postleitzahl** gesucht wird. Die Suche erfolgt stets ungenau, sodass Städtenamen nicht vollständig ausgeschrieben werden müssen.
 
 ### Konfiguration
 
@@ -19,5 +20,5 @@ Der Platzhalter wird als HTML Platzhalter-Attribut im Freitextfeld ausgegeben.
 {% hint style="success" %}
 **Tipp: Adressvervollständigung**
 
-Über die Erweiterung [Google Autocomplete](../../../../erweiterungen/erweiterungen/google-autocomplete.md), wird ein neues Filter-Widget zur Verfügung gestellt, welche eine Autovervollständigung von Postleitzahlen, Städten oder Regionen zur Verfügung stellt.
+Über die Erweiterung [Google Autocomplete](../../../../erweiterungen/erweiterungen/google-autocomplete.md) wird ein neues Filter-Widget zur Verfügung gestellt, welches eine Autovervollständigung von Postleitzahlen, Städten oder Regionen zur Verfügung stellt.
 {% endhint %}

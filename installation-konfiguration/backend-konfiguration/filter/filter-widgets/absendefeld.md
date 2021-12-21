@@ -1,6 +1,6 @@
 # Absendefeld
 
-Über den Absende-Button kann der Filter im Frontend abgeschickt werden. Optional kann dieser als Bildschaltfläche ausgeliefert werden.
+Über den **Absende-Button** kann der Filter im Frontend abgeschickt werden. Optional kann dieser als Bildschaltfläche ausgeliefert werden.
 
 ### Konfiguration
 

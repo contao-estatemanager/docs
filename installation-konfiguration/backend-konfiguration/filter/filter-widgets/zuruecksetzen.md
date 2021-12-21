@@ -1,6 +1,6 @@
 # Zurücksetzen
 
-Über den Zurücksetzen-Button kann der Filter im Frontend über einen Button zurückgesetzt werden. Optional kann dieser als Bildschaltfläche ausgeliefert werden.
+Über den **Zurücksetzen-Button** können die Filterfelder im Frontend **zurückgesetzt** werden. Optional kann dieser als Bildschaltfläche ausgeliefert werden.
 
 ### Konfiguration
 

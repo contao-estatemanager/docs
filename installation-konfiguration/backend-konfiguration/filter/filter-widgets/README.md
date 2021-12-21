@@ -14,7 +14,7 @@ Filter-Widgets ähneln Formularfeldern, welche anstelle des Contao Formulargener
 * [Absendefeld](absendefeld.md)
 
 {% hint style="info" %}
-Filter-Widgets und dessen Einstellungen können durch verschiedene [Erweiterungen](../../../../erweiterungen/erweiterungen/) um neue Möglichkeiten und Felder ergänzt werden. Die hier dokumentierten Filter-Widgets beinhaltet ausschließlich die vom EstateManager (Core) gelieferten Einstellungsmöglichkeiten. Felder oder Widgets, welche durch Erweiterungen hinzugefügt wurden, können direkt in der Dokumentation der dafür verantwortlichen Erweiterung eingesehen werden.
+Filter-Widgets und deren Einstellungen können durch verschiedene [Erweiterungen](../../../../erweiterungen/erweiterungen/) um neue Möglichkeiten und Felder ergänzt werden. Die hier dokumentierten Filter-Widgets beinhalten ausschließlich die vom EstateManager (Core) gelieferten Einstellungsmöglichkeiten. Felder oder Widgets, welche durch Erweiterungen hinzugefügt wurden, können direkt in der Dokumentation der dafür verantwortlichen Erweiterung eingesehen werden.
 {% endhint %}
 
 ### Weitere Filter-Widgets

@@ -1,6 +1,6 @@
 # Land
 
-Mit Hilfe des Landesfilter kann der Immobilienbestand über ein Auswahlfeld anhand des Landes gefiltert werden. Dabei kann entweder in allen Ländern, oder aber nur nach einem Land gleichzeitig gefiltert werden. Eine dedizierte Mehrfachauswahl ist nicht vorgesehen.
+Mit Hilfe des Landesfilters kann der Immobilienbestand über ein Auswahlfeld anhand des Landes gefiltert werden. Dabei kann entweder in allen Ländern oder aber nur nach einem Land gleichzeitig gefiltert werden. Eine dedizierte Mehrfachauswahl ist nicht vorgesehen.
 
 ### Konfiguration
 

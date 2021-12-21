@@ -1,6 +1,6 @@
 # Immobilien-Typ (separiert)
 
-Der separierte Objekttyp-Filter stellt über zwei dedizierte Auswahlfelder die Vermarktungsart sowie sämtliche Objekttypen zur Verfügung. Das Verhalten ähnelt dem [kombinierten Immobilientyp-Filter](immobilien-typ.md) weitestgehend, differenziert sich allerdings durch die Aufteilung in Vermarktungsart und Objektart als Auswahlfelder von diesem.
+Der separierte Objekttyp-Filter stellt über **zwei dedizierte Auswahlfelder** die **Vermarktungsart** sowie **sämtliche Objekttypen** zur Verfügung. Das Verhalten ähnelt dem [kombinierten Immobilientyp-Filter](immobilien-typ.md) weitestgehend, differenziert sich allerdings durch die Aufteilung in Vermarktungsart und Objektart als Auswahlfelder von diesem.
 
 ### Konfiguration
 

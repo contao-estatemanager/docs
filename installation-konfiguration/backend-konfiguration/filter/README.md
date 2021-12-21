@@ -31,7 +31,7 @@ Der Filteralias ist eine eindeutige Referenz, die anstelle der numerischen Filte
 Hier kann die Seite eingetragen werden, zu der man beim Abschicken des Filters weitergeleitet wird.
 
 {% hint style="info" %}
-Verfügen Objekttypen eine eigene Referenzseite, muss die Weiterleitungsseite ggf. auf die Übersichtsseite aller Immobilien weitergeleitet werden, um stets zur korrekten Unterseite Weitergeleitet zu werden.
+Verfügen Objekttypen über eine eigene Referenzseite, muss die Weiterleitungsseite ggf. auf die Übersichtsseite aller Immobilien weitergeleitet werden, um stets zur korrekten Unterseite weitergeleitet zu werden.
 {% endhint %}
 
 ### Filter-Einstellungen
