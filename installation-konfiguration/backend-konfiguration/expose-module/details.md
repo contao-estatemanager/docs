@@ -16,7 +16,7 @@ Das `Details` Exposé-Modul liefert alle möglichen Werte der Immobilie aus. Fol
 
 :small\_blue\_diamond:`Detail-Kategorien`
 
-_Detail-Kategorien definieren Unterteilungen von Immobilien-Eigenschaften wie `Flächen`, `Preise`, `Attribute`, `Details `und `Energieausweis`-Informationen. Über diese Einstellung können alle oder nur bestimmte dieser Kategorien ausgegeben werden. Die Reihenfolge der Ausgabe dieser Kategorien kann dabei ebenfalls definiert werden._
+_Detail-Kategorien definieren Unterteilungen von Immobilien-Eigenschaften wie `Flächen`, `Preise`, `Attribute`, `Details` und `Energieausweis`-Informationen. Über diese Einstellung können alle oder nur bestimmte dieser Kategorien ausgegeben werden. Die Reihenfolge der Ausgabe dieser Kategorien kann dabei ebenfalls definiert werden._
 
 :small\_blue\_diamond:`Detail-Kategorien zusammenfassen`
 
@@ -33,6 +33,14 @@ _Gibt die Überschriften der einzelnen Kategorien oder der gesammelten Detaillis
 :small\_blue\_diamond:`Schriftgröße`
 
 _Sofern Überschriften ausgegeben werden sollen, kann über diese Einstellung die Schriftgröße definiert werden._
+
+:small\_blue\_diamond:_Individuelle Feldsortierung_
+
+_Hier kann die Reihenfolge der Felder für die Ausgabe individuell definiert werden. Bei Angabe einer individuellen Feldreihenfolge innerhalb der Objekttypen, werden diese überschrieben._
+
+{% hint style="info" %}
+_Die Einstellung "Individuelle Feldsortierung" steht erst ab Version 1.1 zur Verfügung._
+{% endhint %}
 
 ### Template
 
