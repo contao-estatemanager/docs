@@ -9,7 +9,7 @@ Wie bereits unter [Feldformatierungen](../../installation-konfiguration/backend-
 Eine `FormattedCollection` bezeichnet also ein Paket von validierten / formatierten Feldwerten und setzt sich aus folgenden Bestandteilen zusammen:
 
 ```php
-// FormattestCollection
+// FormattedCollection
 array(
     'value' // formatierter Wert
     'raw'   // unformatierter Wert
@@ -18,6 +18,4 @@ array(
     'class' // individuelle CSS-Klasse
 );
 ```
-
-
 
