@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-demo@latest/dist/index.min.css" />
+  <style>
+    :root {
+      --docsifytabs-border-px             : 1px;
+      --docsifytabs-border-radius-px      : 3px;
+      --docsifytabs-margin                : 1em 0;
+      --docsifytabs-content-padding       : 1em 0;
+
+      --docsifytabs-tab-color--active     : #0973F0;
+      --docsifytabs-tab-highlight-px      : 2px;
+      --docsifytabs-tab-padding           : 1em 0;
+    }
+
+    .app-name-link img{
+      padding: 10px;
+    }
+
+    .markdown-section code,
+    .markdown-section a code{
+      color: #0973F0;
+    }
+
+    .markdown-section p.tip{
+      border-left-color: #0973F0;
+      border-left-width: 2px;
+    }
+
+    .markdown-section p.tip:before {
+      background-color: #0973F0;
+    }
+
+    .docsify-tabs__tab{
+      cursor: pointer;
+      margin-left: 15px;
+    }
+
+    .docsify-tabs__tab:first-of-type{
+      margin-left: 0px;
+    }
+
+    .docsify-tabs__tab--active{
+      font-weight: bold;
+    }
+
+    .api-route{
+      font-weight: bold;
+      margin: 0.2em 0 1em 0;
+      padding: 1em;
+      background: #F8F8F8;
+    }
+
+    .read-only{
+      color: #a8a8a8;
+    }
+
+    .method{
+      display: inline-block;
+      padding: 3px 8px;
+      border-radius: 10px;
+      font-size: 12px;
+      background: #ccc;
+      margin-right: 5px;
+    }
+
+    .method.get{
+      color: #fff;
+      background: #0973F0;
+    }
+
+    .markdown-section tr,
+    .markdown-section td,
+    .markdown-section th{
+      border: 0 none;
+    }
+
+    .markdown-section tr{
+      border-bottom: 1px solid #f3f3f3;
+    }
+
+    .markdown-section tr:nth-child(2n){
+      background-color: inherit;
+    }
+
+    a.icon-support:after{
+      content: "❤";
+      display: inline-block;
+      margin-left: 5px;
+      color: #0973F0;
+    }
+
+    a.icon-support:hover:after {
+      color: red;
+    }
+
+    .demo-copy-code-button{
+      background-color: #0973F0;
+      font-size: 10px;
+    }
+
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <!-- Edit on GitHub -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
+
+  <!-- Docsify config -->
+  <script>
+    window.$docsify = {
+      name: 'Contao EstateManager',
+      logo: 'logo.svg',
+      coverpage: true,
+      themeColor: '#0973F0',
+      loadSidebar: true,
+      loadNavbar: true,
+      subMaxLevel: 0,
+      mergeNavbar: true,
+      onlyCover: false,
+      relativePath: false,
+      auto2top: true,
+      sidebarDisplayLevel: 1,
+      search: {
+        paths: 'auto',
+        placeholder: {
+          '/de-DE/': 'Durchsuchen',
+          '/': 'Type to search',
+        },
+        noData: {
+          '/de-DE/': 'Keine Ergebnisse',
+          '/': 'No Results',
+        },
+        hideOtherSidebarContent: true
+      },
+      plugins: [
+        EditOnGithubPlugin.create("https://github.com/contao-estatemanager/core/tree/main/docs/")
+      ],
+      pagination: {
+        previousText: {
+          '/de-DE/': 'VORHERIGE',
+          '/': 'PREVIOUS'
+        },
+        nextText: {
+          '/de-DE/': 'NÄCHSTE',
+          '/': 'NEXT'
+        },
+        crossChapter: true,
+        crossChapterText: false,
+      },
+      tabs: {
+        persist    : true,
+        sync       : true,
+        theme      : 'material',
+        tabComments: true,
+        tabHeadings: true
+      }
+    }
+  </script>
+
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+
+  <!-- Panels -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-example-panels"></script>
+
+  <!-- Tabs -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+
+  <!-- Sidebar collapse -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+
+  <!-- Copy code? -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-demo@latest/dist/index.min.js"></script>
+
+  <!-- Code highlighting -->
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
+
+  <!-- Pagination -->
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+
+  <!-- Search -->
+  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+</body>
+</html>
