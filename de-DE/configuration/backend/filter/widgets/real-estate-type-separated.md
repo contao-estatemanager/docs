@@ -4,14 +4,14 @@ Der separierte Objekttyp-Filter stellt über **zwei dedizierte Auswahlfelder** d
 
 ### Konfiguration
 
-:small\_blue\_diamond:`Pflichtfeld`
+<span class="field">Pflichtfeld</span>
 
 In der Regel muss der Immobilientyp-Filter nicht als Pflichtfeld deklariert werden.
 
-:small\_blue\_diamond:`Detaillierte Bezeichnung verwenden`
+<span class="field">Detaillierte Bezeichnung verwenden</span>
 
 Hier kann eingestellt werden, dass der detaillierte Bezeichner anstelle des normalen Bezeichners eines Objekttypen im Frontend ausgegeben werden soll.
 
-:small\_blue\_diamond:`Label anzeigen`
+<span class="field">Label anzeigen</span>
 
 Hier kann eingestellt werden, ob HTML-Label vor den eigentlichen Auswahlfeldern ausgeliefert werden sollen.

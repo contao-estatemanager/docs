@@ -1,12 +1,8 @@
----
-description: Ein Immobilienfilter zur Suche und Filterung von Objekten
----
-
 # Filter
 
-Mithilfe von Immobilien-Filtern lassen sich Objekte in Kombination mit einer Immobilien-Ergebnisliste suche und filtern. Ein eingestellter Filter lässt sich als Inhaltselement oder als Frontend-Modul in einer Seite einbinden.
+Mithilfe von Immobilien-Filtern lassen sich Objekte in Kombination mit einer Immobilien-Ergebnisliste suchen und filtern. Ein eingestellter Filter lässt sich als Inhaltselement oder als Frontend-Modul in einer Seite einbinden.
 
-![](../../../.gitbook/assets/Filter.png)
+![](../../../_media/Filter.png)
 
 ### Funktionsweise
 
@@ -14,44 +10,40 @@ Filter können ähnlich wie Formulare im Contao Formulargenerator aufgebaut und 
 
 ### Neuen Filter erstellen
 
-Neue Filter können über **Neuer Filter** ![](../../../.gitbook/assets/new.svg) erstellt werden.
+Neue Filter können über **Neuer Filter** ![](../../../../_media/new.svg) erstellt werden.
 
 ### Titel & Weiterleitung
 
-:small\_blue\_diamond:`Titel`
+<span class="field">Titel</span>
 
 Dient der Identifizierung im Backend.
 
-``:small\_blue\_diamond:`Filteralias`
+<span class="field">Filteralias</span>
 
 Der Filteralias ist eine eindeutige Referenz, die anstelle der numerischen Filter-ID verwendet werden kann.
 
-:small\_blue\_diamond:`Weiterleitungsseite`
+<span class="field">Weiterleitungsseite</span>
 
 Hier kann die Seite eingetragen werden, zu der man beim Abschicken des Filters weitergeleitet wird.
 
-{% hint style="info" %}
-Verfügen Objekttypen über eine eigene Referenzseite, muss die Weiterleitungsseite ggf. auf die Übersichtsseite aller Immobilien weitergeleitet werden, um stets zur korrekten Unterseite weitergeleitet zu werden.
-{% endhint %}
+?> Verfügen Objekttypen über eine eigene Referenzseite, muss die Weiterleitungsseite ggf. auf die Übersichtsseite aller Immobilien weitergeleitet werden, um stets zur korrekten Unterseite weitergeleitet zu werden.
 
 ### Filter-Einstellungen
 
-:small\_blue\_diamond:`Objektgruppen`
+<span class="field">Objektgruppen</span>
 
 Hier können die Objektgruppen ausgewählt werden, die für die Filterung berücksichtigt werden sollen.
 
-:small\_blue\_diamond:`Bei Änderung Seite wechseln`
+<span class="field">Bei Änderung Seite wechseln</span>
 
 Hier kann eingestellt werden, ob der Filter automatisch abgeschickt wird bei Änderung der Objektart.
 
-:small\_blue\_diamond:`Standardfilter`
+<span class="field">Standardfilter</span>
 
 Standardfilter werden angezeigt, wenn kein spezieller Objekttyp ausgewählt wurde.&#x20;
 
-{% hint style="info" %}
-Standardfilter sollten den kleinsten gemeinsamen Nenner aller Filtermöglichkeiten der verfügbaren Objekttypen anbieten. In der Regel sind dies _Preise_ und _Flächen_, allerdings kann auch die _Anzahl der Zimmer_ relevant sein, wenn keine Grundstücke angeboten werden.
-{% endhint %}
+?> Standardfilter sollten den kleinsten gemeinsamen Nenner aller Filtermöglichkeiten der verfügbaren Objekttypen anbieten. In der Regel sind dies _Preise_ und _Flächen_, allerdings kann auch die _Anzahl der Zimmer_ relevant sein, wenn keine Grundstücke angeboten werden.
 
-:small\_blue\_diamond:`Verfügbare Optionen: Zimmer`
+<span class="field">Verfügbare Optionen: Zimmer</span>
 
 Eine kommagetrennte Liste der verfügbaren Optionen im Filter für die _Anzahl der Zimmer_. Mit Hilfe eines Punktes können auch halbe Zimmer angegeben werden (1, 1.5, 2, 2.5, 3, etc.).

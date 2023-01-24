@@ -4,10 +4,10 @@
 
 ### Konfiguration
 
-:small\_blue\_diamond:`Bezeichnung der Schaltfläche`
+<span class="field">Bezeichnung der Schaltfläche</span>
 
 Hier kann die Bezeichnung angegeben werden, die der Button im Frontend verwenden soll.
 
-:small\_blue\_diamond:`Bildschaltfläche erstellen`
+<span class="field">Bildschaltfläche erstellen</span>
 
 Ermöglicht die Verwendung einer Bildschaltfläche für den Button.

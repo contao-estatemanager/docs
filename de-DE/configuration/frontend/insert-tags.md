@@ -4,30 +4,28 @@
 
 `{{realestate::ID::FIELD}}`
 
-:small\_blue\_diamond:`<int> ID`
+<span class="field">ID</span>
 
-_ID der abzufragenden Immobilie_
+ID der abzufragenden Immobilie
 
-:small\_blue\_diamond:`<string> FIELD`
+<span class="field"><string> FIELD</span>
 
-_Die abzufragende _[_Immobilien-Eigenschaft_](../../entwickler/immobilien-eigenschaften/)_._
+Die abzufragende Immobilien-Eigenschaft.
 
-{% code title="Beispiel" %}
+**Beispiel:**
 ```markup
 {{realestate::5::objekttitel}}
 ```
-{% endcode %}
 
 ### Abruf von Feldern der aktuellen Immobilie innerhalb eines Exposés
 
 `{{realestate::FIELD}}`
 
-:small\_blue\_diamond:`<string> FIELD`
+<span class="field"><string> FIELD</span>
 
-_Die abzufragende _[_Immobilien-Eigenschaft_](../../entwickler/immobilien-eigenschaften/)_._
+Die abzufragende Immobilien-Eigenschaft.
 
-{% code title="Beispiel" %}
+**Beispiel**
 ```markup
 {{realestate::objekttitel}}
 ```
-{% endcode %}

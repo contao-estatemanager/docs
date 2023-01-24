@@ -1,17 +1,13 @@
----
-description: Exposé-Modul
----
-
 # Primäre Details
 
-Für jeden [Objekttypen](../objekttypen/) können mehrere primäre Details definiert werden. Das Exposé Modul `Primäre Details` prüft diese Felder und gibt sie anschließend aus.
+Für jeden Objekttypen können mehrere primäre Details definiert werden. Das Exposé Modul "Primäre Details" prüft diese Felder und gibt sie anschließend aus.
 
 ### Einstellungen
 
-:small\_blue\_diamond:`Gesamtzahl der Elemente`
+<span class="field">Gesamtzahl der Elemente</span>
 
-_Definiert die maximale Anzahl an primären Details unabhängig davon, was in den Einstellungen definiert wurde._
+Definiert die maximale Anzahl an primären Details unabhängig davon, was in den Einstellungen definiert wurde.
 
 ### Template
 
-:small\_orange\_diamond:`expose_mod_mainDetails`
+<span class="template-field">expose_mod_mainDetails</span>

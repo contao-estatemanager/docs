@@ -53,10 +53,10 @@
     * [Insert-Tags](de-DE/configuration/frontend/insert-tags.md)
 
 * Entwickler
-  * [Immobilien-Eigenschaften](de-DE/developer/realestate-attributes/README.md)
-    * [Immobilien-Objekt](de-DE/developer/realestate-attributes/realestate-object.md)
-    * [FormattedCollection](de-DE/developer/realestate-attributes/formattedcollection.md)
-  * [Templates](de-DE/developer/templates.md)
+  * [Immobilien-Eigenschaften](de-DE/developer/realestate-fields.md)
+  * [Templates](de-DE/developer/templates/)
+    * [Immobilien-Objekt](de-DE/developer/templates/realestate-object.md)
+    * [FormattedCollection](de-DE/developer/templates/formattedcollection.md)
   * [Hooks](de-DE/developer/hooks/README.md)
     * [parseRealEstate](de-DE/developer/hooks/parserealestate.md)
   * [API](de-DE/developer/api.md)
@@ -85,6 +85,3 @@
     * [WIB Import](de-DE/extensions/extensions/wib-import.md)
     * [Exposé Social-Meta](de-DE/extensions/extensions/expose-social-meta.md)
     * [onOffice API Import](de-DE/extensions/extensions/onoffice-api-import.md)
-
-* Allgemein
-  * [Glossar](de-DE/glossar.md)

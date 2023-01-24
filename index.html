@@ -13,7 +13,7 @@
       --docsifytabs-border-px             : 1px;
       --docsifytabs-border-radius-px      : 3px;
       --docsifytabs-margin                : 1em 0;
-      --docsifytabs-content-padding       : 1em 0;
+      --docsifytabs-content-padding       : 1em;
 
       --docsifytabs-tab-color--active     : #0973F0;
       --docsifytabs-tab-highlight-px      : 2px;
@@ -43,6 +43,11 @@
       margin-left: 15px;
     }
 
+    .docsify-tabs__content{
+      border-left: 1px solid #ededed !important;
+      border-right: 1px solid #ededed !important;
+    }
+
     .docsify-tabs__tab:first-of-type{
       margin-left: 0px;
     }
@@ -67,7 +72,7 @@
       padding: 3px 8px;
       border-radius: 10px;
       font-size: 12px;
-      background: #ccc;
+      background: #dadada;
       margin-right: 5px;
     }
 
@@ -106,6 +111,24 @@
       font-size: 10px;
     }
 
+    .field, .template-field{
+      padding: .25em .6em;
+      background: #fafafa;
+      border: 1px solid #cccccc;
+      border-left: 3px solid #0973F0;
+      border-radius: 5px;
+      color: #595959;
+    }
+
+    .template-field{
+      border-left-color: #f08409;
+    }
+
+    a[href^="#/_glossary"]{
+      text-decoration: none;
+      border-bottom: 1px dashed #a4a4a4;
+      color: #556f88;
+    }
   </style>
 </head>
 <body>
@@ -161,12 +184,19 @@
         theme      : 'material',
         tabComments: true,
         tabHeadings: true
+      },
+      glossify: {
+        debug: true,
+        glossaryLocation: '_glossary.md',
+        terminologyHeading: '####',
+        replaceTitleTerms: false
       }
     }
   </script>
 
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
 
   <!-- Panels -->
   <script src="https://cdn.jsdelivr.net/npm/docsify-example-panels"></script>
@@ -190,5 +220,8 @@
 
   <!-- Search -->
   <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+
+  <!-- Glossary -->
+  <script src="_vendor/docsify-glossary.min.js"></script>
 </body>
 </html>

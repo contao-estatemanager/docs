@@ -1,65 +1,59 @@
----
-description: >-
-  Hier können grundlegende Einstellungen für verschiedene Bereiche des
-  EstateManagers gesetzt werden.
----
-
 # Einstellungen
 
 ### Globale Konfiguration
 
-****:small\_blue\_diamond:`E-Mail-Adresse des technischen Administrators`
+<span class="field">E-Mail-Adresse des technischen Administrators</span>
 
-_E-Mail-Adresse des technischen Administrators wird verwendet, um über Fehler (bspw. wenn eine Immobilie nicht importiert werden konnte) informiert zu werden._
+E-Mail-Adresse des technischen Administrators wird verwendet, um über Fehler (bspw. wenn eine Immobilie nicht importiert werden konnte) informiert zu werden.
 
 ### Listen & Darstellung
 
-:small\_blue\_diamond:`Standard Sortierung`
+<span class="field">Standard Sortierung</span>
 
-_Definiert die Standard-Sortierung der Immobilien in Listen._
+Definiert die Standard-Sortierung der Immobilien in Listen.
 
-:small\_blue\_diamond:`Anzeigedauer des "Neu" Status-Token`
+<span class="field">Anzeigedauer des "Neu" Status-Token</span>
 
-_Definiert wie lange eine Immobilie als "Neu" eingestuft und der entsprechende Status-Token ausgegeben wird._
+Definiert wie lange eine Immobilie als "Neu" eingestuft und der entsprechende Status-Token ausgegeben wird.
 
-:small\_blue\_diamond:`Max. Anzahl der primären Details`
+<span class="field">Max. Anzahl der primären Details</field>
 
-_Definiert die maximale Anzahl der primären Details einer Immobilie in Listen. Primäre Details können individuell für jeden_ [_Objekttypen_ ](objekttypen/)_definiert werden._
+Definiert die maximale Anzahl der primären Details einer Immobilie in Listen. Primäre Details können individuell für jeden Objekttypen definiert werden.
 
-:small\_blue\_diamond:`Max. Anzahl der primären Attribute`
+<span class="field">Max. Anzahl der primären Attribute</span>
 
-_Definiert die maximale Anzahl der primären Attribute einer Immobilie in Listen Primäre Attribute können ebenfalls individuell für jeden_ [_Objekttypen_ ](objekttypen/)_definiert werden._
+Definiert die maximale Anzahl der primären Attribute einer Immobilie in Listen primäre Attribute können ebenfalls individuell für jeden Objekttypen definiert werden.
 
-:small\_blue\_diamond:`Standard-Bild`
+<span class="field">Standard-Bild</span>
 
-_Standard-Bild, welches ausgegeben wird, sofern eine Immobilie keine Bilder hinterlegt hat._
+Standard-Bild, welches ausgegeben wird, sofern eine Immobilie keine Bilder hinterlegt hat.
 
 ### Anbieter / Kontaktpersonen
 
-:small\_blue\_diamond:`Standard-Bild Kontaktperson`
+<span class="field">Standard-Bild Kontaktperson</span>
 
-_Geschlechtsneutrales Platzhalter-Bild für Kontaktpersonen. Sofern eine Kontaktperson kein Bild und keine Anrede hinterlegt hat, wird das hier eingestellte Platzhalter-Bild verwendet._
+Geschlechtsneutrales Platzhalter-Bild für Kontaktpersonen. Sofern eine Kontaktperson kein Bild und keine Anrede hinterlegt hat, wird das hier eingestellte Platzhalter-Bild verwendet.
 
-:small\_blue\_diamond:`Standard-Bild Kontaktpersonen (weiblich)`
+<span class="field">Standard-Bild Kontaktpersonen (weiblich)</span>
 
-_Platzhalter-Bild für weibliche Kontaktpersonen._
+Platzhalter-Bild für weibliche Kontaktpersonen.
 
-:small\_blue\_diamond:`Standard-Bild Kontaktperson (männlich)`
+<span class="field">Standard-Bild Kontaktperson (männlich)</span>
 
-_Platzhalter-Bild für männliche Kontaktpersonen._
+Platzhalter-Bild für männliche Kontaktpersonen.
 
 ### Preis- / Flächenformatierung
 
-:small\_blue\_diamond:`Dezimal-Trennzeichen`
+<span class="field">Dezimal-Trennzeichen</span>
 
-_Trennzeichen für Dezimalstellen in Preis- oder Flächenangaben._
+Trennzeichen für Dezimalstellen in Preis- oder Flächenangaben.
 
-:small\_blue\_diamond:`Tausender-Trennzeichen`
+<span class="field">Tausender-Trennzeichen</span>
 
-_Tausender-Trennzeichen für Preis- oder Flächenangaben._
+Tausender-Trennzeichen für Preis- oder Flächenangaben.
 
 ### Filter
 
-:small\_blue\_diamond:`Verfügbare Optionen: Zimmer`
+<span class="field">Verfügbare Optionen: Zimmer</span>
 
 _Die zur Auswahl stehenden Zimmer-Optionen (Zahl), welche im dafür vorgesehenen Filter-Widget zur Verfügung stehen. Die Eingabe erfolgt dabei in einer mit Kommas getrennten Liste und unterstützt Gleitkommazahl. (Bspw. `1,1.5,2,2.5`)_

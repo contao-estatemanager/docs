@@ -2,7 +2,7 @@
   * [Englisch](/)
   * [Deutsch](/de-DE/)
 
-* [Resourcen](#)
+* [Ressourcen](#)
   * [Homepage](https://www.contao-estatemanager.com)
   * [Erweiterungskatalog](https://www.contao-estatemanager.com/de/store.html)
   * [Fehler melden](https://github.com/contao-estatemanager/core/issues)

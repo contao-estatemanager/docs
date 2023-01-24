@@ -2,27 +2,27 @@
 
 Anbieterdatensätze repräsentieren entweder einen **Immobilienmakler** oder die verschiedenen **Standorte eines Immobilienmaklers**. Neben den reinen Eckdaten kann hier außerdem das Verhalten für die Zustellung von Anfragen eingestellt werden. Die vorhandenen Eckdaten entsprechen zum Großteil den Vorgaben zu Anbietern aus dem OpenImmo Standard.
 
-### &#x20;Neuen Anbieter erstellen
+### Neuen Anbieter erstellen
 
 Neue Anbieter können über **Neuer Anbieter** ![](../../../.gitbook/assets/new.svg) erstellt werden.
 
 ### Allgemein
 
-:small\_blue\_diamond:`Anbieter Nr.`
+<span class="field">Anbieter Nr.</span>
 
 Die Anbieternummer ist essenziell für die Übertragung von Immobilien und Kontaktpersonen.
 
-:small\_blue\_diamond:`Anbieter Nr. (OpenImmo)`
+<span class="field">Anbieter Nr. (OpenImmo)</span>
 
 Die Anbieternummer (OpenImmo) kann als Alternative zur normalen Anbieternummer verwendet werden (Verhalten ist in Schnittstellen einstellbar).
 
-:small\_blue\_diamond:`Linzenzkennung`
+<span class="field">Linzenzkennung</span>
 
 Die Lizenzkennung wird vorallem für Portalübertragungen verwendet und ist rein informativer Natur.
 
 ### Weiterleitung
 
-:small\_blue\_diamond:`Weiterleitungsmodus`
+<span class="field">Weiterleitungsmodus</span>
 
 Hier kann eingestellt werden, wer im Falle einer Kontakanfrage über das Anfrageformulars eines Exposés benachrichtig werden soll:
 
@@ -33,7 +33,7 @@ Hier kann eingestellt werden, wer im Falle einer Kontakanfrage über das Anfrage
 * Beide\
   _Versucht die E-Mail-Anfrage gleichwertig an den Anbieter und die Kontaktperson zu übermitteln._
 
-:small\_blue\_diamond:`Eigenen Absender verwenden`
+<span class="field">Eigenen Absender verwenden</span>
 
 Über diese Funktion kann ein alternativer Absender definiert werden, um nicht die E-Mail-Adresse des Systemadministrators verwenden zu müssen.
 
@@ -43,55 +43,55 @@ Die Angaben zu den Adressdaten sowie dem Impressum entsprechen dem OpenImmo Stan
 
 **Adressdaten:**
 
-:small\_blue\_diamond:`Firma`
+<span class="field">Firma</span>
 
-:small\_blue\_diamond:`Postleitzahl`
+<span class="field">Postleitzahl</span>
 
-:small\_blue\_diamond:`Ort`
+<span class="field">Ort</span>
 
-:small\_blue\_diamond:`Straße`
+<span class="field">Straße</span>
 
-:small\_blue\_diamond:`Hausnummer`
+<span class="field">Hausnummer</span>
 
-:small\_blue\_diamond:`Bundesland`
+<span class="field">Bundesland</span>
 
-:small\_blue\_diamond:`Land`
+<span class="field">Land</span>
 
-:small\_blue\_diamond:`Breitengrad`
+<span class="field">Breitengrad</span>
 
-:small\_blue\_diamond:`Längengrad`
+<span class="field">Längengrad</span>
 
-:small\_blue\_diamond:`Telefonnummer`
+<span class="field">Telefonnummer</span>
 
-:small\_blue\_diamond:`Telefonnummer 2`
+<span class="field">Telefonnummer 2</span>
 
-:small\_blue\_diamond:`Faxnummer`
+<span class="field">Faxnummer</span>
 
-:small\_blue\_diamond:`E-Mail-Adresse`
+<span class="field">E-Mail-Adresse</span>
 
-:small\_blue\_diamond:`Homepage`
+<span class="field">Homepage</span>
 
-:small\_blue\_diamond:`Adresse (Freitext)`
+<span class="field">Adresse (Freitext)</span>
 
 **Weitere Felder:**
 
-:small\_blue\_diamond:`Vertretungsberechtigte Person`
+<span class="field">Vertretungsberechtigte Person</span>
 
-:small\_blue\_diamond:`Beaufsichtigungsbehörde`
+<span class="field">Beaufsichtigungsbehörde</span>
 
-:small\_blue\_diamond:`Handelsregister`
+<span class="field">Handelsregister</span>
 
-:small\_blue\_diamond:`Handeslregisternummer`
+<span class="field">Handeslregisternummer</span>
 
-:small\_blue\_diamond:`Umsatzsteuer-Identifikationsnummer`
+<span class="field">Umsatzsteuer-Identifikationsnummer</span>
 
-:small\_blue\_diamond:`Steuernummer`
+<span class="field">Steuernummer</span>
 
-:small\_blue\_diamond:`Weitere Angaben`
+<span class="field">Weitere Angaben</span>
 
-:small\_blue\_diamond:`Impressum (Freitext)`
+<span class="field">Impressum (Freitext)</span>
 
-:small\_blue\_diamond:`Beschreibung (Freitext)`
+<span class="field">Beschreibung (Freitext)</span>
 
 ### Anbieter-Logo
 

@@ -1,10 +1,6 @@
----
-description: Exposé-Modul
----
-
 # Status-Token
 
-Das Exposé-Modul `Status-Token` gibt alle vorhandenen Status-Token einer Immobilie aus. Dabei stehen folgende Status-Token zur Verfügung:
+Das Exposé-Modul "Status-Token" gibt alle vorhandenen Status-Token einer Immobilie aus. Dabei stehen folgende Status-Token zur Verfügung:
 
 * Neu
 * Reserviert
@@ -13,10 +9,10 @@ Das Exposé-Modul `Status-Token` gibt alle vorhandenen Status-Token einer Immobi
 
 ### Einstellungen
 
-:small\_blue\_diamond:`Erlaubte Status-Token`
+<span class="field">Erlaubte Status-Token</span>
 
-_Begrenzt die Ausgabe auf nur ausgewählte Token._
+Begrenzt die Ausgabe auf nur ausgewählte Token.
 
 ### Template
 
-:small\_orange\_diamond:`expose_mod_statusToken`
+<span class="field">expose_mod_statusToken</span>

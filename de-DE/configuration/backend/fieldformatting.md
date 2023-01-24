@@ -1,7 +1,3 @@
----
-description: Formatierung und Ausgabe der Immobilienfelder
----
-
 # Feldformatierungen
 
 Um Immobilienfelder für die Ausgabe aufzubereiten bietet der EstateManager ein umfangreiches Werkzeug um beliebige Aktionen auf Felder und Werte einer Immobilie anzuwenden.
@@ -18,25 +14,25 @@ Bitte beachte, dass manuelle Änderungen nach dem zurücksetzen verworfen werden
 
 Über den Button "Neues Feld" können alle Immobilien-Felder, welche in der Datenbank bestehen, ausgewählt und für die Darstellung konfiguriert werden.
 
-:small\_blue\_diamond:`Feld`
+<span class="field">Feld</span>
 
-_Definiert das Feld, welches durch eine Formatierung vor der Ausgabe formatiert werden soll._
+Definiert das Feld, welches durch eine Formatierung vor der Ausgabe formatiert werden soll.
 
-:small\_blue\_diamond:`CSS-Klasse`
+<span class="field">CSS-Klasse</span>
 
-_Jedes Feld kann ein oder mehrere CSS-Klassen beinhalten (Leerzeichen getrennte Liste). Dies ermöglicht die Erstellung eigener Selektoren um diese später mittels CSS aufbereiten zu können._
+Jedes Feld kann ein oder mehrere CSS-Klassen beinhalten (Leerzeichen getrennte Liste). Dies ermöglicht die Erstellung eigener Selektoren um diese später mittels CSS aufbereiten zu können.
 
-:small\_blue\_diamond:`Ausgabe erzwingen`
+<span class="field">Ausgabe erzwingen</span>
 
-_Erzwingt die Ausgabe des Feldes, auch wenn kein Wert vorhanden ist._
+Erzwingt die Ausgabe des Feldes, auch wenn kein Wert vorhanden ist.
 
 Beispiel:
 
 > In den Details sollen "Haustiere" immer ausgegeben werden. Wurde dieser Wert nicht übertragen, sollen wir davon ausgehen, dass das Objekt / die Immobilie keine Haustiere erlaubt. Mit der Einstellung, dass die Ausgabe erzwungen werden soll, würde nun "Haustiere: Nein" ebenfalls ausgegeben und nicht als leerer Wert erkannt und somit in den Details übersprungen werden.
 
-:small\_blue\_diamond:`Bedingung hinzufügen`
+<span class="field">Bedingung hinzufügen</span>
 
-_Ermöglicht die Definition einer oder mehrerer Bedingungen. Beim hinzufügen mehrerer Bedingungen werden diese "UND"-Verknüpft abgearbeitet._
+Ermöglicht die Definition einer oder mehrerer Bedingungen. Beim hinzufügen mehrerer Bedingungen werden diese "UND"-Verknüpft abgearbeitet.
 
 Beispiel:
 
@@ -46,60 +42,60 @@ Beispiel:
 
 Innerhalb eines Feldes können beliebig viele Aktionen für den Wert des Feldes konfiguriert werden. Diese werden dabei in der Reihenfolge abgearbeitet, wie sie in der Liste definiert werden.
 
-{% hint style="warning" %}
-**Logische Reihenfolge der Aktionen verwenden:**\
+!> **Logische Reihenfolge der Aktionen verwenden:** \
 Preis- oder Flächenangaben müssen bspw. vor dem Anhängen von Einheiten wie `€` oder `m²` (Aktion: `append`) den eigentlichen / noch unformatierten Wert formatiert bekommen (Aktion: `number_format`).
-
-_Falsch:_\
-:digit\_one: append\
-:digit\_two: number\_format
-
-_Richtig:_\
-:digit\_one: number\_format\
-:digit\_two: append
-{% endhint %}
+\
+\
+**Falsch:** \
+1️⃣ append\
+2️⃣ number\_format
+\
+\
+**Richtig:** \
+1️⃣ number\_format\
+2️⃣ append
 
 #### Übersicht aller Aktionen
 
-:small\_orange\_diamond:`prepend`
+<span class="field">prepend</span>
 
-_Fügt einen beliebigen Text vor dem Wert ein._
+Fügt einen beliebigen Text vor dem Wert ein.
 
-:small\_orange\_diamond:`append`
+<span class="field">append</span>
 
-_Fügt einen beliebigen Text nach dem Wert ein._
+Fügt einen beliebigen Text nach dem Wert ein.
 
-:small\_orange\_diamond:`number_format`
+<span class="field">number_format</span>
 
-_Formatiert einen Zahlenwert anhand der angegebenen Nachkommastellen._
+Formatiert einen Zahlenwert anhand der angegebenen Nachkommastellen.
 
-:small\_orange\_diamond:`date_format`
+<span class="field">date_format</span>
 
-_Wandelt einen UNIX-Timestamp in ein leserliches Datums-Format um._
+Wandelt einen UNIX-Timestamp in ein leserliches Datums-Format um.
 
-:small\_orange\_diamond:`ucfirst`
+<span class="field">ucfirst</span>
 
-_Verwandelt das erste Zeichen eines Strings in einen Großbuchstaben._
+Verwandelt das erste Zeichen eines Strings in einen Großbuchstaben.
 
-:small\_orange\_diamond:`wrap`
+<span class="field">wrap</span>
 
-_Umschließt den Wert mit dem angegebenen Text/HTML-Code. Die Verwendung eines_ Spezifizierer-_Platzhalters ist dabei zwingend notwendig. (s. "_[_sprintf_](https://www.php.net/manual/de/function.sprintf.php#refsect1-function.sprintf-parameters)_" PHP-Funktion)_
+Umschließt den Wert mit dem angegebenen Text/HTML-Code. Die Verwendung eines_ Spezifizierer-_Platzhalters ist dabei zwingend notwendig. (s. "_[_sprintf_](https://www.php.net/manual/de/function.sprintf.php#refsect1-function.sprintf-parameters)_" PHP-Funktion)
 
-:small\_orange\_diamond:`unserialize`
+<span class="field">unserialize</span>
 
-_Validiert eine in der Datenbank serialisierte Liste und gibt diese anhand des angegebenen Trennzeichens aus._
+Validiert eine in der Datenbank serialisierte Liste und gibt diese anhand des angegebenen Trennzeichens aus.
 
-:small\_orange\_diamond:`combine`
+<span class="field">combine</span>
 
-_Ermöglicht die Kombination beliebiger Felder und die Ausgabe anhand eines Trennzeichens. Um kombinierte Felder nicht doppelt in einer Detailliste auszugeben, können diese über die Checkbox "entfernen" für die spätere Ausgabe übersprungen werden._
+Ermöglicht die Kombination beliebiger Felder und die Ausgabe anhand eines Trennzeichens. Um kombinierte Felder nicht doppelt in einer Detailliste auszugeben, können diese über die Checkbox "entfernen" für die spätere Ausgabe übersprungen werden.
 
-:small\_orange\_diamond:`boolToWord`
+<span class="field">boolToWord</span>
 
-_Wandelt Werte mit "0" oder "1" in "Nein" oder "Ja" um._
+Wandelt Werte mit `0` oder `1` in `Nein` oder `Ja` um.
 
-:small\_orange\_diamond:`custom`
+<span class="field">custom</span>
 
-_Verwendung einer eigenen Funktion. Eigene Funktionen müssen dabei als Template mit dem Präfix "re\_ac\_" angelegt werden._
+Verwendung einer eigenen Funktion. Eigene Funktionen müssen dabei als Template mit dem Präfix `re_ac_` angelegt werden.
 
 Beispiel:
 

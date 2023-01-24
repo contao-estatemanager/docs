@@ -1,17 +1,13 @@
----
-description: Exposé-Modul
----
-
 # Primäre Attribute
 
-Für jeden [Objekttypen](../objekttypen/) können mehrere primäre Attribute definiert werden. Das Exposé Modul `Primäre Attribute` prüft diese Felder und gibt sie anschließend aus.
+Für jeden Objekttypen können mehrere primäre Attribute definiert werden. Das Exposé Modul "Primäre Attribute" prüft diese Felder und gibt sie anschließend aus.
 
 ### Einstellungen
 
-:small\_blue\_diamond:`Gesamtzahl der Elemente`
+<span class="field">Gesamtzahl der Elemente</span>
 
-_Definiert die maximale Anzahl an primären Attributen unabhängig davon, was in den Einstellungen definiert wurde._
+Definiert die maximale Anzahl an primären Attributen unabhängig davon, was in den Einstellungen definiert wurde.
 
 ### Template
 
-:small\_orange\_diamond:`expose_mod_mainAttributes`
+<span class="template-field">expose_mod_mainAttributes</span>

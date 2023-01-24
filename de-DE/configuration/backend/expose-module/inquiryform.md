@@ -1,21 +1,17 @@
----
-description: Exposé-Modul
----
-
 # Anfrageformular
 
-Das Exposé-Modul `Anfrageformular` inkludiert ein Formular aus dem Formulargenerator und liefert dieses innerhalb eines [Exposés](../../frontend-konfiguration/module/expose.md) aus.
+Das Exposé-Modul "Anfrageformular" inkludiert ein Formular aus dem Formulargenerator und liefert dieses innerhalb eines [Exposés](../../frontend-konfiguration/module/expose.md) aus.
 
 ### Einstellungen
 
-:small\_blue\_diamond:`Formular`
+<span class="field">Formular</span>
 
-_Hier kann das im_ [_Formulargenerator_ ](https://docs.contao.org/manual/de/formulargenerator/)_erstellte Formular ausgewählt werden._
+Hier kann das im [Formulargenerator](https://docs.contao.org/manual/de/formulargenerator/) erstellte Formular ausgewählt werden.
 
-:small\_blue\_diamond:`Für Referenzen ausblenden`
+<span class="field">Für Referenzen ausblenden</span>
 
-_Beim anwählen dieser Einstellung wird das Modul für Referenz-Immobilien nicht ausgeliefert._
+Beim Auswählen dieser Einstellung wird das Modul für Referenz-Immobilien nicht ausgeliefert.
 
 ### Templates
 
-:small\_orange\_diamond:`expose_mod_enquiryForm`
+<span class="template-field">expose_mod_enquiryForm</span>

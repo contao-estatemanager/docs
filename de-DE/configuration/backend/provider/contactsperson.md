@@ -8,65 +8,65 @@ Um Ansprechpartner über eine OpenImmo-Übertragung **erstellen** und **aktualis
 
 ### Informationen & Eckdaten
 
-:small\_blue\_diamond:`Anrede`
+<span class="field">Anrede</span>
 
-:small\_blue\_diamond:`Firma`
+<span class="field">Firma</span>
 
-:small\_blue\_diamond:`Vorname`
+<span class="field">Vorname</span>
 
-:small\_blue\_diamond:`Nachname`
+<span class="field">Nachname</span>
 
-:small\_blue\_diamond:`Titel`
+<span class="field">Titel</span>
 
-:small\_blue\_diamond:`Position`
+<span class="field">Position</span>
 
-:small\_blue\_diamond:`Briefanrede`
+<span class="field">Briefanrede</span>
 
-:small\_blue\_diamond:`E-Mail (Zentrale)`
+<span class="field">E-Mail (Zentrale)</span>
 
-:small\_blue\_diamond:`E-Mail (Direkt)`
+<span class="field">E-Mail (Direkt)</span>
 
-:small\_blue\_diamond:`E-Mail (Privat)`
+<span class="field">E-Mail (Privat)</span>
 
-:small\_blue\_diamond:`E-Mail (Sonstige)`
+<span class="field">E-Mail (Sonstige)</span>
 
-:small\_blue\_diamond:`E-Mail (Feedback)`
+<span class="field">E-Mail (Feedback)</span>
 
-:small\_blue\_diamond:`Telefonnummer (Zentrale)`
+<span class="field">Telefonnummer (Zentrale)</span>
 
-:small\_blue\_diamond:`Telefonnummer`
+<span class="field">Telefonnummer</span>
 
-:small\_blue\_diamond:`Faxnummer`
+<span class="field">Faxnummer</span>
 
-:small\_blue\_diamond:`Mobiltelefonnummer`
+<span class="field">Mobiltelefonnummer</span>
 
-:small\_blue\_diamond:`Telefonnummer (Privat)`
+<span class="field">Telefonnummer (Privat)</span>
 
-:small\_blue\_diamond:`Telefonnummer (Sonstige)`
+<span class="field">Telefonnummer (Sonstige)</span>
 
-:small\_blue\_diamond:`Straße`
+<span class="field">Straße</span>
 
-:small\_blue\_diamond:`Hausnummer`
+<span class="field">Hausnummer</span>
 
-:small\_blue\_diamond:`Postleitzahl`
+<span class="field">Postleitzahl</span>
 
-:small\_blue\_diamond:`Ort`
+<span class="field">Ort</span>
 
-:small\_blue\_diamond:`Land`
+<span class="field">Land</span>
 
-:small\_blue\_diamond:`Zusatzfeld`
+<span class="field">Zusatzfeld</span>
 
-:small\_blue\_diamond:`Anschrift (Freitext)`
+<span class="field">Anschrift (Freitext)</span>
 
-:small\_blue\_diamond:`Adressfreigabe`
+<span class="field">Adressfreigabe</span>
 
-:small\_blue\_diamond:`Postfach`
+<span class="field">Postfach</span>
 
-:small\_blue\_diamond:`Postfach (PLZ)`
+<span class="field">Postfach (PLZ)</span>
 
-:small\_blue\_diamond:`Postfach (Ort)`
+<span class="field">Postfach (Ort)</span>
 
-:small\_blue\_diamond:`Personennummer`
+<span class="field">Personennummer</span>
 
 ### Ansprechpartner-Foto
 

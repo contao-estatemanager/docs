@@ -3,16 +3,15 @@
 ### Installation
 
 <!-- tabs:start -->
-
-#### **Composer**
+<!-- tab:Composer -->
 ```bash
 $ composer require contao-estatemanager/core
 ```
 
-#### **Contao Manager**
+<!-- tab:Contao Manager -->
 Über die Suche des Contao-Manager kann der Begriff `EstateManager` gesucht werden. Anschließend wählt man das Paket `Contao EstateManager Core` aus und installiert es über den Reiter "_Pakete_". Eine detaillierte Anleitung wie man mit dem Contao-Manager arbeitet findest du [hier](https://docs.contao.org/manual/de/installation/erweiterungen-installieren/).
 
-#### **GitHub**
+#### GitHub
 Installation direkt über GitHub:
 
 - [Repository](https://github.com/contao-estatemanager/core)
@@ -45,7 +44,5 @@ Manuelle Integration in der `composer.json`:
 
 Sofern der EstateManager über Composer oder dem Contao Manager installiert wird, werden alle benötigten Abhängigkeiten mit installiert.
 
-{% hint style="info" %}
-Bitte überprüfe ebenfalls die [Systemvoraussetzungen](https://docs.contao.org/manual/de/installation/systemvoraussetzungen/) von Contao
-{% endhint %}
+!> Bitte überprüfe ebenfalls die [Systemvoraussetzungen](https://docs.contao.org/manual/de/installation/systemvoraussetzungen/) von Contao.
 

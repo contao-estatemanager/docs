@@ -1,21 +1,15 @@
----
-description: Exposé-Modul
----
-
 # Feldliste
 
-Das Exposé-Modul `Feldliste` ermöglicht die Ausgabe einer Liste von selbst definierten Feldern. Dabei stehen alle Datenbankfelder zur Verfügung.
+Das Exposé-Modul "Feldliste" ermöglicht die Ausgabe einer Liste von selbst definierten Feldern. Dabei stehen alle Datenbankfelder zur Verfügung.
 
-{% hint style="warning" %}
-Um alle Details einer Immobilie auszugeben, wird dringend empfohlen, das Exposé-Modul "[Details](details.md)" zu verwenden.
-{% endhint %}
+!> Um alle Details einer Immobilie auszugeben, wird dringend empfohlen, das Exposé-Modul "Details" zu verwenden.
 
 ### Einstellungen
 
-:small\_blue\_diamond:`Feldliste`
+<span class="field">Feldliste</span>
 
-_Ermöglicht die Auswahl beliebig vieler Felder, welche in einer Liste ausgegeben werden sollen._
+Ermöglicht die Auswahl beliebig vieler Felder, welche in einer Liste ausgegeben werden sollen.
 
 ### Template
 
-:small\_orange\_diamond:`expose_mod_fieldList`
+<span class="field">expose_mod_fieldList</span>

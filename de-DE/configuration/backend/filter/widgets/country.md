@@ -1,18 +1,18 @@
 # Land
 
-Mit Hilfe des Landesfilters kann der Immobilienbestand über ein Auswahlfeld anhand des Landes gefiltert werden. Dabei kann entweder in allen Ländern oder aber nur nach einem Land gleichzeitig gefiltert werden. Eine dedizierte Mehrfachauswahl ist nicht vorgesehen.
+Mithilfe des Landesfilters kann der Immobilienbestand über ein Auswahlfeld anhand des Landes gefiltert werden. Dabei kann entweder in allen Ländern oder aber nur nach einem Land gleichzeitig gefiltert werden. Eine dedizierte Mehrfachauswahl ist nicht vorgesehen.
 
 ### Konfiguration
 
-&#x20;:small\_blue\_diamond:`Feldbezeichnung`
+<span class="field">Feldbezeichnung</span>
 
 Die Feldbezeichnung wird als HTML-Label vor dem eigentlichen Auswahlfeld ausgeliefert.
 
-&#x20;:small\_blue\_diamond:`Pflichtfeld`
+<span class="field">Pflichtfeld</span>
 
 In der Regel muss das Land nicht als Pflichtfeld deklariert werden.
 
-&#x20;:small\_blue\_diamond:`Platzhalter`
+<span class="field">Platzhalter</span>
 
 Der Platzhalter wird als erste Option im Auswahlfeld ausgegeben.
 
@@ -20,12 +20,11 @@ Der Platzhalter wird als erste Option im Auswahlfeld ausgegeben.
 
 Um lediglich relevante Länder im Filter zur Auswahl zu stellen, kann der Landesfilter entweder auf Basis des aktuellen Immobiliendatenbestandes oder anhand einer fest definierten Liste befüllt werden.
 
-&#x20;:small\_blue\_diamond:`Quelle`
+<span class="field">Quelle</span>
 
 Hier kann eingestellt werden, auf welchem Datenbestand die Landesauswahl ermittelt werden soll.
 
 * Vorhandener Datenbestand\
   _Landesauswahl wird anhand des existierenden Datenbestandes automatisch ermittelt._
 * Manuell definieren\
-  _Anhand einer Optionsliste können manuell Länder angegeben werden._ \
-  __
+  _Anhand einer Optionsliste können manuell Länder angegeben werden._

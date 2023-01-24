@@ -1,21 +1,17 @@
----
-description: Exposé-Modul
----
-
 # Teilen
 
-Das Exposé-Modul `Teilen` ermöglicht das hinzufügen von verschiedenen "Teilen"-Option. Dafür stehen folgende Arten zur Verfügung:
+Das Exposé-Modul "Teilen" ermöglicht das Hinzufügen von verschiedenen "Teilen"-Option. Dafür stehen folgende Arten zur Verfügung:
 
 * E-Mail
 
 ### Einstellungen
 
-:small\_blue\_diamond:`Teilen über`
+<span class="field">Teilen über</span>
 
-_Hier können die einzelnen Arten zum Teilen angewählt werden._
+Hier können die einzelnen Arten zum Teilen angewählt werden.
 
 ### Template
 
-:small\_orange\_diamond:`expose_mod_share`
+<span class="template-field">expose_mod_share</span>
 
-:small\_orange\_diamond:`expose_mod_share_email`
+<span class="template-field">expose_mod_share_email</span>

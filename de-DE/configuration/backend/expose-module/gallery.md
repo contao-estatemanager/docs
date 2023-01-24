@@ -1,10 +1,7 @@
----
-description: Exposé-Modul
----
 
 # Galerie
 
-Das `Galerie` Exposé-Modul liefert die Bilder einer Immobilie unter Berücksichtigung der gewählten Galerie-Kategorien aus. Dabei stehen folgende Kategorien im Standard zur Verfügung:
+Das "Galerie" Exposé-Modul liefert die Bilder einer Immobilie unter Berücksichtigung der gewählten Galerie-Kategorien aus. Dabei stehen folgende Kategorien im Standard zur Verfügung:
 
 * Titelbild
 * Bilder
@@ -19,28 +16,26 @@ Das `Galerie` Exposé-Modul liefert die Bilder einer Immobilie unter Berücksich
 
 ### Einstellungen
 
-:small\_blue\_diamond:`Galerie-Kategorien`
+<span class="field">Galerie-Kategorien</span>
 
-_Hier können die Kategorien, welche ausgegeben werden dürfen, sowie die Reihenfolge definiert werden._
+Hier können die Kategorien, welche ausgegeben werden dürfen, sowie die Reihenfolge definiert werden.
 
-:small\_blue\_diamond:`Gesamtzahl der Elemente`
+<span class="field">Gesamtzahl der Elemente</span>
 
-_Definiert die maximale Anzahl an Elementen / Bildern._
+Definiert die maximale Anzahl an Elementen / Bildern.
 
-:small\_blue\_diamond:`Großansicht/Neues Fenster`
+<span class="field">Großansicht/Neues Fenster</span>
 
-_Großansicht des Bildes in einer "Lightbox" bzw. den Link in einem neuem Browserfenster öffnen. Die Initialisierung einer "Lightbox" muss dabei eigenständig eingerichtet werden._
+Großansicht des Bildes in einer "Lightbox" bzw. den Link in einem neuem Browserfenster öffnen. Die Initialisierung einer "Lightbox" muss dabei eigenständig eingerichtet werden.
 
-:small\_blue\_diamond:`Ausblenden wenn keine Inhalte angezeigt werden können`
+<span class="field">Ausblenden wenn keine Inhalte angezeigt werden können</span>
 
-Verhindert die Ausgabe des Exposé-Moduls, sofern keine Elemente / Bilder in den gewählten Kategorien gefunden wurden. Andernfalls wird immer das in den [Einstellungen](../einstellungen.md) hinterlegte Standard-Bild ausgegeben.
+Verhindert die Ausgabe des Exposé-Moduls, sofern keine Elemente / Bilder in den gewählten Kategorien gefunden wurden. Andernfalls wird immer das in den Einstellungen hinterlegte Standard-Bild ausgegeben.
 
 ### Templates
 
-:small\_orange\_diamond:`expose_mod_gallery`
+<span class="template-field">expose_mod_gallery</span>
 
-:small\_orange\_diamond:`expose_mod_gallery_items`
+<span class="template-field">expose_mod_gallery_items</span>
 
-{% hint style="success" %}
-Auf diesem Exposé-Modul können beliebige JavaScript-Slider initialisiert werden um die Bilder, wie man es von vielen anderen Webseiten kennt, als Bilder-Diashow o.ä. darstellen zu lassen.
-{% endhint %}
+?> Auf diesem Exposé-Modul können beliebige JavaScript-Slider initialisiert werden um die Bilder, wie man es von vielen anderen Webseiten kennt, als Bilder-Diashow o.ä. darstellen zu lassen.

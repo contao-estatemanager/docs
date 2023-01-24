@@ -1,12 +1,10 @@
 # Templates
 
-Wie in Contao selber, können alle Templates des EstateManagers über den Reiter _Templates_ im Backend angepasst, überschrieben oder ergänzt werden. Dabei gibt es die Besonderheit, dass Templates welche für die Darstellung einzelner Immobilien bereitgestellt werden, ein Objekt mit [nützlichen Funktionen](immobilien-eigenschaften/immobilien-objekt.md) sowie den [Immobilien-Eigenschaften](immobilien-eigenschaften/) übergeben wird. Dadurch können jegliche Informationen direkt über das Template abgerufen werden.
-
-!> Das [Immobilien-Objekt](immobilien-eigenschaften/immobilien-objekt.md) steht erst ab **Version 1.0** in Templates zur Verfügung.
+Wie in Contao selber, können alle Templates des EstateManagers über den Reiter _Templates_ im Backend angepasst, überschrieben oder ergänzt werden. Dabei gibt es die Besonderheit, dass Templates welche für die Darstellung einzelner Immobilien bereitgestellt werden, ein Objekt mit [nützlichen Funktionen](/de-DE/developer/templates/realestate-object) sowie den [Immobilien-Eigenschaften](/de-DE/developer/realestate-fields) übergeben wird. Dadurch können jegliche Informationen direkt über das Template abgerufen werden.
 
 ### Template-Übersicht
 
-| Template-Präfix (html5)                         | Beschreibung                                                                                   |                            |
+| Template-Präfix (html5)                         | Beschreibung                                                                                   |          Immobilien-Objekt |
 |:------------------------------------------------|:-----------------------------------------------------------------------------------------------|---------------------------:|
 | **real\_estate\_item\_\***                      | Definiert die Darstellung pro Immobilie in Listen.                                             |       :white\_check\_mark: |
 | real\_estate\_item\_default                     |                                                                                                |       :white\_check\_mark: |
@@ -40,12 +38,14 @@ Wie in Contao selber, können alle Templates des EstateManagers über den Reiter
 | mod\_realEstateList                             |                                                                                                | :heavy\_multiplication\_x: |
 | mod\_realEstateResultList                       |                                                                                                | :heavy\_multiplication\_x: |
 
-:white\_check\_mark: Das [Immobilien-Objekt](immobilien-eigenschaften/immobilien-objekt.md) steht im Template zur Verfügung\
-:heavy\_multiplication\_x: Das [Immobilien-Objekt](immobilien-eigenschaften/immobilien-objekt.md) steht **nicht** im Template zur Verfügung
+:white\_check\_mark: Das Immobilien-Objekt steht im Template zur Verfügung\
+:heavy\_multiplication\_x: Das Immobilien-Objekt steht **nicht** im Template zur Verfügung
+
+!> Das [Immobilien-Objekt](/de-DE/developer/templates/realestate-object) steht erst ab **Version 1.0** in Templates zur Verfügung.
 
 ### Eigenschaften über das Immobilien-Objekt aus dem Template heraus abrufen
 
-Über `$this->realEstate` kann auf Methoden und Eigenschaften zugegriffen werden. Sofern eine Funktion ohne eigene Parameterübergabe aufgerufen wird, werden die im Modul hinterlegten Einstellungen übernommen. Sollten wir uns bspw. im Listen-Modul befinden und wie im folgenden Beispiel die Funktion `generateExposeUrl` ohne eigene Parameter aufrufen, wird automatisch die im Modul hinterlegte "Weiterleitungsseite" verwendet, um die Exposé-URL zu generieren.
+Über `$this->realEstate` kann auf Methoden und Eigenschaften zugegriffen werden. Sofern eine Funktion ohne eigene Parameterübergabe aufgerufen wird, werden die im Modul hinterlegten Einstellungen übernommen. Sollten wir uns bspw. im Listen-Modul befinden und wie im folgenden Beispiel die Funktion `generateExposeUrl()` ohne eigene Parameter aufrufen, wird automatisch die im Modul hinterlegte "Weiterleitungsseite" verwendet, um die Exposé-URL zu generieren.
 
 ```php|html
 <a href="<?= $this->realEstate->generateExposeUrl() ?>">Details</a>
@@ -56,9 +56,9 @@ Wie in Contao selber, können alle Templates des EstateManagers über den Reiter
 Der direkte Zugriff auf eine Eigenschaft liefert dabei immer den unformatierten Wert zurück. Um den formatierten Wert, sowie weitere Informationen zu erhalten, muss die Eigenschaft über die `get` -Methode abgerufen werden.
 
 ```php
-// Formatierter Wert (array<FormattedCollection>|null)
-<?php $price = $this->realEstate->get('kaufpreis') ?> 
+// Formatierter Wert (array<FormattedCollection>|null) 
+$price = $this->realEstate->get('kaufpreis') 
 
 // Unformatierter Wert (string|float)
-<?= $this->realEstate->kaufpreis ?>
+$priceRaw = $this->realEstate->kaufpreis
 ```

@@ -1,10 +1,6 @@
----
-description: Exposé-Modul
----
-
 # Texte
 
-Das Exposé-Modul `Texte` liefert die in der Immobilie vorhandenen Beschreibungstexte aus. Folgende Text-Blöcke stehen dabei zur Verfügung:
+Das Exposé-Modul "Texte" liefert die in der Immobilie vorhandenen Beschreibungstexte aus. Folgende Text-Blöcke stehen dabei zur Verfügung:
 
 * Beschreibung
 * Ausstattung
@@ -15,26 +11,26 @@ Das Exposé-Modul `Texte` liefert die in der Immobilie vorhandenen Beschreibungs
 
 ### Einstellungen
 
-:small\_blue\_diamond:`Texte`
+<span class="field">Texte</span>
 
-_Hier können die anzuzeigenden Text-Blöcke sowie dessen Reihenfolge definiert werden._
+Hier können die anzuzeigenden Text-Blöcke sowie dessen Reihenfolge definiert werden.
 
-:small\_blue\_diamond:`max. Textlänge`
+<span class="field">max. Textlänge</span>
 
-_Geben Sie eine Zahl an, um den Text an einer gewünschten Stelle zu kürzen. Bei Angabe von 0 wird der Text ungekürzt ausgegeben._
+Geben Sie eine Zahl an, um den Text an einer gewünschten Stelle zu kürzen. Bei Angabe von 0 wird der Text ungekürzt ausgegeben.
 
-:small\_blue\_diamond:`Überschriften ausgeben`
+<span class="field">Überschriften ausgeben</span>
 
-_Gibt die Überschriften der einzelnen Text-Blöcke aus._
+Gibt die Überschriften der einzelnen Text-Blöcke aus.
 
-:small\_blue\_diamond:`Schriftgröße`
+<span class="field">Schriftgröße</span>
 
-_Sofern Überschriften ausgegeben werden sollen, kann über diese Einstellung die Schriftgröße definiert werden._
+Sofern Überschriften ausgegeben werden sollen, kann über diese Einstellung die Schriftgröße definiert werden.
 
-:small\_blue\_diamond:`Ausblenden bei keinen Ergebnissen`
+<span class="field">Ausblenden bei keinen Ergebnissen</span>
 
-_Sollten keine Texte vorhanden sein / ausgegeben werden können, kann mit dieser Einstellung das gesamte Modul ausgeblendet werden._
+Sollten keine Texte vorhanden sein / ausgegeben werden können, kann mit dieser Einstellung das gesamte Modul ausgeblendet werden.
 
 ### Templates
 
-:small\_orange\_diamond:`expose_mod_texts`
+<span class="field">expose_mod_texts</span>

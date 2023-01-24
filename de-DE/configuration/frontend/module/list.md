@@ -1,73 +1,71 @@
 # Immobilien-Liste
 
-Das `Immobilien-Liste`-Modul liefert den Einstellungen entsprechend eine Liste von Immobilien aus.
+Das "Immobilien-Liste"-Modul liefert den Einstellungen entsprechend eine Liste von Immobilien aus.
 
 ### Einstellungen
 
-:small\_blue\_diamond:`Gesamtanzahl der Beiträge`
+<span class="field">Gesamtanzahl der Beiträge</span>
 
-_Hier können die auszugebenden Immobilien begrenzt werden._
+Hier können die auszugebenden Immobilien begrenzt werden.
 
-__:small\_blue\_diamond:`Elemente pro Seite`
+<span class="field">Elemente pro Seite</span>
 
-_Die Anzahl an Elementen pro Seite._
+Die Anzahl an Elementen pro Seite.
 
-:small\_blue\_diamond:`Leere Listen ausgeben`
+<span class="field">Leere Listen ausgeben</span>
 
-_Sollte für die aktuelle Konfiguration der Liste keine Immobilie gefunden werden, kann die Liste mit dieser Einstellung dennoch ausgegeben werden._
+Sollte für die aktuelle Konfiguration der Liste keine Immobilie gefunden werden, kann die Liste mit dieser Einstellung dennoch ausgegeben werden.
 
-:small\_blue\_diamond:`Ausgabe-Modus`
+<span class="field">Ausgabe-Modus</span>
 
-_Der Ausgabe-Modus bietet die Möglichkeit die Immobilien-Typen der Ausgabe wie bspw. `Bisher besuchte Immobilien`, eine `Immobilien-Gruppe` oder `Ferienimmobilien` zu definieren._
+Der Ausgabe-Modus bietet die Möglichkeit die Immobilien-Typen der Ausgabe wie bspw. `Bisher besuchte Immobilien`, eine `Immobilien-Gruppe` oder `Ferienimmobilien` zu definieren.
 
-:small\_blue\_diamond:`Immobilien-Gruppen`
+<span class="field">Immobilien-Gruppen</span>
 
-_Auswahl der anzuzeigenden Immobilien-Gruppen._
+Auswahl der anzuzeigenden Immobilien-Gruppen.
 
-:small\_blue\_diamond:`Filter-Modus`
+<span class="field">Filter-Modus</span>
 
-_Über den Filter-Modus kann die Liste auf einen bestimmten Typ an Immobilien begrenzt werden._
+Über den Filter-Modus kann die Liste auf einen bestimmten Typ an Immobilien begrenzt werden.
 
-:small\_blue\_diamond:`Sortierreihenfolge`
+<span class="field">Sortierreihenfolge</span>
 
-_Definiert die Reihenfolge wie die Immobilien ausgegeben werden. Bspw. nach `Einstellungsdatum` oder `Aktualität`._
+Definiert die Reihenfolge wie die Immobilien ausgegeben werden. Bspw. nach `Einstellungsdatum` oder `Aktualität`.
 
-:small\_blue\_diamond:_`Benutzerdefinierte Sortierung hinzufügen`_
+<span class="field">Benutzerdefinierte Sortierung hinzufügen</span>
 
-_Ermöglicht die Ergänzung einer benutzerdefinierten Sortierung._
+Ermöglicht die Ergänzung einer benutzerdefinierten Sortierung.
 
-:small\_blue\_diamond:`Benutzerdefinierte Sortierung`
+<span class="field">Benutzerdefinierte Sortierung</span>
 
-_Hier muss das Benutzerdefinierte SQL-Order-Statement eingetragen werden (z.B. FIELD(anbieternr, 'xyz')). Bitte beachte, dass die zuvor über das Feld_ `Sortierreihenfolge` ausgewählte Eigenschaft immer mit Priorität behandelt wird.
+Hier muss das benutzerdefinierte SQL-Order-Statement eingetragen werden (z.B. FIELD(anbieternr, 'xyz')). Bitte beachte, dass die zuvor über das Feld_ `Sortierreihenfolge` ausgewählte Eigenschaft immer mit Priorität behandelt wird.
 
-:small\_blue\_diamond:`Weiterleitungsseite`
+<span class="field">Weiterleitungsseite</span>
 
-_Die Seite auf welche bei Klick auf einer Immobilie weitergeleitet werden soll._
+Die Seite auf welche bei Klick auf einer Immobilie weitergeleitet werden soll.
 
-:small\_blue\_diamond:`Erlaubte Status-Token`
+<span class="field">Erlaubte Status-Token</span>
 
-_Definiert die anzuzeigenden Status-Token in diesem Modul._
+Definiert die anzuzeigenden Status-Token in diesem Modul.
 
 ### Immobilien-Erweiterungen
 
-Immobilien-Erweiterungen ermöglichen bspw. die Ausgabe des `Anbieters` oder der zugewiesenen `Kontaktperson` pro Immobilie. Durch Erweiterungen kann dieser Bereich um weitere Funktionalitäten ergänzt werden (s. bspw. [Merkzettel](../../../erweiterungen/erweiterungen/merkzettel.md)).
+Immobilien-Erweiterungen ermöglichen bspw. die Ausgabe des `Anbieters` oder der zugewiesenen `Kontaktperson` pro Immobilie. Durch Erweiterungen kann dieser Bereich um weitere Funktionalitäten erweitert werden.
 
 ### Templates
 
-:small\_orange\_diamond:`mod_realEstateList`
+<span class="template-field">mod_realEstateList</span>
 
 **Immobilien-Templates**
 
-:small\_orange\_diamond:`real_estate_item_default`
+<span class="template-field">real_estate_item_default</span>
 
-:small\_orange\_diamond:`real_estate_item_simple`
+<span class="template-field">real_estate_item_simple</span>
 
 #### Immobilien Template Erweiterung: Anbieter
 
-:small\_orange\_diamond:`real_estate_itemext_provider_default`
+<span class="template-field">real_estate_itemext_provider_default</span>
 
 #### Immobilien Template Erweiterung: Kontaktperson
 
-:small\_orange\_diamond:`real_estate_itemext_contact_person_default`
-
-__
+<span class="template-field">real_estate_itemext_contact_person_default</span>

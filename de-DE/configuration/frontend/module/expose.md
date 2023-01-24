@@ -1,36 +1,34 @@
 # Immobilien-Exposé
 
-Das `Immobilien-Exposé` Modul ermöglicht die Zusammenfassung und Ausgabe der Exposé-Module um eine Immobilien im Detail zu präsentieren.
+Das "Immobilien-Exposé" Modul ermöglicht die Zusammenfassung und Ausgabe der Exposé-Module, um eine Immobilien im Detail zu präsentieren.
 
 ### Einstellungen
 
-:small\_blue\_diamond:`Exposé-Module`
+<span class="field">Exposé-Module</span>
 
-_Hier können die zuvor unter _[_Exposé-Module_](../../backend-konfiguration/expose-module/)_ definierten Module in beliebiger Reihenfolge ausgewählt und in die für ein Exposé vordefinierten Layoutbereiche eingefügt werden._
+Hier können die zuvor unter Exposé-Module definierten Module in beliebiger Reihenfolge ausgewählt und in die für ein Exposé vordefinierten Layoutbereiche eingefügt werden.
 
-:small\_blue\_diamond:`Referenzen erlauben`
+<span class="field">Referenzen erlauben</span>
 
-_Erlaubt die Darstellung von Referenz-Immobilien in diesem Modul_
+Erlaubt die Darstellung von Referenz-Immobilien in diesem Modul
 
 ### Layoutbereiche
 
-Das `Immobilien-Exposé` Modul liefert eigene Layoutbereiche, welche über das Exposé-Module Feld befüllt werden können. Folgende Layoutbereiche stehen dabei zur Verfügung.
+Das "Immobilien-Exposé" Modul liefert eigene Layoutbereiche, welche über das Exposé-Module Feld befüllt werden können. Folgende Layoutbereiche stehen dabei zur Verfügung.
 
-:one: Kopfzeile \
-:digit\_two: Über dem Inhaltsbereich\
-:three: Linke Spalte\
-:four: Hauptspalte\
-:five: Rechte Spalte\
-:digit\_six: Unter dem Inhaltsbereich\
-:seven: Fußzeile
+1️⃣ Kopfzeile \
+2️⃣ Über dem Inhaltsbereich\
+3️⃣ Linke Spalte\
+4️⃣ Hauptspalte\
+5️⃣ Rechte Spalte\
+6️⃣ Unter dem Inhaltsbereich\
+7️⃣ Fußzeile
 
-![Exposé-Modul - Layoutbereiche](../../../.gitbook/assets/expose-layoutbereiche.jpg)
+![Exposé-Modul - Layoutbereiche](../../../../_media/expose-layoutbereiche.jpg)
 
-{% hint style="info" %}
-Layoutbereiche bilden ausschließlich die Struktur der Ausgabe ab. Die Anordnung und dessen Darstellung müssen selber über CSS definiert werden.
-{% endhint %}
+?> Layoutbereiche bilden ausschließlich die Struktur der Ausgabe ab. Die Anordnung und dessen Darstellung müssen selber über CSS definiert werden.
 
 ### Template
 
-:small\_orange\_diamond:`mod_realEstateExpose`
+<span class="template-field">mod_realEstateExpose</span>
 
