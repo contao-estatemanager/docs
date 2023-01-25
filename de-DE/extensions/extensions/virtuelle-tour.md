@@ -1,10 +1,4 @@
----
-description: Contao EstateManager Erweiterung
----
-
 # Virtuelle Tour
-
-![](../../.gitbook/assets/produktbild\_virtual-tour\_github.jpg)
 
 Die `Virtual Tour` Erweiterung ermöglicht das entgegennehmen und darstellen von 3D-Rundgängen bekannter Drittanbieter. Folgende Drittanbieter werden dabei bereits unterstützt:
 

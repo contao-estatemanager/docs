@@ -1,10 +1,4 @@
----
-description: Contao EstateManager Erweiterung
----
-
 # Ähnliche Objekte
-
-![](../../.gitbook/assets/produktbild\_aehnliche-objekte\_github.jpg)
 
 Die `Ähnliche Objekte` Erweiterung integriert die Möglichkeit, ähnliche Immobilien innerhalb eines Exposés zu filtern und auszugeben. Dabei können die Immobilien-Eigenschaften der derzeit betrachteten Immobilie für die Abfrage weiterer Objekte durch einen prozentualen Faktor vergröbert werden.
 

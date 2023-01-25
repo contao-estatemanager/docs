@@ -2,13 +2,7 @@
 
 ### Fehlercodes
 
-Für kritische Fehler, die während der Laufzeit auftreten, können unter `Verwaltung` -> `Einstellungen` Benachrichtigungen aktiviert werden.
-
-
-
-{% hint style="warning" %}
-Dieses Feature steht erst ab Version 1.1.0 zur Verfügung.
-{% endhint %}
+!> Dieses Feature steht erst ab Version 1.1.0 zur Verfügung.
 
 | Fehlercode  | Beschreibung                                                                                                                                  |
 |:------------|:----------------------------------------------------------------------------------------------------------------------------------------------|
@@ -22,3 +16,5 @@ Dieses Feature steht erst ab Version 1.1.0 zur Verfügung.
 | `3002`      | Um die Abfrage durchzuführen werden ein oder mehrere Parameter benötigt. Welche Parameter fehlen, kann der Fehlermeldung entnommen werden.                          |
 | `3003`      | Der Übergebene Parameter ist nicht korrekt. Dieser Fehler tritt auf, wenn ein Parameter bspw. als `string` übergeben, jedoch in Form eines `array`´s erwartet wird. |
 | `3004`      | Fehler beim erstellen der Rückgabe. Dieser Fehler tritt auf, wenn bspw. ein falscher oder nicht existierender Wert im Parameter `format` übergeben wird.            |
+
+?> Für kritische Fehler, die während der Laufzeit auftreten, können unter `Verwaltung` -> `Einstellungen` Benachrichtigungen aktiviert werden.

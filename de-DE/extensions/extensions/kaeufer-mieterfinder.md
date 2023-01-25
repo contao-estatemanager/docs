@@ -1,10 +1,4 @@
----
-description: Contao EstateManager Erweiterung
----
-
 # Käufer- / Mieterfinder
-
-![](../../.gitbook/assets/produktbild\_kaeufer-mieterfinder\_github.jpg)
 
 Die `Käufer- / Mieterfinder` Erweiterung liefert ein Tool, welches Verkäufern / Immobilienbesitzern anhand der eigenen Immobilien-Eckdaten ermöglicht, passende Interessenten zu finden. Dabei können bis zu drei Bereiche ausgegeben und kombiniert werden.&#x20;
 
@@ -43,7 +37,7 @@ Nach der Installation muss das [Contao-Installtool](https://docs.contao.org/manu
 
 Suchanfragen dienen als Grundlage des Käufer- / Mieterfinders und können über verschiedene Wege in das System überführt werden.
 
-![](../../.gitbook/assets/grafik-onoffice-import.svg)
+![](../../_media/grafik-onoffice-import.svg)
 
 {% hint style="info" %}
 Mit der Erweiterung [onOffice API Import](onoffice-api-import.md) können alle benötigten Daten für den Käufer- / Mieterfinders direkt aus onOffice importiert und aktuell gehalten werden.

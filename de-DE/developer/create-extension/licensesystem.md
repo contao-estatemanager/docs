@@ -2,27 +2,25 @@
 
 Um das Lizenzsystem des EstateManagers verwenden zu können, wird die im [`skeleton-extension`](https://github.com/contao-estatemanager/skeleton-extension) mitgelieferte [`AddonManager`](https://github.com/contao-estatemanager/skeleton-extension/blob/master/src/Resources/contao/classes/AddonManager.php)-Klasse benötigt. Diese beinhaltet alle Lizenzen ([verschlüsselt](#verschlüsselung)) und kommuniziert mit der Core-Erweiterung um die Gültigkeit einer Lizenz zu prüfen.
 
-{% hint style="info" %}
-Bitte beachte, dass wir eine Testmöglichkeit jeder Erweiterung voraussetzen. Somit können Erweiterungen, welche mit der `AddonManager`-Klasse aufgebaut werden, automatisch 2 Wochen kostenlos getestet werden.
-{% endhint %}
+!> Bitte beachte, dass wir eine Testmöglichkeit jeder Erweiterung voraussetzen. Somit können Erweiterungen, welche mit der `AddonManager`-Klasse aufgebaut werden, automatisch 2 Wochen kostenlos getestet werden.
 
-### `AddonManager`-Klasse anpassen
+### AddonManager-Klasse anpassen
 
-:small\_blue\_diamond:`$bundle`
+<span class="field">$bundle</span>
 
-_Der Name des Bundle, auf dem die Erweiterung registriert wurde._&#x20;
+Der Name des Bundles, auf dem die Erweiterung registriert wurde.
 
-:small\_blue\_diamond:`$package`
+<span class="field">$package</span>
 
 Der in der `composer.json` hinterlegte `name` (Bspw. `contao-estatemanager/neue-erweiterung`)
 
-:small\_blue\_diamond:`$key`
+<span class="field">$key</span>
 
-_Der Feldname des Input-Feldes (Bspw._ `addon_meine_erweiterung_license`)_._
+Der Feldname des Input-Feldes (Bspw. `addon_meine_erweiterung_license`).
 
-:small\_blue\_diamond:`<array> $liceses`
+<span class="field"><array> $liceses</span>
 
-_Sammlung verschlüsselter sowie gültiger Lizenzen._
+Sammlung verschlüsselter sowie gültiger Lizenzen.
 
 ### Verschlüsselung
 
