@@ -87,9 +87,6 @@
 * [Hooks](entwickler/hooks/README.md)
   * [parseRealEstate](entwickler/hooks/parserealestate.md)
 * [API](entwickler/api.md)
-* [Erweiterung erstellen](entwickler/erweiterung-erstellen/README.md)
-  * [Erste Schritte](entwickler/erweiterung-erstellen/erste-schritte.md)
-  * [Lizenzsystem verwenden](entwickler/erweiterung-erstellen/lizenzsystem-verwenden.md)
 * [Fehlerbehandlung](entwickler/fehlerbehandlung.md)
 
 ## Allgemein

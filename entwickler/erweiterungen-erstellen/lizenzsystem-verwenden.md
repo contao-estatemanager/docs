@@ -1,2 +1,0 @@
-# Lizenzsystem verwenden
-
