@@ -7,7 +7,7 @@ Für kritische Fehler, die während der Laufzeit auftreten, können unter `Verwa
 
 
 {% hint style="warning" %}
-Dieses Feature steht erst ab Version 1.1.0 zur Verfügung.
+Dieses Feature existiert nur in Version 2.0
 {% endhint %}
 
 | Fehlercode                             | Beschreibung                                                                                                                                  |

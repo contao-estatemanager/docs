@@ -36,10 +36,10 @@ _Sofern Überschriften ausgegeben werden sollen, kann über diese Einstellung di
 
 :small\_blue\_diamond:_Individuelle Feldsortierung_
 
-_Hier kann die Reihenfolge der Felder für die Ausgabe individuell definiert werden. Bei Angabe einer individuellen Feldreihenfolge innerhalb der Objekttypen, werden diese überschrieben._
+_Hier kann die Reihenfolge der Felder für die Ausgabe individuell definiert werden. Bei Angabe einer individuellen Feldreihenfolge innerhalb der Objekttypen werden diese überschrieben._
 
 {% hint style="info" %}
-_Die Einstellung "Individuelle Feldsortierung" steht erst ab Version 1.1 zur Verfügung._
+_Die Einstellung "Individuelle Feldsortierung" steht erst ab Version 2.0 zur Verfügung._
 {% endhint %}
 
 ### Template

@@ -1,6 +1,10 @@
-# Lizenzen & Demozugänge
+# Lizenzen
 
 Für die Verwendung einiger Erweiterungen wird eine Lizenz benötigt. Wie du Lizenzen erwirbst und diese anschließend in Contao aktivierst, erfährst du in diesem Beitrag.
+
+{% hint style="info" %}
+Alle Lizenzen gelten **lediglich für eine Major** einer Erweiterung. Für jede Major muss eine neue Lizenz erworben werden.
+{% endhint %}
 
 ### Lizenz erwerben
 
@@ -11,7 +15,7 @@ Um eine Lizenz zu erwerben, muss die gewünschte Erweiterung über den [Erweiter
 Gehe zunächst über die Contao-Hauptnavigation im Reiter "**Immobilien**" auf "**Verwaltung**". Hier findest du die Schaltfläche **"Lizenzen verwalten**". Sofern die Erweiterung [installiert](installation.md) ist, erscheint in diesem Bereich nun ein Eingabefeld um die vorher erworbene Lizenz einzutragen. Nach einem Klick auf "**Speichern**" wird das Feld `grün`, `orange` oder `rot` markiert.
 
 * `grün`      =     Die Lizenz ist gültig
-* `orange`  =     Demo der Erweiterung läuft bald ab
+* `orange`  =     Demo der Erweiterung läuft bald ab (Nur Version 1.x)
 * `rot`        =     Lizenz ungültig / Demo abgelaufen
 
 {% hint style="warning" %}
@@ -20,13 +24,15 @@ Je nach Contao-Version muss nach der Eingabe der Lizenz anschließend das Instal
 
 ### Demozugang aktivieren
 
+{% hint style="danger" %}
+Aufgrund der Tatsache, dass die kostenpflichtigen Erweiterungen nicht mehr Open Source sind,
+stehen Demo-Zugänge ab Version 3.0 nicht mehr zur Verfügung.
+{% endhint %}
+
 Erweiterungen können einen Demozugang beinhalten \(abhängig vom Anbieter der Erweiterung\). Dieser ist nach der Aktivierung für 2 Wochen gültig. Um den Demozugang zu aktivieren, geben Sie in das entsprechende Lizenz-Feld der zu testenden Erweiterung das Wort "**DEMO**" ein und speichern Sie anschließend.
 
 {% hint style="info" %}
 Demozugänge können nur einmalig verwendet werden und laufen automatisch ab.
 {% endhint %}
 
-{% hint style="danger" %}
-Wir empfehlen dringend die Demozugänge ausschließlich im Entwicklungsstatus der Webseite zu verwenden, da nach Ablauf der Demo ggf. einige Funktionen nicht mehr funktionieren.
-{% endhint %}
 

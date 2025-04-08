@@ -4,6 +4,10 @@ description: Contao EstateManager Erweiterung
 
 # Käufer- / Mieterfinder
 
+{% hint style="alert" %}
+Für diese Erweiterung wird es aufgrund geringer Nachfrage keine Nachfolger geben. Sollten Sie dennoch eine Kompatibilität mit Contao 5 wünschen, können Sie uns gerne [mit der Umsetzung beauftragen](https://www.oveleon.de/kontakt.html#kontaktformular):
+{% endhint %}
+
 ![](../../.gitbook/assets/produktbild\_kaeufer-mieterfinder\_github.jpg)
 
 Die `Käufer- / Mieterfinder` Erweiterung liefert ein Tool, welches Verkäufern / Immobilienbesitzern anhand der eigenen Immobilien-Eckdaten ermöglicht, passende Interessenten zu finden. Dabei können bis zu drei Bereiche ausgegeben und kombiniert werden.&#x20;

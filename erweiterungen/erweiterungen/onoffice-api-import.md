@@ -1,5 +1,9 @@
 # onOffice API Import
 
+{% hint style="alert" %}
+Für diese Erweiterung wird es aufgrund geringer Nachfrage keine Nachfolger geben. Sollten Sie dennoch eine Kompatibilität mit Contao 5 wünschen, können Sie uns gerne [mit der Umsetzung beauftragen](https://www.oveleon.de/kontakt.html#kontaktformular):
+{% endhint %}
+
 Die `onOffice API Import` Erweiterung ermöglicht den Import verschiedener Datensätze aus onOffice heraus.
 
 {% hint style="warning" %}

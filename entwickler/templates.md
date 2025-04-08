@@ -2,10 +2,6 @@
 
 Wie in Contao selber, können alle Templates des EstateManagers über den Reiter _Templates_ im Backend angepasst, überschrieben oder ergänzt werden. Dabei gibt es die Besonderheit, dass Templates welche für die Darstellung einzelner Immobilien bereitgestellt werden, ein Objekt mit [nützlichen Funktionen](immobilien-eigenschaften/immobilien-objekt.md) sowie den [Immobilien-Eigenschaften](immobilien-eigenschaften/) übergeben wird. Dadurch können jegliche Informationen direkt über das Template abgerufen werden.
 
-{% hint style="warning" %}
-Das [Immobilien-Objekt](immobilien-eigenschaften/immobilien-objekt.md) steht erst ab **Version 1.0** in Templates zur Verfügung.
-{% endhint %}
-
 ### Template-Übersicht
 
 | Template-Präfix (html5)                         | Beschreibung                                                                                   |                             |
@@ -64,7 +60,7 @@ Der direkte Zugriff auf eine Eigenschaft liefert dabei immer den unformatierten 
 {% code title="Template - Beispiel 2" %}
 ```php
 // Formatierter Wert (array<FormattedCollection>|null)
-<?php $price = $this->realEstate->get('kaufpreis') ?> 
+<?php $price = $this->realEstate->get('kaufpreis') ?>
 
 // Unformatierter Wert (string|float)
 <?= $this->realEstate->kaufpreis ?>
