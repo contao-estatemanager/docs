@@ -14,5 +14,5 @@ Willkommen in der Dokumentation für den **Contao EstateManager** _(folgend Esta
 * [Deutsch](installation-konfiguration/installation.md)
 
 {% hint style="info" %}
-Wir arbeiten mit Hochdruck an der Vervollständigung dieser Dokumentation. Bitte haben Sie Verständnis dafür, dass wir neben der Weiterentwicklung des Projektes noch nicht alle Bereiche dokumentieren konnten. Bei Fragen rund um den EstateManager können Sie uns gerne jederzeit [kontaktieren](https://www.oveleon.de/kontakt.html#article-11)!
+Zur Vervollständigung dieser Dokumentation kann beigetragen werden. Bitte haben Sie Verständnis dafür, dass die Weiterentwicklung des Projektes Open Source ist und nicht alle Bereiche dokumentiert sind. Bei Fragen rund um den EstateManager können Sie uns gerne jederzeit [kontaktieren](https://www.oveleon.de/kontakt.html#article-11)
 {% endhint %}
