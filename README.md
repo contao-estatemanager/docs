@@ -1,12 +1,12 @@
 ---
-description: Dokumentation - Open Source EstateManager for Contao CMS
+description: Dokumentation - EstateManager for Contao CMS
 ---
 
 # Willkommen
 
 ![](.gitbook/assets/logo\_dunkel.svg)
 
-Willkommen in der Dokumentation für den **Contao EstateManager** _(folgend EstateManager)_, ein Open Source Projekt zur Umsetzung von Makler-Websites für kleine, mittelständige und große Immobilien-Webseiten, bis hin zu ganzen Immobilien-Portalen.
+Willkommen in der Dokumentation für den **Contao EstateManager** _(folgend EstateManager)_, ein Projekt zur Umsetzung von Makler-Websites für kleine, mittelständige und große Immobilien-Webseiten, bis hin zu ganzen Immobilien-Portalen.
 
 **Sprachen:**
 

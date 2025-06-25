@@ -1,5 +1,5 @@
 ---
-description: Open Source EstateManager for Contao CMS
+description: EstateManager for Contao CMS
 ---
 
 # Installation
