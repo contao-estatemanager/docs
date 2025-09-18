@@ -59,6 +59,7 @@
 ## Erweiterungen
 
 * [Installation](erweiterungen/installation.md)
+* [Import](erweiterungen/import.md)
 * [Lizenzen](erweiterungen/lizenzen.md)
 * [Erweiterungen](erweiterungen/erweiterungen/README.md)
   * [Merkzettel](erweiterungen/erweiterungen/merkzettel.md)
