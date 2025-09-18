@@ -7,14 +7,6 @@ Der Import basiert auf der Anzahl der bereits im System befindlichen Immobilien.
 
 Das Abo-Modell ist entscheidend, um die Weiterentwicklung des EstateManagers zu fördern und die Nachhaltigkeit des Projekts zu gewährleisten.
 
-| Immobilienanzahl | Preis mtl. (netto / inkl. USt.) |
-|------------------|---------------------------------|
-| 1–10             | 19,00 € / 22,61 €               |
-| 11–25            | 39,00 € / 46,41 €               |
-| 26–100           | 99,00 € / 117,81 €              |
-| 101–250          | 199,00 € / 236,81 €             |
-| 250+             | auf Anfrage                     |
-
 ---
 
 ## Einrichtung
@@ -45,7 +37,7 @@ Mögliche Ursachen:
 - Eine Verbindung zwischen dem Shop und der Webseite konnte nicht hergestellt werden
   - Seite gesperrt
   - Wartungsmodus eingeschaltet
-  - falsch konfigurierte Weiterleitungen, beispielsweise fehlerhaft auf `www.` (https://htaccess.madewithlove.com/)
+  - falsch konfigurierte Weiterleitungen, beispielsweise fehlerhaft auf `www.`. [htaccess Validator](https://htaccess.madewithlove.com/)
   - etc.
 
 Um eine erneute Verbindung nach Behebung des Fehelrs zu testen, muss der **Anwendungscache** erneut geleert werden.
